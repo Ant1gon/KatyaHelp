@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\bin\Debug\KatyaHelp2.exe.config
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\bin\Debug\KatyaHelp2.exe
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\bin\Debug\KatyaHelp2.pdb
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\obj\Debug\KatyaHelp2.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\obj\Debug\KatyaHelp2.exe
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\obj\Debug\KatyaHelp2.pdb
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\bin\Debug\EPPlus.dll
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\bin\Debug\EPPlus.xml
+C:\Users\Admin\source\repos\KatyaHelp2\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
