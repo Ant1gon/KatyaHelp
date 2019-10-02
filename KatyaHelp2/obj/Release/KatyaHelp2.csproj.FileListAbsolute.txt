@@ -14,4 +14,3 @@ F:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Release\EPPlus.xml
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.csproj.CopyComplete
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.exe
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.pdb
-F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.csprojAssemblyReference.cache
