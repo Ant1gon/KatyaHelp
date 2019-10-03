@@ -13,36 +13,44 @@ namespace KatyaHelp2
 	{
 		static void Main(string[] args)
 		{
+			bool debug = true;
 			try
 			{
-				if (args.Any())
+				if (args.Any() || debug)
 				{
 					string date = "", tender = "";
 					string _SEPARATOR = "|";
 					string _COMMAND_SEPARATOR = ";";
-					string dateValidator = "(19|20)\\d\\d-((0[1-9]|1[012])-(0[1-9]|[12]\\d)|(0[13-9]|1[012])-30|(0[13578]|1[02])-31)";
-					dateValidator = "^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\\d\\d$";
-					string[] activeCommands = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(new string[] { _COMMAND_SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
+					string[] activeCommands = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(new string[] { _COMMAND_SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);					
+					string timeValidator = "(?<=:|\\s)(\\d{1,2}:){2}\\d{1,2}";
 
+					StreamReader sr;
 					List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
 					//string[] commandList = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(command_SEPARATOR, StringSplitOptions.RemoveEmptyEntries);
 
-					string testFile = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test.txt");
-					//StreamReader sr = new StreamReader(testFile);
-
-					StreamReader sr = new StreamReader(args[0]);
-					string line;
+					string fileName = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test.txt");
+					
+					if (debug) { 
+						sr = new StreamReader(fileName);
+						fileName = fileName.Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] {"."}, StringSplitOptions.RemoveEmptyEntries).First();
+					}
+					else
+					{
+						 sr = new StreamReader(args[0]);
+						fileName = args[0].Split(new string[] {"\\"}, StringSplitOptions.RemoveEmptyEntries).Last();
+					}
+					
 					List<string> lineList = new List<string>();
 					while (!sr.EndOfStream)
 					{
-						line = sr.ReadLine().Trim();
+						string line = sr.ReadLine().Trim();
 						if (line.Length > 1)
 						{
 							lineList.Add(line);
 						}
 					}
 					sr.Close();
-					//foreach (var t in lineList)
+
 					for (int i = 0; i < lineList.Count; i++)
 					{
 						string ip = "", command = "", commandName = "", proposition = "";
@@ -52,6 +60,7 @@ namespace KatyaHelp2
 						string[] temp = t.Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
 						if (temp.Length == 1)
 						{
+							/*
 							if (Regex.Match(temp[0], dateValidator).Success)
 							{
 								DateTime tDate;
@@ -59,11 +68,16 @@ namespace KatyaHelp2
 								{
 									date = tDate.ToLongDateString();
 								}
+							}*/
+							DateTime tDate;
+							if (DateTime.TryParse(temp[0].Trim(), out tDate))
+							{
+								date = tDate.ToLongDateString();
 							}
 						}
 						else
 						{
-							var u = Regex.Match(temp[0], "(\\d{1}|\\d{2})\\:(\\d{1}|\\d{2})\\:(\\d{2}|\\d{1})");
+							var u = Regex.Match(temp[0], timeValidator);
 							if (u.Success)
 							{
 								DateTime.TryParse(u.Value, out time);
@@ -144,13 +158,13 @@ namespace KatyaHelp2
 
 					#region xlsFileCreate
 					Random a = new Random();
-					string correctionsFile = string.Format("{0}\\{1}.xlsx", Environment.CurrentDirectory, a.Next(0, 4578));
-					if (File.Exists(correctionsFile))
+					string outFile = string.Format("{0}\\{1}.xlsx", Environment.CurrentDirectory, fileName);// a.Next(0, 4578));
+					if (File.Exists(outFile))
 					{
-						File.Delete(correctionsFile);
+						File.Delete(outFile);
 					}
 
-					var file = new FileInfo(correctionsFile);
+					var file = new FileInfo(outFile);
 					var package = new ExcelPackage(file);
 					ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Work");
 
