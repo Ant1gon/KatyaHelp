@@ -22,7 +22,7 @@ namespace KatyaHelp2
 					string _SEPARATOR = "|";
 					string _COMMAND_SEPARATOR = ";";
 					string[] activeCommands = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(new string[] { _COMMAND_SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);					
-					string timeValidator = "(?<=:|\\s)(\\d{1,2}:){2}\\d{1,2}";
+					string timeValidator = "(?<=:|\\s|^)(\\d{1,2}:){2}\\d{1,2}";
 
 					StreamReader sr;
 					List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
@@ -76,24 +76,18 @@ namespace KatyaHelp2
 							}
 						}
 						else
-						{
+						{							
 							var u = Regex.Match(temp[0], timeValidator);
 							if (u.Success)
 							{
 								DateTime.TryParse(u.Value, out time);
 							}
 
-							//string ttime = temp[0].Substring(temp[0].IndexOf(": ")).Remove(temp[0].IndexOf(" ->")).Remove(temp[0].IndexOf(".")).Replace(":", "");
-							/*time = DateTime.ParseExact(
-								temp[0].Substring(temp[0].IndexOf(": "))
-									   .Remove(temp[0].IndexOf(" ->"))
-									   .Remove(temp[0].IndexOf("."))
-									   .Replace(":", ""),
-									"HHmmss", System.Globalization.CultureInfo.InvariantCulture
-									).ToString("HH:mm");*/
 							if (temp[1].Trim().Equals("In"))
 							{
-								ip = temp[2].Trim().Replace("IP:", "").Trim();
+								string ipValid = "([0-9]{3}.){3}[0-9]{1,3}";
+								ip = Regex.Match(temp[2].Trim(), ipValid).Value;
+								//ip = temp[2].Trim().Replace("IP:", "").Trim();
 								command = temp[3].Trim().Replace("CommandName:", "").Trim();
 								if(activeCommands.Any(y => y.Equals(command))){ 
 									commandName = ConfigurationManager.AppSettings.Get(command).Trim(); ////
@@ -119,17 +113,19 @@ namespace KatyaHelp2
 										string fN = string.Join(",", filesName);
 										commandName = string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fN);
 									}
+									/*else if (command.Equals("jSetBid")){
+									}*/
 								}
 								else
 								{
 									commandName = ConfigurationManager.AppSettings.Get("UnknownCommand").Trim();
-								}
-
-								
+								}								
 							}
 							else if (temp[1].Trim().Equals("page"))
 							{
-								ip = temp[3].Trim().Replace("IP: ", "");
+								string ipValid = "([0-9]{3}.){3}[0-9]{1,3}";
+								ip = Regex.Match(temp[3].Trim(), ipValid).Value;
+								//ip = temp[3].Trim().Replace("IP: ", "");
 								if (temp[2].Trim().StartsWith("/PositionForm"))
 								{
 									tender = temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[1];
@@ -138,8 +134,18 @@ namespace KatyaHelp2
 								}
 								else if (temp[2].Trim().StartsWith("/BidForm"))
 								{
-									proposition = temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[1];
-									commandName = string.Format(ConfigurationManager.AppSettings.Get("/BidForm").Trim(), tender);
+									if (temp.Count() == 4)
+									{
+										if (temp[2].Trim().Substring(temp[2].Length - 5, temp.Length).Equals("lot="))
+										{
+											commandName = string.Format(ConfigurationManager.AppSettings.Get("/BidForm").Trim(), tender);
+										}
+										else if(temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[2].StartsWith("web"))
+										{
+											commandName = ConfigurationManager.AppSettings.Get("CreateDraft").Trim();
+											//commandName = temp[2].Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).First();
+										}
+									}
 								}
 
 							}
