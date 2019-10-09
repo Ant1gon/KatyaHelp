@@ -152,7 +152,7 @@ namespace KatyaHelp2
 						}
 						//Console.ReadKey();
 						dictForFile.Add("date", date);
-						dictForFile.Add("time", time.ToString("HH:mm:ss"));
+						dictForFile.Add("time", time.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
 						dictForFile.Add("ip", ip);
 						dictForFile.Add("commandName", commandName);
 						//string h = dictForFile["date"];
