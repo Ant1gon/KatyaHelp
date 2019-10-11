@@ -86,7 +86,7 @@ namespace KatyaHelp2
 
 							if (temp[1].Trim().Equals("In"))
 							{
-								string ipValid = "([0-9]{3}.){3}[0-9]{1,3}";
+								string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 								ip = Regex.Match(temp[2].Trim(), ipValid).Value;
 								//ip = temp[2].Trim().Replace("IP:", "").Trim();
 								command = temp[3].Trim().Replace("CommandName:", "").Trim();
