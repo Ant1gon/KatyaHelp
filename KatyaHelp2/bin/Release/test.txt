@@ -1,0 +1,174 @@
+Зареєструвався на ЕМ: chumakvct@gmail.com, 2019-01-25T10:25:40.720, IP: 195.16.79.2
+
+2019-02-21
+Відкрив тендер	
+    13:13:18.289 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.31
+Відкрив вікно подання пропозиції
+    13:15:12.531 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&lot=| IP: 195.16.79.31
+Створив чернетку   
+    13:15:29.219 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=47728745| id=f6085f1ee88842acbd48d279d77bfa48&id_bid=&JData={"id_tender":"f6085f1ee88842acbd48d279d77bfa48","id_bid":"","parameters":[],"lot":"","value":{"amount":1490000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
+    13:15:40.267 -> chumakvct@gmail.com|   Out| CommandName: jSetBid| duration: 11047.296
+    13:15:40.454 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+    
+    13:15:51.017 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=47750666| id=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&JData={"id_tender":"f6085f1ee88842acbd48d279d77bfa48","id_bid":"webe99dddeeee1c1376a66493ba18ede470","parameters":[],"lot":"","value":{"amount":1490000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
+    13:15:51.017 -> chumakvct@gmail.com|   Out| CommandName: jSetBid| duration: 0
+    13:15:51.142 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+Завантажив документи   
+    13:16:41.896 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=commercialProposal&lastOpr=0| uploadtime=47786056
+    13:16:41.896 -> chumakvct@gmail.com|  info| Тендерна пропозиція.docx
+    13:16:47.224 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 20782.6442
+    13:17:44.525 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=eligibilityDocuments&lastOpr=0| uploadtime=47864103
+    13:17:44.525 -> chumakvct@gmail.com|  info| Рахунок 15 Чумак 2019(Приват) Білоус.xls
+    13:17:44.540 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 15.6169
+Видалив документи    
+    13:17:57.384 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jDeleteDocument| CommandName=jDeleteDocument| id=f6085f1ee88842acbd48d279d77bfa48&id_doc=web5fef9ff5292d59f577db1c580944d30c&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470
+    13:17:57.384 -> chumakvct@gmail.com|   Out| CommandName: jDeleteDocument| duration: 0
+Завантажив документи    
+    13:18:27.074 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=eligibilityDocuments&lastOpr=0| uploadtime=47905922
+    13:18:27.074 -> chumakvct@gmail.com|  info| Сертифікат.jpeg
+    13:18:27.090 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 718.7812
+Видалив документи    
+    13:20:13.667 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jDeleteDocument| CommandName=jDeleteDocument| id=f6085f1ee88842acbd48d279d77bfa48&id_doc=web553442c7623e9576008529483848972c&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470
+    13:20:13.682 -> chumakvct@gmail.com|   Out| CommandName: jDeleteDocument| duration: 15.6256
+Перезавантажив сторінку    
+    13:25:35.613 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+Завантажив документи    
+    13:25:51.630 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=technicalSpecifications&lastOpr=0| uploadtime=48350428
+    13:25:51.630 -> chumakvct@gmail.com|  info| Сертифікат.jpeg
+    13:25:51.645 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 781.5326
+    13:26:06.584 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=eligibilityDocuments&lastOpr=0| uploadtime=48364579
+    13:26:06.584 -> chumakvct@gmail.com|  info| Висновок.pdf
+    13:26:06.630 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 1625.0583
+    13:26:35.663 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=technicalSpecifications&lastOpr=0| uploadtime=48395204
+    13:26:35.663 -> chumakvct@gmail.com|  info| Інструкция Стержни.docx
+    13:26:35.678 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 31.2511
+    13:26:51.413 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=eligibilityDocuments&lastOpr=0| uploadtime=48410919
+    13:26:51.413 -> chumakvct@gmail.com|  info| Інструкція пластини.docx
+    13:26:51.445 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 46.877
+    13:27:01.742 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: Upload| CommandName=Upload&id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=webe99dddeeee1c1376a66493ba18ede470&documentType=eligibilityDocuments&lastOpr=0| uploadtime=48421321
+    13:27:01.742 -> chumakvct@gmail.com|  info| Інструкція гвитни Inst ruction for Use  of Metallic bone screws_укр.docx
+    13:27:01.758 -> chumakvct@gmail.com|   Out| CommandName: Upload| duration: 31.2449
+Спробував опублікувати. Опублікував   
+    13:28:10.541 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=48488193| id=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&JData={"id_tender":"f6085f1ee88842acbd48d279d77bfa48","id_bid":"webe99dddeeee1c1376a66493ba18ede470","parameters":[],"lot":"","value":{"amount":1490000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+    13:28:53.699 -> chumakvct@gmail.com|   Out| CommandName: jSetBid| duration: 45142.3668
+    
+    13:28:55.215 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+    13:28:55.731 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=48494294| id=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&JData={"id_tender":"f6085f1ee88842acbd48d279d77bfa48","id_bid":"webe99dddeeee1c1376a66493ba18ede470","parameters":[],"lot":"","value":{"amount":1490000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+    13:28:55.731 -> chumakvct@gmail.com|   Out| CommandName: jSetBid| duration: 0
+    
+    13:29:33.217 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+    13:31:14.535 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=webe99dddeeee1c1376a66493ba18ede470&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 195.16.79.31
+Відкрив тендер   
+    13:31:30.552 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.31
+Відкрив пропозицію    
+    13:31:56.538 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису   
+    13:32:12.039 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:32:12.039 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив тендер   
+    13:33:05.228 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.31
+Відкрив пропозицію      
+    13:33:16.558 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису     
+    13:33:22.012 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:33:22.090 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 78.1279
+    13:33:35.575 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:33:35.575 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+    13:34:13.623 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:34:13.623 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+    13:51:41.295 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:51:41.295 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив пропозицію   
+    13:52:00.439 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+    13:53:25.303 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    13:53:29.538 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:53:29.538 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+    13:56:27.173 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    13:56:27.173 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив пропозицію       
+    14:09:19.772 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    14:09:23.631 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    14:09:23.647 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 15.6259
+    14:15:21.459 -> chumakvct@gmail.com|  page| /Position_questions.aspxid=f6085f1ee88842acbd48d279d77bfa48| IP: 195.16.79.31
+Відкрив пропозицію    
+    14:15:34.006 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    14:15:47.632 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    14:15:47.632 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив пропозицію
+    14:48:08.240 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    14:48:12.146 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    14:48:12.162 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 15.6156
+Відкрив пропозицію   
+    14:54:36.027 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    14:54:40.146 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    14:54:40.148 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 2.0018
+Відкрив тендер
+    15:06:55.478 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.31
+    15:07:15.823 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.31
+Відкрив пропозицію	
+    15:07:20.026 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    15:07:23.401 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    15:07:23.401 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+    15:25:30.224 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    15:25:30.240 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 15.6206
+Відкрив пропозицію    
+    15:47:38.616 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.31
+Відкрив вікно накладання підпису        
+    15:47:42.460 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    15:47:42.460 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0 
+    16:16:48.718 -> chumakvct@gmail.com|    In| IP: 195.16.79.31| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    16:16:54.437 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 5718.9667
+    
+    
+    
+2019-02-22    
+Відкрив тендер
+    09:00:06.572 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+    09:01:08.403 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+Відкрив пропозицію   
+    09:01:12.247 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.32
+Відкрив вікно накладання підпису     
+    09:01:30.154 -> chumakvct@gmail.com|    In| IP: 195.16.79.32| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    09:01:30.154 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив тендер
+    10:20:02.549 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+    11:21:47.972 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+Відкрив пропозицію
+    11:22:01.441 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.32
+Відкрив вікно накладання підпису   
+    11:22:05.082 -> chumakvct@gmail.com|    In| IP: 195.16.79.32| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    11:22:05.082 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+    11:44:00.099 -> chumakvct@gmail.com|    In| IP: 195.16.79.32| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+    11:44:00.099 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Відкрив тендер
+    12:38:46.807 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+    12:50:32.936 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.32
+Відкрив пропозицію   
+    15:14:12.820 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.32
+    15:14:19.664 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.32
+Вилогінився    
+    15:14:36.946 -> chumakvct@gmail.com|    In| IP: 195.16.79.32| CommandName: LogOff| CommandName=LogOff| 
+
+
+
+2019-02-25
+Залогінився
+	Line 18652: 11:49:08.489 -> r10cvljl0eg05x3xcmh132xf|    In| IP: 195.16.79.34| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=42548727| Name=ChumakVct@gmail.com&Password=Qaz_123456&register_code=undefined
+	Line 18653: 11:49:08.645 -> chumakvct@gmail.com|    OK| logged
+	Line 18654: 11:49:08.692 -> chumakvct@gmail.com|   Out| CommandName: Login| duration: 203.1317
+Відкрив тендер
+	Line 18858: 11:49:23.146 -> chumakvct@gmail.com|  page| /PositionForm.aspxcode=UA-2019-02-20-000702-b| IP: 195.16.79.34
+Відкрив пропозицію	
+	Line 18929: 11:49:28.224 -> chumakvct@gmail.com|  page| /BidForm.aspxid=f6085f1ee88842acbd48d279d77bfa48&id_bid=1d24a37e923346998648b3d51dd5d4c0| IP: 195.16.79.34
+Відкрив вікно накладання підпису
+	Line 19026: 11:49:35.693 -> chumakvct@gmail.com|    In| IP: 195.16.79.34| CommandName: jSignContent| CommandName=jSignContent&id=1d24a37e923346998648b3d51dd5d4c0| 
+	Line 19028: 11:49:35.693 -> chumakvct@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис	
+	Line 19693: 11:50:34.836 -> chumakvct@gmail.com|    In| IP: 195.16.79.34| CommandName: jSignUpload| CommandName=jSignUpload| id=f6085f1ee88842acbd48d279d77bfa48&documentOf=bid&relatedItem=1d24a37e923346998648b3d51dd5d4c0&id_doc=&sign=MIIuGQYJKoZIhvcNAQcCoIIuCjCCLgYCAQExDjAMBgoqhiQCAQEBAQIBMIIhLQYJKoZIhvcNAQcBoIIhHgSCIRp7ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAAyAC0AMgAxAFQAMQAzADoAMgA4ADoAMQAxAC4AMQA1ADcANAAzADUAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADEAZAAyADQAYQAzADcAZQA5ADIAMwAzADQANgA5ADkAOAA2ADQAOABiADMAZAA1ADEAZABkADUAZAA0AGMAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAGMAbwBuAHQAYQBjAHQAUABvAGkAbgB0ACIAOgB7ACIAdABlAGwAZQBwAGgAbwBuAGUAIgA6ACIAKwAzADgAMAA2ADYANwAzADQANAA0ADgAMwAiACwAIgBmAGEAeABOAHUAbQBiAGUAcgAiADoAIgAiACwAIgBuAGEAbQBlACIAOgAiACcEQwQ8BDAEOgQgABIEVgQ6BEIEPgRABCAAEgQwBEEEOAQ7BEwEPgQyBDgERwQiACwAIgBlAG0AYQBpAGwAIgA6ACIAYwBoAHUAbQBhAGsAdgBjAHQAQABnAG0AYQBpAGwALgBjAG8AbQAiAH0ALAA...
+	Line 19695: 11:50:35.274 -> chumakvct@gmail.com|   Out| CommandName: jSignUpload| duration: 437.5208
