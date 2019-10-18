@@ -23,6 +23,7 @@ namespace KatyaHelp2
 					string _COMMAND_SEPARATOR = ";";
 					string[] activeCommands = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(new string[] { _COMMAND_SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);					
 					string timeValidator = "(?<=:|\\s|^)(\\d{1,2}:){2}\\d{1,2}";
+					string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 
 					StreamReader sr;
 					List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
@@ -86,7 +87,7 @@ namespace KatyaHelp2
 
 							if (temp[1].Trim().Equals("In"))
 							{
-								string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
+								//string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 								ip = Regex.Match(temp[2].Trim(), ipValid).Value;
 								//ip = temp[2].Trim().Replace("IP:", "").Trim();
 								command = temp[3].Trim().Replace("CommandName:", "").Trim();
@@ -124,7 +125,7 @@ namespace KatyaHelp2
 							}
 							else if (temp[1].Trim().Equals("page"))
 							{
-								string ipValid = "([0-9]{3}.){3}[0-9]{1,3}";
+								//string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 								ip = Regex.Match(temp[3].Trim(), ipValid).Value;
 								//ip = temp[3].Trim().Replace("IP: ", "");
 								if (temp[2].Trim().StartsWith("/PositionForm"))

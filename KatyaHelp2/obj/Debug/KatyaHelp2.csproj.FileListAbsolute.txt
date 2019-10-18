@@ -17,3 +17,13 @@ F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csprojAssemblyReference.
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.exe
 F:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.pdb
+C:\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.exe.config
+C:\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.exe
+C:\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.pdb
+C:\git\KatyaHelp\KatyaHelp2\bin\Debug\EPPlus.dll
+C:\git\KatyaHelp\KatyaHelp2\bin\Debug\EPPlus.xml
+C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csprojAssemblyReference.cache
+C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CoreCompileInputs.cache
+C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
+C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.exe
+C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.pdb
