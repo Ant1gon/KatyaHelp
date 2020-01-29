@@ -27,3 +27,13 @@ C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CoreCompileInputs.cache
 C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
 C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.exe
 C:\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.pdb
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.exe.config
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.exe
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\KatyaHelp2.pdb
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\EPPlus.dll
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\EPPlus.xml
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csprojAssemblyReference.cache
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CoreCompileInputs.cache
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.exe
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.pdb

@@ -56,6 +56,7 @@ namespace KatyaHelp2
 					{
 						string ip = "", command = "", commandName = "", proposition = "";
 						List<string> filesName = new List<string>();
+                        Dictionary<DateTime, string> filesWithTime = new Dictionary<DateTime, string>();
 						DateTime time = DateTime.Now;
 						Dictionary<string, string> dictForFile = new Dictionary<string, string>();
 						var t = lineList[i];
@@ -96,7 +97,8 @@ namespace KatyaHelp2
 									if (command.Equals("Upload"))
 									{
 										filesName = new List<string>();
-										for (int ii = 1; ii < lineList.Count; ii++)
+                                        filesWithTime = new Dictionary<DateTime, string>();
+                                        for (int ii = 1; ii < lineList.Count; ii++)
 										{
 											try
 											{
@@ -108,7 +110,8 @@ namespace KatyaHelp2
 												else if (temp2[1].Trim().Equals("info"))
 												{
 													filesName.Add(temp2[2]);
-												}
+                                                    filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
+                                                }
 											}
 											catch { };
 										}
@@ -153,7 +156,7 @@ namespace KatyaHelp2
 							}
 						}
 						//Console.ReadKey();
-						if (filesName.Any())
+						/*if (filesName.Any())
 						{
 							foreach(var fn in filesName)
 							{
@@ -167,8 +170,23 @@ namespace KatyaHelp2
 									listDictForFile.Add(dictForFile);
 								}
 							}
-						}
-						else
+						}*/
+                        if (filesWithTime.Any())
+                        {
+                            foreach (var fn in filesWithTime)
+                            {
+                                dictForFile = new Dictionary<string, string>();
+                                dictForFile.Add("date", date);
+                                dictForFile.Add("time", fn.Key.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
+                                dictForFile.Add("ip", ip);
+                                dictForFile.Add("commandName", string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fn.Value));
+                                if (!string.IsNullOrEmpty(dictForFile["commandName"]))
+                                {
+                                    listDictForFile.Add(dictForFile);
+                                }
+                            }
+                        }
+                        else
 						{
 							dictForFile.Add("date", date);
 							dictForFile.Add("time", time.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
