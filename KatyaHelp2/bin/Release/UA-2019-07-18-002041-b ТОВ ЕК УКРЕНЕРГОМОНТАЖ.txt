@@ -1,0 +1,268 @@
+IP: 194.54.160.76
+
+2019-07-19
+Залогінився
+	 08:48:41.995 -> tgfrqpt4q1osdmuim2s52tll|    In| IP: 194.54.160.76| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=31722942| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+	 08:48:41.995 -> tgfrqpt4q1osdmuim2s52tll|    In| IP: 194.54.160.76| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=31722942| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+	 08:48:42.201 -> uemcompany@ukr.net|    OK| logged
+	 08:48:42.258 -> uemcompany@ukr.net|   Out| CommandName: Login| duration: 263.2306
+Відкрив тендер
+	 08:50:25.723 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+Відкрив вікно подання пропозиції	
+	 08:50:33.402 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&lot=| IP: 194.54.160.76
+Створив чернетку	
+	 08:50:47.584 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=31848555| id=6f70256ecee948058ad9d824a62e5aff&id_bid=&JData={"id_tender":"6f70256ecee948058ad9d824a62e5aff","id_bid":"","parameters":[],"lot":"","value":{"amount":547631.84,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
+	 08:50:47.601 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 17.0151
+	 08:50:47.809 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 194.54.160.76
+Відкрив тендер
+	 08:50:57.597 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+	
+
+2019-07-31 
+Залогінився
+     12:27:56.657 -> ftqd0ucmhmatoznlgdihttwo|    In| IP: 194.54.160.76| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=44875158| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+     12:27:56.657 -> ftqd0ucmhmatoznlgdihttwo|    In| IP: 194.54.160.76| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=44875158| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+     12:27:56.827 -> uemcompany@ukr.net|    OK| logged
+     12:27:56.883 -> uemcompany@ukr.net|   Out| CommandName: Login| duration: 226.1978
+Відкрив чернетку    
+     12:28:26.051 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931| IP: 194.54.160.76
+Зберіг     
+     12:28:49.865 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=44928358| id=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931&JData={"id_tender":"6f70256ecee948058ad9d824a62e5aff","id_bid":"webf8cb785f40aaadda1f0d4f8f37c55931","parameters":[],"lot":"","value":{"amount":539796.7,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
+     12:28:49.884 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 20.0177
+     12:28:50.107 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 194.54.160.76
+Відкрив тендер     
+     12:28:58.689 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+     
+2019-08-02
+Відкрив тендер
+     11:36:06.492 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+Відкрив чернетку   
+     11:36:22.390 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931| IP: 194.54.160.76
+Завантажив документи    
+     11:37:23.614 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=commercialProposal&lastOpr=0| uploadtime=41843640
+     11:37:23.614 -> uemcompany@ukr.net|  info| 1 Пропозиція.pdf
+     11:37:23.636 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 377.3329
+Перезавантажив сторінку 
+     11:52:49.352 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931| IP: 194.54.160.76
+Завантажив документи     
+     11:53:06.778 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=42786775
+     11:53:06.778 -> uemcompany@ukr.net|  info| 2 матеріально – технічна база.pdf
+     11:53:06.797 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 360.3296
+     
+     11:53:29.778 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=42801140
+     11:53:29.778 -> uemcompany@ukr.net|  info| 3 Наявність працівників відповідної кваліфікації.pdf
+     11:53:29.830 -> uemcompany@ukr.net|  info| 4 Договор подряда Алькарим Буд.pdf
+     11:53:29.955 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 9224.6128
+     
+     11:55:12.228 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=42906325
+     11:55:12.228 -> uemcompany@ukr.net|  info| 4 Договор подряда АртВиль.pdf
+     11:55:12.312 -> uemcompany@ukr.net|  info| 4 Наявність аналогічного досвіду.pdf
+     11:55:12.340 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 6411.1545
+	
+     12:04:43.583 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=43462932
+     12:04:43.583 -> uemcompany@ukr.net|  info| 4 Договор подряда Укрстрой Сервис.pdf
+     12:04:43.840 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 21311.5199
+     
+     12:09:10.552 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=43749953
+     12:09:10.552 -> uemcompany@ukr.net|  info| 5 Довідка відсутності підстав стаття 17.pdf
+     12:09:10.571 -> uemcompany@ukr.net|  info| 6 Наказ на призначення директора.pdf
+     12:09:10.586 -> uemcompany@ukr.net|  info| 7 відомості про підприємство.pdf
+     12:09:10.603 -> uemcompany@ukr.net|  info| 8 лист-гарантія дотримання законодавства.pdf
+     12:09:10.620 -> uemcompany@ukr.net|  info| 9 лист-згода технічні вимоги.pdf
+     12:09:10.638 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 1073.9654
+     
+     12:09:31.809 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=43768427
+     12:09:31.810 -> uemcompany@ukr.net|  info| 10 лист-погодження з істотними умовами.pdf
+     12:09:31.832 -> uemcompany@ukr.net|  info| 11 Довідка про статус.pdf
+     12:09:31.850 -> uemcompany@ukr.net|  info| 12 Довідка про екологічну безпеку.pdf
+     12:09:31.871 -> uemcompany@ukr.net|  info| Виписка з ЄДРПОУ.pdf
+     12:09:31.897 -> uemcompany@ukr.net|  info| Гарантія.zip
+     12:09:31.919 -> uemcompany@ukr.net|  info| довіреність Скоч 10.12.2018 (1).zip
+     12:09:31.937 -> uemcompany@ukr.net|  info| Додаток 2 розрахунок вартості.pdf
+     12:09:31.981 -> uemcompany@ukr.net|  info| Дозвіл.pdf
+     12:09:32.002 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 3987.2293
+     
+     12:10:05.162 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=qualificationDocuments&lastOpr=0| uploadtime=43788017
+     12:10:05.162 -> uemcompany@ukr.net|  info| копія ліцензії ЕЦП Ванецьянц (1).zip
+     12:10:05.183 -> uemcompany@ukr.net|  info| Ліцензія.pdf
+     12:10:05.207 -> uemcompany@ukr.net|  info| Паспорт Рогачко М.М..pdf
+     12:10:05.262 -> uemcompany@ukr.net|  info| Проект Договору з додатками.pdf
+     12:10:05.363 -> uemcompany@ukr.net|  info| Свідоцтво платника ПДВ.pdf
+     12:10:05.385 -> uemcompany@ukr.net|  info| Статут.pdf
+     12:10:05.465 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 17858.7249
+	
+     12:10:58.429 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=webf8cb785f40aaadda1f0d4f8f37c55931&documentType=billOfQuantity&lastOpr=0| uploadtime=43857655
+     12:10:58.430 -> uemcompany@ukr.net|  info| Додаток 1 Договірна ціна.rtf
+     12:10:58.471 -> uemcompany@ukr.net|  info| Додаток 2 Пояснювальна записка.rtf
+     12:10:58.495 -> uemcompany@ukr.net|  info| Додаток 3 Підсумкові вартісні параметри.rtf
+     12:10:58.515 -> uemcompany@ukr.net|  info| Додаток 4 Дефектний акт.rtf
+     12:10:58.540 -> uemcompany@ukr.net|  info| Додаток 5 Локальний кошторис.rtf
+     12:10:58.566 -> uemcompany@ukr.net|  info| Додаток 6 Підсумкова відмість ресурсів.rtf
+     12:10:58.592 -> uemcompany@ukr.net|  info| Додаток 7 Протокол узгодження цін на матеріальні ресурси.rtf
+     12:10:58.628 -> uemcompany@ukr.net|  info| Додаток 8 Зведений кошторисний розрахунок.rtf
+     12:10:58.673 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 1402.983
+Опублікував    
+     12:12:44.101 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=43964562| id=6f70256ecee948058ad9d824a62e5aff&id_bid=webf8cb785f40aaadda1f0d4f8f37c55931&JData={"id_tender":"6f70256ecee948058ad9d824a62e5aff","id_bid":"webf8cb785f40aaadda1f0d4f8f37c55931","parameters":[],"lot":"","value":{"amount":539796.7,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+     12:13:42.007 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 57905.5493
+     12:13:42.229 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3&reload=Пропозицію опубліковано| IP: 194.54.160.76
+Відкрив тендер
+     12:16:41.742 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+Відкрив пропозицію     
+     12:17:54.204 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3| IP: 194.54.160.76
+     12:31:02.360 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3| IP: 194.54.160.76
+Вивантажив документи     
+     12:32:17.096 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=d4cd9b0edfcd4ad78afa4af8bdebcfb7| 
+     12:32:17.098 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\довіреність Скоч 10.12.2018 (1).zip
+     12:32:17.098 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0029
+     12:32:20.039 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=6246388dc88c46279ab336606a1023da| 
+     12:32:20.041 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Ліцензія.pdf
+     12:32:20.041 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0018
+     12:32:21.562 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=8f1178e489b34306ac2f8bd9db21d533| 
+     12:32:21.565 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\5 Довідка відсутності підстав стаття 17.pdf
+     12:32:21.565 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0017
+     12:32:22.759 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=97dc6cee3a5a4a29b5f726e76203d5e5| 
+     12:32:22.762 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Виписка з ЄДРПОУ.pdf
+     12:32:22.762 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0033
+     12:32:26.030 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=f322baf2a4754df8a80fd8af30ca941b| 
+     12:32:26.034 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Паспорт Рогачко М.М..pdf
+     12:32:26.034 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.002
+     12:32:27.244 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=d8cba0bdac3a46b4bac2d6f8190f27ec| 
+     12:32:27.329 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\6 Наказ на призначення директора.pdf
+     12:32:27.329 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 86.0777
+     12:32:29.044 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=95b71f9b985e440681c55871ec666051| 
+     12:32:29.047 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\4 Договор подряда АртВиль.pdf
+     12:32:29.047 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0001
+     12:32:30.424 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=06ee6d4855814e36857e7f8451f2edbb| 
+     12:32:30.428 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Додаток 3 Підсумкові вартісні параметри.rtf
+     12:32:30.428 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0006
+     12:32:33.513 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=b036a06207824d568f42deba0a3a14bd| 
+     12:32:33.516 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\8 лист-гарантія дотримання законодавства.pdf
+     12:32:33.516 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.9901
+     12:32:34.927 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=8b776441c2574f83b2671ee8e86f2843| 
+     12:32:34.931 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Гарантія.zip
+     12:32:34.931 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0082
+     12:32:36.341 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=90f95f71d0a94b5c9699a101bc32e257| 
+     12:32:36.344 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Додаток 2 розрахунок вартості.pdf
+     12:32:36.344 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0048
+     12:32:37.790 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=3bd8ad51776b45d6a03a425a61d20cf3| 
+     12:32:37.794 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\2 матеріально – технічна база.pdf
+     12:32:37.794 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.9992
+     12:32:42.319 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=45cf2c0ac035445984f8c94037e381de| 
+     12:32:42.323 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Проект Договору з додатками.pdf
+     12:32:42.323 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0036
+     12:32:46.056 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=f953697a34764240af579751bd515480| 
+     12:32:46.058 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Свідоцтво платника ПДВ.pdf
+     12:32:46.058 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 1.9978
+     12:32:47.337 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=aaa27432822e45a19a36b05240cba9cc| 
+     12:32:47.341 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\10 лист-погодження з істотними умовами.pdf
+     12:32:47.341 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0029
+     12:32:50.535 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=3bc7445e8c6c4a719129401ef87272b2| 
+     12:32:50.537 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\1 Пропозиція.pdf
+     12:32:50.537 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0028
+     12:32:52.283 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=5cd404adab094b8badf5f09ba9137ced| 
+     12:32:52.285 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\4 Договор подряда Алькарим Буд.pdf
+     12:32:52.285 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0018
+     12:33:07.160 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=dd771490fe2a4c19b3a0605009de14b2| 
+     12:33:07.162 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\4 Договор подряда Укрстрой Сервис.pdf
+     12:33:07.162 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0018
+     12:33:08.704 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=7828ef693cc44e4eafd230d08cbee326| 
+     12:33:08.707 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\9 лист-згода технічні вимоги.pdf
+     12:33:08.707 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0066
+     12:33:10.347 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=e8c9e68a920e406296fdcce75ae52782| 
+     12:33:10.352 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Статут.pdf
+     12:33:10.352 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0084
+     12:33:16.700 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=e4bc8ca113bd4bdb9f7d816055ebaeb8| 
+     12:33:16.703 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\11 Довідка про статус.pdf
+     12:33:16.703 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.9988
+     12:33:19.768 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=57708db9895c42c2b41828f322d5b6f9| 
+     12:33:19.771 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\12 Довідка про екологічну безпеку.pdf
+     12:33:19.771 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0026
+     12:33:21.100 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=f2ef856fa3c54696a98fb13668888066| 
+     12:33:21.102 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\7 відомості про підприємство.pdf
+     12:33:21.103 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0032
+     12:33:26.523 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=89f7a788a2d149b8a6ce43d3531b3b56| 
+     12:33:26.526 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\4 Наявність аналогічного досвіду.pdf
+     12:33:26.526 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0026
+     12:33:27.733 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=923bc8aec4884041a648c7ef03947ac7| 
+     12:33:27.736 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\3 Наявність працівників відповідної кваліфікації.pdf
+     12:33:27.736 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0031
+     12:33:30.010 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=28b08bfb937a4d32b0974397ae6e58f4| 
+     12:33:30.012 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Дозвіл.pdf
+     12:33:30.012 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0033
+     12:33:31.231 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=e24a614f98f240a5a28ae3f71b2cd7d2| 
+     12:33:31.234 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\копія ліцензії ЕЦП Ванецьянц (1).zip
+     12:33:31.234 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0029
+Завантажив документи
+     12:35:54.549 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=cae7010380264087ae2624d0f6e02ff3&documentType=qualificationDocuments&id_doc=28b08bfb937a4d32b0974397ae6e58f4&lastOpr=0| uploadtime=45354517
+     12:35:54.549 -> uemcompany@ukr.net|  info| Дозвіл.pdf
+     12:35:55.612 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 1521.3673
+Вивантажив документи     
+     12:36:01.964 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=28b08bfb937a4d32b0974397ae6e58f4| 
+     12:36:02.000 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\Дозвіл.pdf
+     12:36:02.000 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 37.0309
+Відкрив тендер    
+     17:12:17.665 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.76
+Відкрив пропозицію    
+     17:12:24.951 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3| IP: 194.54.160.76
+Вивантажив документи    
+     17:12:51.744 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: LocalDownload| CommandName=LocalDownload&id=f322baf2a4754df8a80fd8af30ca941b| 
+     17:12:51.756 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\02\6f70256ecee948058ad9d824a62e5aff\bid\webf8cb785f40aaadda1f0d4f8f37c55931\Паспорт Рогачко М.М..pdf
+     17:12:51.756 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 13.0134
+Зберіг     
+     17:14:53.726 -> uemcompany@ukr.net|    In| IP: 194.54.160.76| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=62094408| id=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3&JData={"id_tender":"6f70256ecee948058ad9d824a62e5aff","id_bid":"cae7010380264087ae2624d0f6e02ff3","parameters":[],"lot":"","value":{"amount":539796.7,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+     17:14:54.209 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 482.4338
+	
+	
+	
+2019-08-16
+Залогінився
+     11:34:43.698 -> h0mrit4mxemgne4qecgjsrfx|    In| IP: 194.54.160.70| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=41680888| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+     11:34:43.698 -> h0mrit4mxemgne4qecgjsrfx|    In| IP: 194.54.160.70| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=41680888| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
+     11:34:43.904 -> uemcompany@ukr.net|    OK| logged
+     11:34:43.960 -> uemcompany@ukr.net|   Out| CommandName: Login| duration: 262.2372
+Відкрив тендер
+     11:35:22.549 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.70 
+     11:35:37.218 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-07-18-002041-b| IP: 194.54.160.70
+Відкрив пропозицію
+     11:35:45.618 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3| IP: 194.54.160.70
+     11:36:46.313 -> uemcompany@ukr.net|  page| /BidForm.aspxid=6f70256ecee948058ad9d824a62e5aff&id_bid=cae7010380264087ae2624d0f6e02ff3| IP: 194.54.160.70
+Завантажив документи
+     11:37:48.220 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=cae7010380264087ae2624d0f6e02ff3&documentType=commercialProposal&lastOpr=0| uploadtime=41864714
+     11:37:48.221 -> uemcompany@ukr.net|  info| 80-1 Пропозиція.pdf
+     11:37:50.422 -> uemcompany@ukr.net|  info| Dovidka_19218610080700307156.pdf
+     11:37:51.206 -> uemcompany@ukr.net|  info| Dovidka_19218610080700307156.pdf.p7s
+     11:37:52.074 -> uemcompany@ukr.net|  info| Довідка банкрутство.pdf
+     11:37:53.000 -> uemcompany@ukr.net|  info| Довідка корупція.pdf
+     11:37:54.096 -> uemcompany@ukr.net|  info| Довідка про відсутність заборгованості.pdf
+     11:37:55.047 -> uemcompany@ukr.net|  info| розрахунок вартості.pdf
+     11:37:55.858 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 8244.4632
+Вивантажив документи	 
+     11:38:38.241 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=c7402648d1ee4694b22a9462e8734147| 
+     11:38:38.246 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\розрахунок вартості.pdf
+     11:38:38.246 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0047
+Завантажив документи	 
+     13:39:17.792 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=cae7010380264087ae2624d0f6e02ff3&documentType=commercialProposal&id_doc=c7402648d1ee4694b22a9462e8734147&lastOpr=0| uploadtime=49151003
+     13:39:17.792 -> uemcompany@ukr.net|  info| розрахунок вартості.pdf
+     13:39:19.675 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 5197.7128
+	 
+     13:39:38.390 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: Upload| CommandName=Upload&id=6f70256ecee948058ad9d824a62e5aff&documentOf=bid&relatedItem=cae7010380264087ae2624d0f6e02ff3&documentType=commercialProposal&id_doc=ade8151981b04c579280faca6492ce2f&lastOpr=0| uploadtime=49174491
+     13:39:38.390 -> uemcompany@ukr.net|  info| 80-1 Пропозиція.pdf
+     13:39:52.562 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 14593.217
+Вивантажив документи	 
+     13:40:22.720 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=ade8151981b04c579280faca6492ce2f| 
+     13:40:22.741 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\80-1 Пропозиція.pdf
+     13:40:22.741 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 22485.3583
+     13:40:23.118 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=ade8151981b04c579280faca6492ce2f| 
+     13:40:23.121 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\80-1 Пропозиція.pdf
+     13:40:23.121 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0029
+     13:40:31.765 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=c7402648d1ee4694b22a9462e8734147| 
+     13:40:31.799 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\розрахунок вартості.pdf
+     13:40:31.799 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 33.0319
+     13:40:49.467 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=965c8e95241148eaa0297d2f22cda167| 
+     13:40:49.470 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\Довідка про відсутність заборгованості.pdf
+     13:40:49.470 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0091
+     13:41:20.639 -> uemcompany@ukr.net|    In| IP: 194.54.160.70| CommandName: LocalDownload| CommandName=LocalDownload&id=9af3646750494430bfa6e2fc5be902bf| 
+     13:41:20.662 -> uemcompany@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\6f70256ecee948058ad9d824a62e5aff\bid\cae7010380264087ae2624d0f6e02ff3\Довідка корупція.pdf
+     13:41:20.662 -> uemcompany@ukr.net|   Out| CommandName: LocalDownload| duration: 23.0207
+    
+    

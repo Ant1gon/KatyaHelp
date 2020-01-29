@@ -22,7 +22,7 @@ namespace KatyaHelp2
 					string _SEPARATOR = "|";
 					string _COMMAND_SEPARATOR = ";";
 					string[] activeCommands = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(new string[] { _COMMAND_SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);					
-					string timeValidator = "(?<=:|\\s|^)(\\d{1,2}:){2}\\d{1,2}";
+					string timeValidator = "(?<=:|\\s|^)(\\d{1,2}:){2}\\d{1,2}.\\d{1,3}";
 					string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 
 					StreamReader sr;
