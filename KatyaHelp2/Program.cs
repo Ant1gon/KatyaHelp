@@ -20,12 +20,6 @@ namespace KatyaHelp2
 				{
 					for (int a = 0; a < (args.Any() ? args.Count():1); a++)
 					{
-						//foreach(var y in args)
-						//{
-						//	Console.WriteLine(y);
-						//}
-						//Console.ReadLine();
-
 						string date = "", tender = "";
 						string _SEPARATOR = "|";
 						string _COMMAND_SEPARATOR = ";";
@@ -35,8 +29,6 @@ namespace KatyaHelp2
 
 						StreamReader sr;
 						List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
-						//string[] commandList = ConfigurationManager.AppSettings.Get("commandList").Trim().Split(command_SEPARATOR, StringSplitOptions.RemoveEmptyEntries);
-
 						string fileName = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test.txt");
 
 						if (debug)
@@ -72,15 +64,6 @@ namespace KatyaHelp2
 							string[] temp = t.Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
 							if (temp.Length == 1)
 							{
-								/*
-								if (Regex.Match(temp[0], dateValidator).Success)
-								{
-									DateTime tDate;
-									if (DateTime.TryParse(temp[0].Trim(), out tDate))
-									{
-										date = tDate.ToLongDateString();
-									}
-								}*/
 								DateTime tDate;
 								if (DateTime.TryParse(temp[0].Trim(), out tDate))
 								{
@@ -99,11 +82,10 @@ namespace KatyaHelp2
 								{
 									//string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 									ip = Regex.Match(temp[2].Trim(), ipValid).Value;
-									//ip = temp[2].Trim().Replace("IP:", "").Trim();
 									command = temp[3].Trim().Replace("CommandName:", "").Trim();
 									if (activeCommands.Any(y => y.Equals(command)))
 									{
-										commandName = ConfigurationManager.AppSettings.Get(command).Trim(); ////
+										commandName = ConfigurationManager.AppSettings.Get(command).Trim(); 
 										if (command.Equals("Upload"))
 										{
 											filesName = new List<string>();
@@ -164,7 +146,6 @@ namespace KatyaHelp2
 								{
 									//string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 									ip = Regex.Match(temp[3].Trim(), ipValid).Value;
-									//ip = temp[3].Trim().Replace("IP: ", "");
 									if (temp[2].Trim().StartsWith("/PositionForm"))
 									{
 										tender = temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[1];
@@ -182,29 +163,12 @@ namespace KatyaHelp2
 											else if (temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[2].StartsWith("web"))
 											{
 												commandName = ConfigurationManager.AppSettings.Get("CreateDraft").Trim();
-												//commandName = temp[2].Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).First();
 											}
 										}
 									}
 
 								}
 							}
-							//Console.ReadKey();
-							/*if (filesName.Any())
-							{
-								foreach(var fn in filesName)
-								{
-									dictForFile = new Dictionary<string, string>();
-									dictForFile.Add("date", date);
-									dictForFile.Add("time", time.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
-									dictForFile.Add("ip", ip);
-									dictForFile.Add("commandName", string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fn));
-									if (!string.IsNullOrEmpty(dictForFile["commandName"]))
-									{
-										listDictForFile.Add(dictForFile);
-									}
-								}
-							}*/
 							if (filesWithTime.Any())
 							{
 								foreach (var fn in filesWithTime)
@@ -230,12 +194,10 @@ namespace KatyaHelp2
 								{
 									listDictForFile.Add(dictForFile);
 								}
-							}
-							//string h = dictForFile["date"];						
+							}					
 						}
 
 						#region xlsFileCreate
-						//Random a = new Random();
 						string outFile = string.Format("{0}\\{1}.xlsx", Environment.CurrentDirectory, fileName);// a.Next(0, 4578));
 						if (File.Exists(outFile))
 						{
@@ -243,7 +205,6 @@ namespace KatyaHelp2
 						}
 
 						var file = new FileInfo(outFile);
-						//var package = new ExcelPackage(file);
 						ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
 						using (var package = new ExcelPackage(file))
@@ -268,8 +229,7 @@ namespace KatyaHelp2
 								try
 								{
 									worksheet.Cells[iii, col++].Value = entity["date"];
-									//worksheet.Cells[i, 2].Value = entity["rgc_value"].ToString().Remove(entity["rgc_value"].ToString().IndexOf(",") + 2);
-								}
+									}
 								catch { }
 								try
 								{
@@ -296,13 +256,6 @@ namespace KatyaHelp2
 								excelRange.Sort(sortColumn, descending, null, CompareOptions.IgnoreSymbols);
 							}
 							package.Save();
-
-							/*if (File.Exists(correctionsFile))
-							{
-								File.Delete(correctionsFile);
-							}*/
-
-
 						}
 						#endregion xlsFileCreate
 						Console.WriteLine(string.Format("End{0}Press any key to continue", Environment.NewLine));
