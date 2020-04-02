@@ -125,7 +125,7 @@ namespace KatyaHelp2
 												}
 												catch { };
 											}
-											string fN = string.Join(",", filesName);
+											string fN = string.Join(",", filesName.ToArray());
 											commandName = string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fN);
 										}
 										else if (command.Equals("LocalDownload"))
@@ -149,7 +149,7 @@ namespace KatyaHelp2
 												}
 												catch { };
 											}
-											string fN = string.Join(",", filesName);
+											string fN = string.Join(",", filesName.ToArray());
 											commandName = string.Format(ConfigurationManager.AppSettings.Get("LocalDownload").Trim(), tender, fN);
 										}
 										/*else if (command.Equals("jSetBid")){
