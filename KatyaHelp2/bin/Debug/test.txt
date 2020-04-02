@@ -1,100 +1,355 @@
-Зареєструвався на ЕМ:
-2018-04-16T15:17:41.457, IP: 91.219.220.203, uemcompany@ukr.net
+Зареєструвався на ЕМ: 2017-01-24T16:14:15.267, IP: 178.151.169.176, kp_hrbp@ukr.net
 
+IP: 37.57.41.108
+IP: 178.151.224.140
+IP: 195.162.65.232
 
-IP: 81.25.229.67
-
-2019-06-04
+2018-11-30
 Залогінився
-	16:21:02.086 -> 1nwxps1lquwqfg3odf1101b4|    In| IP: 81.25.229.67| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=58860168| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
-	16:21:02.086 -> 1nwxps1lquwqfg3odf1101b4|    In| IP: 81.25.229.67| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=58860168| Name=uemcompany@ukr.net&Password=uemcompany@ukr.net&register_code=undefined
-	16:21:02.243 -> uemcompany@ukr.net|    OK| logged
-	16:21:02.296 -> uemcompany@ukr.net|   Out| CommandName: Login| duration: 211.1914
-Відкрив тендер	
-	16:28:02.731 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-001449-a| IP: 81.25.229.67
-Відкрив вікно подання пропозиції
-	16:28:11.790 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&lot=| IP: 81.25.229.67
-	
-	16:28:38.876 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=59316956| id=49389e2b02f4490399dcbe8e3167f33c&id_bid=&JData={"id_tender":"49389e2b02f4490399dcbe8e3167f33c","id_bid":"","parameters":[],"lot":"","value":{"amount":32000000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-	16:28:38.876 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 0
-Змінив дані учасника
-	16:31:46.776 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetMember| CommandName=jSetMember&id=47290&lastOpr=0| JData={"member":{"id":"47290","code":"36437048","short_name":"ТОВ  \"ЕК УКРЕНЕРГОМОНТАЖ\"","short_name_en":"","full_name":"ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ \"ЕК УКРЕНЕРГОМОНТАЖ\"","full_name_en":"","postalCode":"65490","locality":"м.Теплодар","streetAddress":"вулиця Комунальна, буд.1-Е","mfo":"200614","bank":"ПАТ «Креді Агріколь Банк","account":"26005500292559","ITN":"364370415099","mainPP_name":"Рогачко Микола Миколайович","mainPP_position":"Директор","promo_code":"1020","promo_company":"","promo_company_confirm":0,"countryName":"804","region":"Одеська область","identification_schema":"UA-EDR","scale":"sme","member_type":"801"}}
-	16:32:14.779 -> uemcompany@ukr.net|   Out| CommandName: jSetMember| duration: 28003.3625
-Відкрив вікно подання пропозиції	
-	16:32:59.465 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&lot=| IP: 81.25.229.67
-Відкрив тендер	
-	16:44:39.192 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-001449-a| IP: 81.25.229.67
-Відкрив вікно подання пропозиції	
-	16:48:10.490 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&lot=| IP: 81.25.229.67
-Створив чернетку	
-	16:48:20.504 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=60498577| id=49389e2b02f4490399dcbe8e3167f33c&id_bid=&JData={"id_tender":"49389e2b02f4490399dcbe8e3167f33c","id_bid":"","parameters":[],"lot":"","value":{"amount":32000000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-	16:48:20.527 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 23.0198
-	16:48:20.843 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 81.25.229.67
-Завантажив документи	
-	16:48:52.841 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: Upload| CommandName=Upload&id=49389e2b02f4490399dcbe8e3167f33c&documentOf=bid&relatedItem=weba185709c71387f9576a4544bcfeb03c5&documentType=commercialProposal&lastOpr=0| uploadtime=60528673
-	16:48:52.841 -> uemcompany@ukr.net|  info| 14 Додаток 5 пропозиція.pdf
-	16:48:52.860 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 2025.8357
-	
-	16:51:03.660 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: Upload| CommandName=Upload&id=49389e2b02f4490399dcbe8e3167f33c&documentOf=bid&relatedItem=weba185709c71387f9576a4544bcfeb03c5&documentType=qualificationDocuments&lastOpr=0| uploadtime=60574246
-	16:51:03.660 -> uemcompany@ukr.net|  info| 1 Довідка відсутності підстав..pdf
-	16:51:03.676 -> uemcompany@ukr.net|  info| 2 Довідка працівників.pdf
-	16:51:03.691 -> uemcompany@ukr.net|  info| 3 Додаток А до технічних вимог.pdf
-	16:51:03.708 -> uemcompany@ukr.net|  info| 4 Довідка досвід.pdf
-	16:51:03.723 -> uemcompany@ukr.net|  info| 4 Дог 2018-175 УЕМ УКРСТРОЙ СЕРВІС 2018 08 28.pdf
-	16:51:03.744 -> uemcompany@ukr.net|  info| 4 Дог 2603-18 Землебудсервіс УЕМ 2018 03 26 Олимпекс.pdf
-	16:51:03.785 -> uemcompany@ukr.net|  info| 5 Директор подпись.pdf
-	16:51:03.801 -> uemcompany@ukr.net|  info| 5 Наказ на призначення директора.pdf
-	16:51:03.818 -> uemcompany@ukr.net|  info| 5 Статутні обмеження.pdf
-	16:51:03.836 -> uemcompany@ukr.net|  info| 6 ВІДОМОСТІ ПРО УЧАСНИКА.pdf
-	16:51:03.854 -> uemcompany@ukr.net|  info| 7 Довiдка_про_захист_довкiлля_.pdf
-	16:51:03.872 -> uemcompany@ukr.net|  info| 7 Рогачко М. паспорт і код.pdf
-	16:51:03.896 -> uemcompany@ukr.net|  info| 8 Довiдка_про_санкцii.pdf
-	16:51:03.915 -> uemcompany@ukr.net|  info| 10 лист-пояснення_про_корупц_ю.pdf
-	16:51:03.935 -> uemcompany@ukr.net|  info| 12 Додаток Б Довідка про мат.–тех.базу.pdf
-	16:51:03.957 -> uemcompany@ukr.net|  info| 13 Довідка серед.дохід за 3 роки.pdf
-	16:51:03.977 -> uemcompany@ukr.net|  info| 13 Фін звіт 2016.pdf
-	16:51:04.000 -> uemcompany@ukr.net|  info| 13 Фін звіт 2017.pdf
-	16:51:04.025 -> uemcompany@ukr.net|  info| 13 Фін звіт 2018.pdf
-	16:51:04.051 -> uemcompany@ukr.net|  info| 15 Довідка не внесено до ЄДР корупція.pdf
-	16:51:04.072 -> uemcompany@ukr.net|  info| 16 непорушення конкуренції.pdf
-	16:51:04.093 -> uemcompany@ukr.net|  info| 17 Довідка не притягнуто відповідал..pdf
-	16:51:04.115 -> uemcompany@ukr.net|  info| 18 Довідка не відкр.ліквідац. процедура.pdf
-	16:51:04.137 -> uemcompany@ukr.net|  info| 19 не внесена інф.  п. 9 ст.9.pdf
-	16:51:04.159 -> uemcompany@ukr.net|  info| 20 Довідка про антикорупційну  програму.pdf
-	16:51:04.182 -> uemcompany@ukr.net|  info| 21 Довідка не має заборг.до бюджету.pdf
-	16:51:04.205 -> uemcompany@ukr.net|  info| Виписка з ЄДРПОУ.pdf
-	16:51:04.237 -> uemcompany@ukr.net|  info| Довідка статуправління.pdf
-	16:51:04.265 -> uemcompany@ukr.net|  info| Дозвіл.pdf
-	16:51:04.291 -> uemcompany@ukr.net|  info| Документ_ЄДР_1005408631.zip
-	16:51:04.313 -> uemcompany@ukr.net|  info| Ліцензія.pdf
-	16:51:04.340 -> uemcompany@ukr.net|  info| Наказ на призначення директора.pdf
-	16:51:04.367 -> uemcompany@ukr.net|  info| Підтвердження взаємовідносин ОДЕСКАБЕЛЬ.pdf
-	16:51:04.394 -> uemcompany@ukr.net|  info| Підтвердження взаємовідносин ТЕРМОФІТ.pdf
-	16:51:04.421 -> uemcompany@ukr.net|  info| Свідоцтво платника ПДВ.pdf
-	16:51:04.449 -> uemcompany@ukr.net|  info| Статут.pdf
-	16:51:04.541 -> uemcompany@ukr.net|  info| Термофит сотрудничество.pdf
-	16:51:04.566 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 88343.789
-Зберіг	
-	16:52:02.813 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=60720891| id=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&JData={"id_tender":"49389e2b02f4490399dcbe8e3167f33c","id_bid":"weba185709c71387f9576a4544bcfeb03c5","parameters":[],"lot":"","value":{"amount":32000000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-	16:52:02.902 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 91.0761
-	16:52:03.134 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 81.25.229.67
-Ще раз зберіг
-	16:52:10.512 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=60728591| id=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&JData={"id_tender":"49389e2b02f4490399dcbe8e3167f33c","id_bid":"weba185709c71387f9576a4544bcfeb03c5","parameters":[],"lot":"","value":{"amount":32000000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-	16:52:10.539 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 28.0254
-	16:52:11.093 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 81.25.229.67
+     19:27:59.069 -> ofu0jeridtcmscmrt1x0csd4|    In| IP: 37.57.41.108| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=70078158| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
+     19:27:59.225 -> kp_hrbp@ukr.net|    OK| logged
+     19:27:59.272 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 203.1282
+Відкрив тендер     
+     19:28:36.055 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2018-11-16-002919-a| IP: 37.57.41.108
+Відкрив вікно подання пропозиції     
+     19:28:44.477 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&lot=| IP: 37.57.41.108
+Створив чернеку
+     19:29:45.948 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70185039| id=d18727dd694b42d7b008228fdf56cc09&id_bid=&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:29:45.979 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 31.2508
+     19:29:46.011 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Завантажив документи    
+     19:30:33.950 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70232959
+     19:30:33.950 -> kp_hrbp@ukr.net|  info| Реєстр ч. 1.PDF
+     19:30:33.966 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 62.5005
+     19:30:44.654 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70241881
+     19:30:44.654 -> kp_hrbp@ukr.net|  info| Відомості облстат, дозволи, штатний розклад (1-21).pdf
+     19:30:44.716 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1890.6981
+     19:31:02.014 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70258761
+     19:31:02.014 -> kp_hrbp@ukr.net|  info| ч. 1 (накази працівників) 22-55.pdf
+     19:31:02.092 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2421.9662
+     19:31:05.779 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70263094
+     19:31:05.779 -> kp_hrbp@ukr.net|  info| ч. 2(накази працівників) 56-80.pdf
+     19:31:05.842 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1812.5714
+     19:31:09.389 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70266381
+     19:31:09.389 -> kp_hrbp@ukr.net|  info| ч. 3 (накази працівників)81-107.pdf
+     19:31:09.451 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2156.3342
+     19:31:11.467 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70268841
+     19:31:11.467 -> kp_hrbp@ukr.net|  info| ч. 4 (накази працівників) 108-131.pdf
+     19:31:11.530 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1765.6921
+     19:31:14.764 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70271412
+     19:31:14.764 -> kp_hrbp@ukr.net|  info| ч. 5 (накази працівників)  132-161.pdf
+     19:31:14.842 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2515.7202
+     19:31:15.561 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70274633
+     19:31:15.561 -> kp_hrbp@ukr.net|  info| наказ уповноважена 181.pdf
+     19:31:15.592 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 46.8751
+     19:31:54.781 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70313789
+     19:31:54.781 -> kp_hrbp@ukr.net|  info| Реєстр ч 2.PDF
+     19:31:54.797 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 78.1273
+     19:31:59.844 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70317020
+     19:31:59.844 -> kp_hrbp@ukr.net|  info| Аналог. договір, лист відгук, витяг з ПДВ, з держ реєстру (стор.1-59).pdf
+     19:31:59.891 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1953.2031
+     19:32:15.470 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70334037
+     19:32:15.470 -> kp_hrbp@ukr.net|  info| Підтв. прим. Тракт. 105 В та Федоренка, 1 (стор. 60-69).pdf
+     19:32:15.516 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 562.5175
+     19:32:30.564 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70347459
+     19:32:30.564 -> kp_hrbp@ukr.net|  info| посвідчення стор. 70-94.pdf
+     19:32:30.642 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2265.7119
+     19:32:33.470 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70350328
+     19:32:33.470 -> kp_hrbp@ukr.net|  info| посв. стор. 95-103.pdf
+     19:32:33.548 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2265.7201
+     19:32:38.095 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70356437
+     19:32:38.095 -> kp_hrbp@ukr.net|  info| Інвентар. опис (машини, обладнання, інструменти) стор. 104-129.pdf
+     19:32:38.127 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 765.6485
+     19:32:45.002 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70361472
+     19:32:45.002 -> kp_hrbp@ukr.net|  info| Оборотна відомість (стор. 130-150).pdf
+     19:32:45.080 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2687.6091
+     19:32:53.518 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70372275
+     19:32:53.518 -> kp_hrbp@ukr.net|  info| Устав оригінал (151-161).pdf
+     19:32:53.534 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 328.1367
+     19:33:07.409 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70383166
+     19:33:07.409 -> kp_hrbp@ukr.net|  info| Підтв. авто, техніка  (162-236).pdf
+     19:33:07.503 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3406.3907
+     19:33:13.081 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70391896
+     19:33:13.081 -> kp_hrbp@ukr.net|  info| договор техника машин (237-240).pdf
+     19:33:13.112 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 296.8856
+     19:33:47.598 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70425596
+     19:33:47.598 -> kp_hrbp@ukr.net|  info| Реєстр і і довідки Учасника ч. 1.pdf
+     19:33:47.645 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1125.0407
+     19:34:17.099 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70452343
+     19:34:17.099 -> kp_hrbp@ukr.net|  info| Реєстр і довідки Учасника ч. 2.pdf
+     19:34:17.193 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3859.5273
+     19:34:19.209 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70455982
+     19:34:19.209 -> kp_hrbp@ukr.net|  info| Відомості про матер. ресурси (27-44).pdf
+     19:34:19.271 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1859.4451
+     19:34:21.521 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70459971
+     19:34:21.521 -> kp_hrbp@ukr.net|  info| Працівники з Капленко (45-50).pdf
+     19:34:21.553 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 656.2734
+     19:34:28.725 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=qualificationDocuments&lastOpr=0| uploadtime=70467235
+     19:34:28.725 -> kp_hrbp@ukr.net|  info| Довідка наявність обладнання та мат. бази (51-55).pdf
+     19:34:28.772 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 593.7682
+     19:35:14.773 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70511419
+     19:35:14.773 -> kp_hrbp@ukr.net|  info| Банк. гарантія.rar
+     19:35:14.852 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2515.7012
+     19:35:25.758 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70524834
+     19:35:25.758 -> kp_hrbp@ukr.net|  info| 
+     19:35:25.758 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 0
+Зберіг    
+     19:35:43.681 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70542772| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:35:43.696 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 15.6261
+     19:35:43.759 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Вивантажив документи   
+     19:35:50.697 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: LocalDownload| CommandName=LocalDownload&id=web0da325c7c4eefe4f8ed214c9f5acadca| 
+     19:35:50.712 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Банк. гарантія.rar
+     19:35:50.712 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6257
+Завантажив документи    
+     19:36:33.245 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70589576
+     19:36:33.245 -> kp_hrbp@ukr.net|  info| Реєстр договірна ціна та ч. 1.pdf
+     19:36:33.323 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2828.2351
+     19:36:46.761 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70605839
+     19:36:46.761 -> kp_hrbp@ukr.net|  info| 
+     19:36:46.761 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 0
+     19:37:35.920 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70651453
+     19:37:35.920 -> kp_hrbp@ukr.net|  info| ч. 2 договірна ціна стр. 1-41 (pdf.io).pdf
+     19:37:36.013 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3547.0128
+     19:37:42.842 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70657567
+     19:37:42.842 -> kp_hrbp@ukr.net|  info| ч. 3  договіран ціна 1-46 (pdf.io).pdf
+     19:37:42.951 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 4453.2944
+     19:37:49.576 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70664838
+     19:37:49.576 -> kp_hrbp@ukr.net|  info| ч. 4 договіран ціна  стр. 1-29 (pdf.io).pdf
+     19:37:49.686 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3906.4038
+     19:38:00.796 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=commercialProposal&lastOpr=0| uploadtime=70668578
+     19:38:00.796 -> kp_hrbp@ukr.net|  info| ч. 5 договіран ціна стр.1 -23 (pdf.io).pdf
+     19:38:00.889 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 10828.5445
+Зберіг    
+     19:38:17.577 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70696663| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:38:17.593 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 15.6247
+     19:38:17.671 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Завантажив документи     
+     19:40:18.819 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70817652
+     19:40:18.819 -> kp_hrbp@ukr.net|  info| Реєстр найм (зварник).pdf
+     19:40:18.851 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 250.0055
+Вивантажив документи       
+     19:40:24.148 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: LocalDownload| CommandName=LocalDownload&id=web15b968ed1b5eeb7e6734ef9cb1d644c9| 
+     19:40:24.148 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр найм (зварник).pdf
+     19:40:24.148 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+Зберіг     
+     19:40:46.899 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70845938| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:40:46.930 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 31.2511
+     19:40:46.992 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Завантажив документи     
+     19:42:03.120 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70922023
+     19:42:03.120 -> kp_hrbp@ukr.net|  info| Обслуговуючий банк на 30.11.2018р..zip
+     19:42:03.136 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 140.6349
+     19:42:15.558 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70934368
+     19:42:15.558 -> kp_hrbp@ukr.net|  info| оригинал паспорт директор.PDF
+     19:42:15.590 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 265.6358
+     19:42:17.168 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=web9608a5ddb12789b19aff75d91dbfed9e&documentType=eligibilityDocuments&lastOpr=0| uploadtime=70936232
+     19:42:17.168 -> kp_hrbp@ukr.net|  info| ІНН директор.PDF
+     19:42:17.199 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 31.2501
+Зберіг     
+     19:42:32.465 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70951552| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:42:32.497 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 31.2479
+     19:42:32.543 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Ще раз зберіг    
+     19:43:14.483 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=70993557| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+     19:43:14.514 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 31.2536
+     19:43:14.545 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+Опублікував    
+     19:43:43.312 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=71022397| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+     19:45:16.286 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 92974.4651
+     19:45:16.349 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&reload=Пропозицію опубліковано| IP: 37.57.41.108
+     
+     19:45:17.177 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=71033098| id=d18727dd694b42d7b008228fdf56cc09&id_bid=web9608a5ddb12789b19aff75d91dbfed9e&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"web9608a5ddb12789b19aff75d91dbfed9e","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+     19:45:17.177 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 0
+Відкрив вікно накладання підпису 
+     19:45:28.865 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=1b5a8bd4b6dd4cddb14b37a8f594b386| 
+     19:45:28.865 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис     
+     19:45:56.366 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&id_doc=&sign=MIKlyAYJKoZIhvcNAQcCoIKluTCCpbUCAQExDjAMBgoqhiQCAQEBAQIBMIKXGQYJKoZIhvcNAQcBoIKXCgSClwZ7ACIAZABhAHQAZQAiADoAIgAyADAAMQA4AC0AMQAxAC0AMwAwAFQAMQA5ADoANAAzADoANAAxAC4ANgA5ADAANAA4ADIAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADEAYgA1AGEAOABiAGQANABiADYAZABkADQAYwBkAGQAYgAxADQAYgAzADcAYQA4AGYANQA5ADQAYgAzADgANgAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAGMAbwBuAHQAYQBjAHQAUABvAGkAbgB0ACIAOgB7ACIAdABlAGwAZQBwAGgAbwBuAGUAIgA6ACIAKwAzADgAMAA1ADcAMwA5ADMAMQA2ADUANAAiACwAIgBmAGEAeABOAHUAbQBiAGUAcgAiADoAIgAiACwAIgBuAGEAbQBlACIAOgAiACEEOARABD4EQgQwBCAAIQQuACAAEQQuACIALAAiAGUAbQBhAGkAbAAiADoAIgBrAHAAXwBoAHIAYgBwAEAAdQBrAHIALgBuAGUAdAAiAH0ALAAiAGkAZABlAG4AdABpAGYAaQBlAHIAIgA6AHsAIgBzAGM...
+     19:45:57.788 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1421.9304
+     
+     19:46:06.023 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&reload=Пропозицію опубліковано| IP: 37.57.41.108
+   
+     19:46:36.789 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=71195865| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+     19:46:37.180 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 390.64
+Ще раз опублікував  
+     19:47:33.401 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=71252474| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+     19:47:33.729 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 328.137
+     19:48:59.326 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&reload=Пропозицію опубліковано| IP: 37.57.41.108
+
+
+
+2018-12-01
+Залогінився
+      10:51:06.836 -> dpueeteuken2ypw2w5hekmma|    In| IP: 178.151.224.140| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=39064809| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
+      10:51:06.961 -> kp_hrbp@ukr.net|    OK| logged
+      10:51:06.992 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 156.2581
 Відкрив тендер
-	17:40:38.411 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-001449-a| IP: 81.25.229.67
-Перезавантажив сторінку чернетки
-	17:40:54.565 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5| IP: 81.25.229.67
-Завантажив документи
-	17:42:03.688 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: Upload| CommandName=Upload&id=49389e2b02f4490399dcbe8e3167f33c&documentOf=bid&relatedItem=weba185709c71387f9576a4544bcfeb03c5&documentType=billOfQuantity&lastOpr=0| uploadtime=63692797
-	17:42:03.688 -> uemcompany@ukr.net|  info| кошторис.rar
-	17:42:03.783 -> uemcompany@ukr.net|   Out| CommandName: Upload| duration: 29038.1079
-Опублікував	
-	17:42:41.295 -> uemcompany@ukr.net|    In| IP: 81.25.229.67| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=63759391| id=49389e2b02f4490399dcbe8e3167f33c&id_bid=weba185709c71387f9576a4544bcfeb03c5&JData={"id_tender":"49389e2b02f4490399dcbe8e3167f33c","id_bid":"weba185709c71387f9576a4544bcfeb03c5","parameters":[],"lot":"","value":{"amount":32000000,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
-	17:43:25.969 -> uemcompany@ukr.net|   Out| CommandName: jSetBid| duration: 44673.8445
-	17:43:26.246 -> uemcompany@ukr.net|  page| /BidForm.aspxid=49389e2b02f4490399dcbe8e3167f33c&id_bid=f4c703be4b034b489a5bcbb1498b2a2c&reload=Пропозицію опубліковано| IP: 81.25.229.67
-Відкрив тендер
-	17:44:46.933 -> uemcompany@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-001449-a| IP: 81.25.229.67
-	
-	
+      11:11:44.456 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2018-11-16-002919-a| IP: 178.151.224.140
+Відкрив пропозицію     
+      11:11:52.753 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 178.151.224.140
+Завантажив документи    
+      11:12:09.144 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&documentType=eligibilityDocuments&lastOpr=0| uploadtime=40326987
+      11:12:09.144 -> kp_hrbp@ukr.net|  info| Довідка про ЕЦП.pdf
+      11:12:11.176 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2062.5865
+Зберіг    
+      11:12:21.567 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=40339527| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+      11:12:21.895 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 328.1133
+      11:12:44.380 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 178.151.224.140
+Відкрив вікно накладання підпису    
+      11:13:19.835 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: jSignContent| CommandName=jSignContent&id=1b5a8bd4b6dd4cddb14b37a8f594b386| 
+      11:13:19.835 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис    
+      11:15:06.526 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: jSignUpload| CommandName=jSignUpload| id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&id_doc=9959af4866444f97a570f839cf43dcca&sign=MIKqCgYJKoZIhvcNAQcCoIKp+zCCqfcCAQExDjAMBgoqhiQCAQEBAQIBMIKbWwYJKoZIhvcNAQcBoIKbTASCm0h7ACIAZABhAHQAZQAiADoAIgAyADAAMQA4AC0AMQAxAC0AMwAwAFQAMQA5ADoANAAzADoANAAxAC4ANgA5ADAANAA4ADIAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADEAYgA1AGEAOABiAGQANABiADYAZABkADQAYwBkAGQAYgAxADQAYgAzADcAYQA4AGYANQA5ADQAYgAzADgANgAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAGMAbwBuAHQAYQBjAHQAUABvAGkAbgB0ACIAOgB7ACIAdABlAGwAZQBwAGgAbwBuAGUAIgA6ACIAKwAzADgAMAA1ADcAMwA5ADMAMQA2ADUANAAiACwAIgBmAGEAeABOAHUAbQBiAGUAcgAiADoAIgAiACwAIgBuAGEAbQBlACIAOgAiACEEOARABD4EQgQwBCAAIQQuACAAEQQuACIALAAiAGUAbQBhAGkAbAAiADoAIgBrAHAAXwBoAHIAYgBwAEAAdQBrAHIALgBuAGUAdAAiAH0ALAAiAGkAZABl...
+      11:15:07.636 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1109.4185
+      11:15:16.199 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 178.151.224.140
+Перезавантажив сторінку      
+      11:15:56.483 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 178.151.224.140
+Завантажив документи     
+      13:58:17.727 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&documentType=eligibilityDocuments&id_doc=b31fd5a4b90f41f98a6a95f8fa1a2cf0&lastOpr=0| uploadtime=50295068
+      13:58:17.727 -> kp_hrbp@ukr.net|  info| Реєстр і довідки Учасника ч. 1 ок.pdf
+      13:58:19.727 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2562.6021
+Зберіг     
+      13:58:36.477 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=50314455| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+      13:58:36.806 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 328.1364
+Ще раз зберіг     
+      13:59:07.932 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=50345868| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+      13:59:08.229 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 312.5021
+      13:59:15.307 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Відкрив вікно накладання підпису     
+      13:59:21.010 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSignContent| CommandName=jSignContent&id=1b5a8bd4b6dd4cddb14b37a8f594b386| 
+      13:59:21.010 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис     
+      13:59:43.511 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSignUpload| CommandName=jSignUpload| id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&id_doc=9959af4866444f97a570f839cf43dcca&sign=MIKucAYJKoZIhvcNAQcCoIKuYTCCrl0CAQExDjAMBgoqhiQCAQEBAQIBMIKfwQYJKoZIhvcNAQcBoIKfsgSCn657ACIAZABhAHQAZQAiADoAIgAyADAAMQA4AC0AMQAxAC0AMwAwAFQAMQA5ADoANAAzADoANAAxAC4ANgA5ADAANAA4ADIAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADEAYgA1AGEAOABiAGQANABiADYAZABkADQAYwBkAGQAYgAxADQAYgAzADcAYQA4AGYANQA5ADQAYgAzADgANgAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAGMAbwBuAHQAYQBjAHQAUABvAGkAbgB0ACIAOgB7ACIAdABlAGwAZQBwAGgAbwBuAGUAIgA6ACIAKwAzADgAMAA1ADcAMwA5ADMAMQA2ADUANAAiACwAIgBmAGEAeABOAHUAbQBiAGUAcgAiADoAIgAiACwAIgBuAGEAbQBlACIAOgAiACEEOARABD4EQgQwBCAAIQQuACAAEQQuACIALAAiAGUAbQBhAGkAbAAiADoAIgBrAHAAXwBoAHIAYgBwAEAAdQBrAHIALgBuAGUAdAAiAH0ALAAiAGkAZABlA...
+      13:59:44.589 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1078.1645
+      14:00:04.575 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи    
+      14:05:18.420 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=9aaf27ba8c0345a7b4d827dc4e9bf11b| 
+      14:05:18.420 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр ч. 1.PDF
+      14:05:18.420 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:05:52.687 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=a3a95b7cc9cf411495f2793e6047bc63| 
+      14:05:52.687 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Відомості облстат, дозволи, штатний розклад (1-21).pdf
+      14:05:52.687 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:07:36.004 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=f1fc01e2a2fa4239a886793acdcfa22a| 
+      14:07:36.004 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Аналог. договір, лист відгук, витяг з ПДВ, з держ реєстру (стор.1-59).pdf
+      14:07:36.004 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:12:15.297 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=a12faeee1e654a0d82aa6298ee4c21b0| 
+      14:12:15.297 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр ч 2.PDF
+      14:12:15.297 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+Завантажив документи    
+      14:15:08.618 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: Upload| CommandName=Upload&id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&documentType=eligibilityDocuments&lastOpr=0| uploadtime=51306418
+      14:15:08.618 -> kp_hrbp@ukr.net|  info| Контракт директора та всі додатки до нього (162-180).pdf
+      14:15:10.728 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2281.3614
+Перезавантажив сторінку       
+      14:15:21.838 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи     
+      14:16:04.417 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1601ab778214477c9be3cadf9134f046| 
+      14:16:04.417 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Підтв. прим. Тракт. 105 В та Федоренка, 1 (стор. 60-69).pdf
+      14:16:04.417 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6268
+      14:17:01.624 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=a12faeee1e654a0d82aa6298ee4c21b0| 
+      14:17:01.624 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр ч 2.PDF
+      14:17:01.624 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:17:38.531 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=c37e1c6ddc4f43569617ae7669dc8e6a| 
+      14:17:38.531 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\посв. стор. 95-103.pdf
+      14:17:38.531 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:18:09.408 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=980570cfe40443978f073f3d4d56016a| 
+      14:18:09.408 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\посвідчення стор. 70-94.pdf
+      14:18:09.408 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:18:58.754 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=263562bd835040d5aaefb6bd6071aac7| 
+      14:18:58.754 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Інвентар. опис (машини, обладнання, інструменти) стор. 104-129.pdf
+      14:18:58.754 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:19:06.832 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=f2e5eafb67fe43fa964b0eefad955cc3| 
+      14:19:06.848 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Оборотна відомість (стор. 130-150).pdf
+      14:19:06.848 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6311
+      14:19:46.318 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1c47ebd35b3f41c0acffefa732cbd93d| 
+      14:19:46.334 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Підтв. авто, техніка  (162-236).pdf
+      14:19:46.334 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6261
+      14:21:05.228 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=c86566eade1446309064956383b28ad3| 
+      14:21:05.228 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр і довідки Учасника ч. 2.pdf
+      14:21:05.228 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:21:47.886 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=4c9ef50872354a6995c3df6f2e04f742| 
+      14:21:47.886 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Працівники з Капленко (45-50).pdf
+      14:21:47.886 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:22:11.152 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=8140e65ff00249f0a0e389dc57abfdee| 
+      14:22:11.152 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Відомості про матер. ресурси (27-44).pdf
+      14:22:11.152 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:22:42.685 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1bfddd6373594f49ae3fd08e327accf3| 
+      14:22:42.685 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр найм (зварник).pdf
+      14:22:42.685 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:23:33.483 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=9d8a54d642db46909dba9efb0a7f104b| 
+      14:23:33.483 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Довідка наявність обладнання та мат. бази (51-55).pdf
+      14:23:33.483 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:30:57.363 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1c47ebd35b3f41c0acffefa732cbd93d| 
+      14:30:57.363 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Підтв. авто, техніка  (162-236).pdf
+      14:30:57.363 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:42:00.352 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=3e7082f240a844ecb8bb2cd7e116e27e| 
+      14:42:00.352 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр договірна ціна та ч. 1.pdf
+      14:42:00.352 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6193
+      14:45:44.768 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=712430a50e1244c0a71f24d4d4626715| 
+      14:45:44.783 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\12\01\d18727dd694b42d7b008228fdf56cc09\bid\1b5a8bd4b6dd4cddb14b37a8f594b386\Довідка про ЕЦП.pdf
+      14:45:44.783 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.5995
+Відкрив вікно накладання підпису    
+      14:46:39.238 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSignContent| CommandName=jSignContent&id=1b5a8bd4b6dd4cddb14b37a8f594b386| 
+      14:46:39.238 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис    
+      14:46:52.083 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSignUpload| CommandName=jSignUpload| id=d18727dd694b42d7b008228fdf56cc09&documentOf=bid&relatedItem=1b5a8bd4b6dd4cddb14b37a8f594b386&id_doc=9959af4866444f97a570f839cf43dcca&sign=MIKy/AYJKoZIhvcNAQcCoIKy7TCCsukCAQExDjAMBgoqhiQCAQEBAQIBMIKkTQYJKoZIhvcNAQcBoIKkPgSCpDp7ACIAZABhAHQAZQAiADoAIgAyADAAMQA4AC0AMQAxAC0AMwAwAFQAMQA5ADoANAAzADoANAAxAC4ANgA5ADAANAA4ADIAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADEAYgA1AGEAOABiAGQANABiADYAZABkADQAYwBkAGQAYgAxADQAYgAzADcAYQA4AGYANQA5ADQAYgAzADgANgAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAGMAbwBuAHQAYQBjAHQAUABvAGkAbgB0ACIAOgB7ACIAdABlAGwAZQBwAGgAbwBuAGUAIgA6ACIAKwAzADgAMAA1ADcAMwA5ADMAMQA2ADUANAAiACwAIgBmAGEAeABOAHUAbQBiAGUAcgAiADoAIgAiACwAIgBuAGEAbQBlACIAOgAiACEEOARABD4EQgQwBCAAIQQuACAAEQQuACIALAAiAGUAbQBhAGkAbAAiADoAIgBrAHAAXwBoAHIAYgBwAEAAdQBrAHIALgBuAGUAdAAiAH0ALAAiAGkAZABlA...
+      14:46:53.239 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1156.2942
+Зберіг     
+      14:47:24.024 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=53242029| id=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386&JData={"id_tender":"d18727dd694b42d7b008228fdf56cc09","id_bid":"1b5a8bd4b6dd4cddb14b37a8f594b386","parameters":[],"lot":"","value":{"amount":48334861.2,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+      14:47:24.383 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 359.38
+Відкрив вікно накладання підпису       
+      14:48:09.151 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: jSignContent| CommandName=jSignContent&id=1b5a8bd4b6dd4cddb14b37a8f594b386| 
+      14:48:09.166 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 15.6314
+Перезавантажив сторінку     
+      14:52:59.084 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи     
+      14:53:40.789 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=9d8a54d642db46909dba9efb0a7f104b| 
+      14:53:40.789 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Довідка наявність обладнання та мат. бази (51-55).pdf
+      14:53:40.789 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      14:56:26.373 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=6c03f24831004ba7a22ad340be9f54fd| 
+      14:56:26.373 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\12\01\d18727dd694b42d7b008228fdf56cc09\bid\1b5a8bd4b6dd4cddb14b37a8f594b386\Контракт директора та всі додатки до нього (162-180).pdf
+      14:56:26.373 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+Перезавантажив сторінку	 
+      14:56:58.218 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи	  
+      14:57:16.125 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=d8a0a239f2a84f379fee896c0fed4559| 
+      14:57:16.125 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Банк. гарантія.rar
+      14:57:16.125 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+Перезавантажив сторінку     
+      15:02:12.402 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи 
+      15:03:08.030 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=092b015a692a428f850b89c374b6c055| 
+      15:03:08.030 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Обслуговуючий банк на 30.11.2018р..zip
+      15:03:08.030 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:03:51.609 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1bfddd6373594f49ae3fd08e327accf3| 
+      15:03:51.609 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр найм (зварник).pdf
+      15:03:51.609 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+Перезавантажив сторінку	
+      15:04:12.157 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Вивантажив документи
+      15:04:30.048 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=ec3775151f864ec79f7d5e9f90d26712| 
+      15:04:30.064 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\наказ уповноважена 181.pdf
+      15:04:30.064 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 15.6176
+      15:05:16.456 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=395fdee287374153a437fa9431439ab4| 
+      15:05:16.456 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\ч. 4 (накази працівників) 108-131.pdf
+      15:05:16.456 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:05:42.973 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+      15:36:39.781 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=776f2401900c477bbd298c2d5b60b651| 
+      15:36:39.781 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\договор техника машин (237-240).pdf
+      15:36:39.781 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:46:46.619 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=c86566eade1446309064956383b28ad3| 
+      15:46:46.619 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Реєстр і довідки Учасника ч. 2.pdf
+      15:46:46.619 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:50:57.773 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=c37e1c6ddc4f43569617ae7669dc8e6a| 
+      15:50:57.773 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\посв. стор. 95-103.pdf
+      15:50:57.773 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:51:09.681 -> kp_hrbp@ukr.net|    In| IP: 195.162.65.232| CommandName: LocalDownload| CommandName=LocalDownload&id=1c47ebd35b3f41c0acffefa732cbd93d| 
+      15:51:09.681 -> kp_hrbp@ukr.net|   OK | LocalDownload d:\doclan\tender\documents\2018\11\30\d18727dd694b42d7b008228fdf56cc09\bid\web9608a5ddb12789b19aff75d91dbfed9e\Підтв. авто, техніка  (162-236).pdf
+      15:51:09.681 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 0
+      15:51:27.541 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+Відкрив тендер     
+      15:53:16.123 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2018-11-16-002919-a| IP: 195.162.65.232
+Відкрив пропозицію    
+      15:53:28.545 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=d18727dd694b42d7b008228fdf56cc09&id_bid=1b5a8bd4b6dd4cddb14b37a8f594b386| IP: 195.162.65.232
+     
+     

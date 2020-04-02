@@ -18,7 +18,7 @@ namespace KatyaHelp2
 			{
 				if (args.Any() || debug)
 				{
-					for (int a = 0; a < args.Count(); a++)
+					for (int a = 0; a < (args.Any() ? args.Count():1); a++)
 					{
 						//foreach(var y in args)
 						//{
@@ -47,7 +47,7 @@ namespace KatyaHelp2
 						else
 						{
 							sr = new StreamReader(args[a]);
-							fileName = args[a].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last();
+							fileName = args[a].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).First();
 						}
 
 						List<string> lineList = new List<string>();
@@ -128,6 +128,30 @@ namespace KatyaHelp2
 											string fN = string.Join(",", filesName);
 											commandName = string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fN);
 										}
+										else if (command.Equals("LocalDownload"))
+										{
+											filesName = new List<string>();
+											filesWithTime = new Dictionary<DateTime, string>();
+											for (int ii = 1; ii < lineList.Count; ii++)
+											{
+												try
+												{
+													var temp2 = lineList[i + ii].Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
+													if (temp2[1].Trim().Equals("Out"))
+													{
+														ii = lineList.Count;
+													}
+													else if (temp2[1].Trim().Equals("OK"))
+													{
+														filesName.Add(temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
+														filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
+													}
+												}
+												catch { };
+											}
+											string fN = string.Join(",", filesName);
+											commandName = string.Format(ConfigurationManager.AppSettings.Get("LocalDownload").Trim(), tender, fN);
+										}
 										/*else if (command.Equals("jSetBid")){
 										}*/
 									}
@@ -189,7 +213,7 @@ namespace KatyaHelp2
 									dictForFile.Add("date", date);
 									dictForFile.Add("time", fn.Key.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
 									dictForFile.Add("ip", ip);
-									dictForFile.Add("commandName", string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fn.Value));
+									dictForFile.Add("commandName", commandName);
 									if (!string.IsNullOrEmpty(dictForFile["commandName"]))
 									{
 										listDictForFile.Add(dictForFile);
@@ -219,61 +243,67 @@ namespace KatyaHelp2
 						}
 
 						var file = new FileInfo(outFile);
-						var package = new ExcelPackage(file);
-						ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Work");
+						//var package = new ExcelPackage(file);
+						ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
-						// --------- Data and styling goes here -------------- //
-						int col = 1, row = 1;
-						worksheet.DefaultColWidth = 25;
-						worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("firstColumn").Trim();
-						worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("secondColumn").Trim();
-						worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("thirdColumn").Trim();
-						worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("fourthColumn").Trim();
-						int iii = 2;
-						foreach (var entity in listDictForFile)
+						using (var package = new ExcelPackage(file))
 						{
-							col = 1;
-							try
+							ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Work");
+							// --------- Data and styling goes here -------------- //
+							int col = 1, row = 1;
+							worksheet.DefaultColWidth = 25;
+							worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("firstColumn").Trim();
+							worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("secondColumn").Trim();
+							worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("thirdColumn").Trim();
+							worksheet.Cells[row, col++].Value = ConfigurationManager.AppSettings.Get("fourthColumn").Trim();
+							int iii = 2;
+							foreach (var entity in listDictForFile)
 							{
-								worksheet.Cells[iii, col++].Value = entity["ip"];
+								col = 1;
+								try
+								{
+									worksheet.Cells[iii, col++].Value = entity["ip"];
+								}
+								catch { }
+								try
+								{
+									worksheet.Cells[iii, col++].Value = entity["date"];
+									//worksheet.Cells[i, 2].Value = entity["rgc_value"].ToString().Remove(entity["rgc_value"].ToString().IndexOf(",") + 2);
+								}
+								catch { }
+								try
+								{
+									worksheet.Cells[iii, col++].Value = entity["time"];
+								}
+								catch { }
+								try
+								{
+									worksheet.Cells[iii, col++].Value = entity["commandName"];
+								}
+								catch { }
+								iii++;
 							}
-							catch { }
-							try
+							var startRow = 2;
+							var startColumn = 1;
+							var endRow = 100;
+							var endColumn = 10;
+							///my
+							int[] sortColumn = new int[] { 1, 2 };
+							bool[] descending = new bool[] { false, false };
+							///my
+							using (ExcelRange excelRange = worksheet.Cells[startRow, startColumn, endRow, endColumn])
 							{
-								worksheet.Cells[iii, col++].Value = entity["date"];
-								//worksheet.Cells[i, 2].Value = entity["rgc_value"].ToString().Remove(entity["rgc_value"].ToString().IndexOf(",") + 2);
+								excelRange.Sort(sortColumn, descending, null, CompareOptions.IgnoreSymbols);
 							}
-							catch { }
-							try
-							{
-								worksheet.Cells[iii, col++].Value = entity["time"];
-							}
-							catch { }
-							try
-							{
-								worksheet.Cells[iii, col++].Value = entity["commandName"];
-							}
-							catch { }
-							iii++;
-						}
-						var startRow = 2;
-						var startColumn = 1;
-						var endRow = 100;
-						var endColumn = 10;
-						///my
-						int[] sortColumn = new int[] { 1, 2 };
-						bool[] vs = new bool[] { false, false };
-						///my
-						using (ExcelRange excelRange = worksheet.Cells[startRow, startColumn, endRow, endColumn])
-						{
-							excelRange.Sort(sortColumn, vs, null, CompareOptions.None);
-						}
-						package.Save();
+							package.Save();
 
-						/*if (File.Exists(correctionsFile))
-						{
-							File.Delete(correctionsFile);
-						}*/
+							/*if (File.Exists(correctionsFile))
+							{
+								File.Delete(correctionsFile);
+							}*/
+
+
+						}
 						#endregion xlsFileCreate
 						Console.WriteLine(string.Format("End{0}Press any key to continue", Environment.NewLine));
 						Console.ReadKey();

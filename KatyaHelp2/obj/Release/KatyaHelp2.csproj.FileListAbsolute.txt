@@ -30,7 +30,7 @@ E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Release\KatyaHelp2.exe
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Release\KatyaHelp2.pdb
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Release\EPPlus.dll
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Release\EPPlus.xml
-E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.csprojAssemblyReference.cache
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.csproj.CopyComplete
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.exe
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.pdb
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Release\KatyaHelp2.csprojAssemblyReference.cache
