@@ -60,6 +60,9 @@ namespace KatyaHelp2
 							Dictionary<DateTime, string> filesWithTime = new Dictionary<DateTime, string>();
 							DateTime time = DateTime.Now;
 							Dictionary<string, string> dictForFile = new Dictionary<string, string>();
+
+							CommandDictionary<string, DateTime, DateTime, string> commandDictionary = new CommandDictionary<string, DateTime, DateTime, string>();
+
 							var t = lineList[i];
 							string[] temp = t.Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
 							if (temp.Length == 1)
@@ -108,7 +111,7 @@ namespace KatyaHelp2
 												catch { };
 											}
 											string fN = string.Join(",", filesName.ToArray());
-											commandName = string.Format(ConfigurationManager.AppSettings.Get("Upload").Trim(), tender, fN);
+											commandName = ConfigurationManager.AppSettings.Get("Upload").Trim();
 										}
 										else if (command.Equals("LocalDownload"))
 										{
@@ -130,9 +133,9 @@ namespace KatyaHelp2
 													}
 												}
 												catch { };
+												string fN = string.Join(",", filesName.ToArray());
+												commandName = ConfigurationManager.AppSettings.Get("LocalDownload").Trim();
 											}
-											string fN = string.Join(",", filesName.ToArray());
-											commandName = string.Format(ConfigurationManager.AppSettings.Get("LocalDownload").Trim(), tender, fN);
 										}
 										/*else if (command.Equals("jSetBid")){
 										}*/
@@ -177,7 +180,7 @@ namespace KatyaHelp2
 									dictForFile.Add("date", date);
 									dictForFile.Add("time", fn.Key.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
 									dictForFile.Add("ip", ip);
-									dictForFile.Add("commandName", commandName);
+									dictForFile.Add("commandName", string.Format(commandName, tender, fn));
 									if (!string.IsNullOrEmpty(dictForFile["commandName"]))
 									{
 										listDictForFile.Add(dictForFile);

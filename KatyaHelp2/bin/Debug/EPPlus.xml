@@ -16672,42 +16672,6 @@
             <param name="Hyperlink">Picture Hyperlink</param>
             <returns>A picture object</returns>
         </member>
-        <member name="M:OfficeOpenXml.Drawing.ExcelDrawings.AddPictureAsync(System.String,System.IO.FileInfo)">
-            <summary>
-            Adds a picture to the worksheet
-            </summary>
-            <param name="Name"></param>
-            <param name="ImageFile">The image file</param>
-            <returns>A picture object</returns>
-        </member>
-        <member name="M:OfficeOpenXml.Drawing.ExcelDrawings.AddPictureAsync(System.String,System.IO.FileInfo,System.Uri)">
-            <summary>
-            Adds a picture to the worksheet
-            </summary>
-            <param name="Name"></param>
-            <param name="ImageFile">The image file</param>
-            <param name="Hyperlink">Picture Hyperlink</param>
-            <returns>A picture object</returns>
-        </member>
-        <member name="M:OfficeOpenXml.Drawing.ExcelDrawings.AddPictureAsync(System.String,System.IO.Stream,OfficeOpenXml.Drawing.ePictureType)">
-            <summary>
-            Adds a picture to the worksheet
-            </summary>
-            <param name="Name"></param>
-            <param name="PictureStream">An stream image.</param>
-            <param name="PictureType">The type of image</param>
-            <returns>A picture object</returns>
-        </member>
-        <member name="M:OfficeOpenXml.Drawing.ExcelDrawings.AddPictureAsync(System.String,System.IO.Stream,OfficeOpenXml.Drawing.ePictureType,System.Uri)">
-            <summary>
-            Adds a picture to the worksheet
-            </summary>
-            <param name="Name"></param>
-            <param name="pictureStream">An stream image.</param>
-            <param name="pictureType">The type of image</param>
-            <param name="Hyperlink">Picture Hyperlink</param>
-            <returns>A picture object</returns>
-        </member>
         <member name="M:OfficeOpenXml.Drawing.ExcelDrawings.AddChartFromTemplate(System.IO.FileInfo,System.String)">
             <summary>
             Adds a new chart using an crtx template
@@ -21212,143 +21176,6 @@
             <param name="inputStream">The input stream.</param>
             <param name="outputStream">The output stream.</param>
         </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.FileInfo)">
-            <summary>
-            Loads the specified package data from a stream.
-            </summary>
-            <param name="fileInfo">The input file.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.FileInfo,System.String)">
-            <summary>
-            Loads the specified package data from a stream.
-            </summary>
-            <param name="fileInfo">The input file.</param>
-            <param name="Password">The password</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.FileInfo,System.IO.Stream,System.String)">
-            <summary>
-            Loads the specified package data from a stream.
-            </summary>
-            <param name="fileInfo">The input file.</param>
-            <param name="output">The out stream. Sets the Stream property</param>
-            <param name="Password">The password</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.Stream)">
-            <summary>
-            Loads the specified package data from a stream.
-            </summary>
-            <param name="input">The input.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.Stream,System.String)">
-            <summary>
-            Loads the specified package data from a stream.
-            </summary>
-            <param name="input">The input.</param>
-            <param name="Password">The password to decrypt the document</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.LoadAsync(System.IO.Stream,System.IO.Stream,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="input"></param>    
-            <param name="output"></param>
-            <param name="Password"></param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsync">
-            <summary>
-            Saves all the components back into the package.
-            This method recursively calls the Save method on all sub-components.
-            The package is closed after it has ben saved
-            d to encrypt the workbook with. 
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsync(System.String)">
-            <summary>
-            Saves all the components back into the package.
-            This method recursively calls the Save method on all sub-components.
-            The package is closed after it has ben saved
-            Supply a password to encrypt the workbook package. 
-            </summary>
-            <param name="password">This parameter overrides the Workbook.Encryption.Password.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsAsync(System.IO.FileInfo)">
-            <summary>
-            Saves the workbook to a new file
-            The package is closed after it has been saved        
-            </summary>
-            <param name="file">The file location</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsAsync(System.IO.FileInfo,System.String)">
-            <summary>
-            Saves the workbook to a new file
-            The package is closed after it has been saved
-            </summary>
-            <param name="file">The file</param>
-            <param name="password">The password to encrypt the workbook with. 
-            This parameter overrides the Encryption.Password.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsAsync(System.IO.Stream)">
-            <summary>
-            Copies the Package to the Outstream
-            The package is closed after it has been saved
-            </summary>
-            <param name="OutputStream">The stream to copy the package to</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.SaveAsAsync(System.IO.Stream,System.String)">
-            <summary>
-            Copies the Package to the Outstream
-            The package is closed after it has been saved
-            </summary>
-            <param name="OutputStream">The stream to copy the package to</param>
-            <param name="password">The password to encrypt the workbook with. 
-            This parameter overrides the Encryption.Password.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.CopyStreamAsync(System.IO.Stream,System.IO.Stream)">
-            <summary>
-            Copies the input stream to the output stream.
-            </summary>
-            <param name="inputStream">The input stream.</param>
-            <param name="outputStream">The output stream.</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.GetAsByteArrayAsync">
-            <summary>
-            Saves and returns the Excel files as a bytearray.
-            Note that the package is closed upon save
-            </summary>
-            <example>      
-            Example how to return a document from a Webserver...
-            <code> 
-             ExcelPackage package=new ExcelPackage();
-             /**** ... Create the document ****/
-             Byte[] bin = package.GetAsByteArray();
-             Response.ContentType = "Application/vnd.ms-Excel";
-             Response.AddHeader("content-disposition", "attachment;  filename=TheFile.xlsx");
-             Response.BinaryWrite(bin);
-            </code>
-            </example>
-            <returns></returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelPackage.GetAsByteArrayAsync(System.String)">
-            <summary>
-            Saves and returns the Excel files as a bytearray
-            Note that the package is closed upon save
-            </summary>
-            <example>      
-            Example how to return a document from a Webserver...
-            <code> 
-             ExcelPackage package=new ExcelPackage();
-             /**** ... Create the document ****/
-             Byte[] bin = package.GetAsByteArray();
-             Response.ContentType = "Application/vnd.ms-Excel";
-             Response.AddHeader("content-disposition", "attachment;  filename=TheFile.xlsx");
-             Response.BinaryWrite(bin);
-            </code>
-            </example>
-            <param name="password">The password to encrypt the workbook with. 
-            This parameter overrides the Encryption.Password.</param>
-            <returns></returns>
-        </member>
         <member name="T:OfficeOpenXml.eOrientation">
             <summary>
             Printer orientation
@@ -22370,34 +22197,6 @@
             <param name="PrintHeaders">Print the caption property (if set) or the columnname property if not, on first row</param>
             <returns>The filled range</returns>
         </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromDataReaderAsync(System.Data.Common.DbDataReader,System.Boolean,System.String,OfficeOpenXml.Table.TableStyles,System.Nullable{System.Threading.CancellationToken})">
-            <summary>
-            Load the data from the datareader starting from the top left cell of the range
-            </summary>
-            <param name="Reader">The datareader to loadfrom</param>
-            <param name="PrintHeaders">Print the column caption property (if set) or the columnname property if not, on first row</param>
-            <param name="TableName">The name of the table</param>
-            <param name="TableStyle">The table style to apply to the data</param>
-            <param name="cancellationToken">The cancellation token to use</param>
-            <returns>The filled range</returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromDataReaderAsync(System.Data.Common.DbDataReader,System.Boolean)">
-            <summary>
-            Load the data from the datareader starting from the top left cell of the range
-            </summary>
-            <param name="Reader">The datareader to load from</param>
-            <param name="PrintHeaders">Print the caption property (if set) or the columnname property if not, on first row</param>
-            <returns>The filled range</returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromDataReaderAsync(System.Data.Common.DbDataReader,System.Boolean,System.Threading.CancellationToken)">
-            <summary>
-            Load the data from the datareader starting from the top left cell of the range
-            </summary>
-            <param name="Reader">The datareader to load from</param>
-            <param name="PrintHeaders">Print the caption property (if set) or the columnname property if not, on first row</param>
-            <param name="cancellationToken">The cancellation token to use</param>
-            <returns>The filled range</returns>
-        </member>
         <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromDataTable(System.Data.DataTable,System.Boolean,OfficeOpenXml.Table.TableStyles)">
             <summary>
             Load the data from the datatable starting from the top left cell of the range
@@ -22514,31 +22313,6 @@
             <param name="FirstRowIsHeader">Use the first row as header</param>
             <returns></returns>
         </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromTextAsync(System.IO.FileInfo)">
-            <summary>
-            Loads a CSV file into a range starting from the top left cell.
-            </summary>
-            <param name="TextFile">The Textfile</param>
-            <returns></returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromTextAsync(System.IO.FileInfo,OfficeOpenXml.ExcelTextFormat)">
-            <summary>
-            Loads a CSV file into a range starting from the top left cell.
-            </summary>
-            <param name="TextFile">The Textfile</param>
-            <param name="Format">Information how to load the text</param>
-            <returns></returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.LoadFromTextAsync(System.IO.FileInfo,OfficeOpenXml.ExcelTextFormat,OfficeOpenXml.Table.TableStyles,System.Boolean)">
-            <summary>
-            Loads a CSV file into a range starting from the top left cell.
-            </summary>
-            <param name="TextFile">The Textfile</param>
-            <param name="Format">Information how to load the text</param>
-            <param name="TableStyle">Create a table with this style</param>
-            <param name="FirstRowIsHeader">Use the first row as header</param>
-            <returns></returns>
-        </member>
         <member name="M:OfficeOpenXml.ExcelRangeBase.ToText">
             <summary>
             Converts a range to text in CSV format.
@@ -22562,36 +22336,6 @@
             <param name="Format">Information how to create the csv text</param>
         </member>
         <member name="M:OfficeOpenXml.ExcelRangeBase.SaveToText(System.IO.Stream,OfficeOpenXml.ExcelOutputTextFormat)">
-            <summary>
-            Converts a range to text in CSV format.
-            Invariant culture is used by default.
-            </summary>
-            <param name="stream">The strem to write to</param>
-            <param name="Format">Information how to create the csv text</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.ToTextAsync">
-            <summary>
-            Converts a range to text in CSV format.
-            </summary>
-            <returns>A string containing the text</returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.ToTextAsync(OfficeOpenXml.ExcelOutputTextFormat)">
-            <summary>
-            Converts a range to text in CSV format.
-            Invariant culture is used by default.
-            </summary>
-            <param name="Format">Information how to create the csv text</param>
-            <returns>A string containing the text</returns>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.SaveToTextAsync(System.IO.FileInfo,OfficeOpenXml.ExcelOutputTextFormat)">
-            <summary>
-            Converts a range to text in CSV format.
-            Invariant culture is used by default.
-            </summary>
-            <param name="file">The file to write to</param>
-            <param name="Format">Information how to create the csv text</param>
-        </member>
-        <member name="M:OfficeOpenXml.ExcelRangeBase.SaveToTextAsync(System.IO.Stream,OfficeOpenXml.ExcelOutputTextFormat)">
             <summary>
             Converts a range to text in CSV format.
             Invariant culture is used by default.
@@ -47860,13 +47604,6 @@
             </summary>
         </member>
         <member name="M:OfficeOpenXml.Utils.CompundDocument.CompoundDocumentFile.IsCompoundDocument(System.IO.FileInfo)">
-            <summary>
-            Verifies that the header is correct.
-            </summary>
-            <param name="fi">The file</param>
-            <returns></returns>
-        </member>
-        <member name="M:OfficeOpenXml.Utils.CompundDocument.CompoundDocumentFile.IsCompoundDocumentAsync(System.IO.FileInfo)">
             <summary>
             Verifies that the header is correct.
             </summary>
