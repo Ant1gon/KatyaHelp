@@ -1,362 +1,158 @@
-,Зареєструвався на ЕМ: 2018-06-26T11:23:22.017,  IP: 85.90.202.197, zima1952@ukr.net
+Зареєструвався на ЕМ: 2017-01-24T16:14:15.267, IP: 178.151.169.176, kp_hrbp@ukr.net
 
-IP: 178.151.169.176
-195.162.65.198
+IP: 37.57.41.108
+IP: 178.151.224.140
 
-2019-06-04
-Залогінився
-        09:42:24.652 -> xbrfdjl1vvbri13t54nr2m0a|    In| IP: 178.151.169.176| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=34946591| Name=zima1952@ukr.net&Password=41593766&register_code=undefined
-        09:42:24.787 -> zima1952@ukr.net|    OK| logged
-        09:42:24.830 -> zima1952@ukr.net|   Out| CommandName: Login| duration: 178.1604
-Відкрив тендер      
-        09:43:02.450 -> zima1952@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-000559-a| IP: 178.151.169.176
-Відкрив вікно подання пропозиції       
-        09:43:16.206 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&lot=| IP: 178.151.169.176
-Спробував створити чернетку      
-       09:47:27.796 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=35249714| id=cb32515463a54f29b82def15ced5f721&id_bid=&JData={"id_tender":"cb32515463a54f29b82def15ced5f721","id_bid":"","parameters":[],"lot":"","value":{"amount":307908.82,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-       09:47:27.796 -> zima1952@ukr.net|   Out| CommandName: jSetBid| duration: 0
-Змінив дані учасника
-       09:48:03.831 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetMember| CommandName=jSetMember&id=49063&lastOpr=0| JData={"member":{"id":"49063","code":"41601153","short_name":"ТОВ \"РСП 17\"","short_name_en":"","full_name":"ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ \"РСП17\"","full_name_en":"","postalCode":"61017","locality":"м. Харків","streetAddress":" вул. Велика Панасівська, 216 ","mfo":"351005","bank":"ПАТ “Укрсиббанк»","account":" 26009878795042    ","ITN":"-","mainPP_name":"Золотухін Василь Васильович","mainPP_position":"Директор","promo_code":"0056","promo_company":"","promo_company_confirm":0,"countryName":"804","region":"Харківська область","identification_schema":"UA-EDR","scale":"sme","member_type":"801"}}
-       09:48:03.840 -> zima1952@ukr.net|   Out| CommandName: jSetMember| duration: 11.0036
-Створив чернетку       
-       09:48:33.699 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=35315636| id=cb32515463a54f29b82def15ced5f721&id_bid=&JData={"id_tender":"cb32515463a54f29b82def15ced5f721","id_bid":"","parameters":[],"lot":"","value":{"amount":307908.82,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-       09:48:33.713 -> zima1952@ukr.net|   Out| CommandName: jSetBid| duration: 15.01
-       09:48:33.879 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=web528f19e960f0e39647736b51cf49e2e9&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 178.151.169.176
+2019-08-16
+Відкрив тендер	
+	15:00:27.071 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+Відкрив вікно подання пропозиції
+	15:00:31.865 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&lot=| IP: 37.57.41.108
+Створив чернетку
+	15:01:00.176 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=54055022| id=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=&JData={"id_tender":"9d9c40bc85584d7fa6cb70e0735b012d","id_bid":"","parameters":[],"lot":"","value":{"amount":31627018.8,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
+	15:01:00.209 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 39.0352
+	15:01:00.302 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=web955683ae8894143168b1486edd2c7918&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
 Завантажив документи
-        10:08:49.111 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web528f19e960f0e39647736b51cf49e2e9&documentType=qualificationDocuments&lastOpr=0| uploadtime=36524596
-        10:08:49.111 -> zima1952@ukr.net|  info| Відгук.PDF
-        10:08:49.129 -> zima1952@ukr.net|  info| Відомості_про_підприємство.PDF
-        10:08:49.143 -> zima1952@ukr.net|  info| Гарантійний витрати.PDF
-        10:08:49.156 -> zima1952@ukr.net|  info| Гарантійний термін обслуговуванн.PDF
-        10:08:49.169 -> zima1952@ukr.net|  info| Довідка довкілля.PDF
-        10:08:49.183 -> zima1952@ukr.net|  info| Довідка працівникі.PDF
-        10:08:49.196 -> zima1952@ukr.net|  info| Довідка про досвід викон аналогі.PDF
-        10:08:49.215 -> zima1952@ukr.net|  info| Довідка про ненадання.PDF
-        10:08:49.231 -> zima1952@ukr.net|  info| Довідка про обладнання та матеріально-технічну базу.pdf
-        10:08:49.249 -> zima1952@ukr.net|  info| Довідка про печатку.PDF
-        10:08:49.265 -> zima1952@ukr.net|  info| Довідка про підстави для відхилення.PDF
-        10:08:49.281 -> zima1952@ukr.net|  info| Довідка про санкції.pdf
-        10:08:49.298 -> zima1952@ukr.net|  info| Довідка про уповноважену особу.PDF
-        10:08:49.313 -> zima1952@ukr.net|  info| Довідка_про_відсутність_підстав_для_відхилення.PDF
-        10:08:49.331 -> zima1952@ukr.net|  info| ДЦ.pdf
-        10:08:49.361 -> zima1952@ukr.net|  info| Інформація про субпідрядників.PDF
-        10:08:49.379 -> zima1952@ukr.net|  info| Лист -згода Золотухін.PDF
-        10:08:49.396 -> zima1952@ukr.net|  info| Лист_-_згода_Федоров.PDF
-        10:08:49.415 -> zima1952@ukr.net|  info| Погодження з істотними умовами.PDF
-        10:08:49.431 -> zima1952@ukr.net|  info| Проект договору.PDF
-        10:08:49.453 -> zima1952@ukr.net|  info| Тендерна_пропозиція.PDF
-        10:08:49.473 -> zima1952@ukr.net|  info| Технічні характеристики.PDF
-        10:08:49.494 -> zima1952@ukr.net|  info| Щодо ліцензії.PDF
-        10:08:49.513 -> zima1952@ukr.net|  info| Щодо якості матеріалів та виробів.PDF
-        10:08:49.532 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 6832.6792
-        10:30:25.135 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web528f19e960f0e39647736b51cf49e2e9&documentType=qualificationDocuments&lastOpr=0| uploadtime=37813760
-        10:30:25.135 -> zima1952@ukr.net|  info| Аналог дог Відгук.PDF
-        10:30:25.154 -> zima1952@ukr.net|  info| Аналог дог ДЦ.pdf
-        10:30:25.187 -> zima1952@ukr.net|  info| Аналогічний договір.PDF
-        10:30:25.279 -> zima1952@ukr.net|  info| Витяг з реєстру Єдиний податок.PDF
-        10:30:25.300 -> zima1952@ukr.net|  info| Відомості.PDF
-        10:30:25.322 -> zima1952@ukr.net|  info| ДЦ.pdf
-        10:30:25.356 -> zima1952@ukr.net|  info| Код уповноваженої особи.PDF
-        10:30:25.388 -> zima1952@ukr.net|  info| Копія Статуту .pdf
-        10:30:25.452 -> zima1952@ukr.net|  info| Наказ директор.PDF
-        10:30:25.487 -> zima1952@ukr.net|  info| Паспорт уповноваженої особи.pdf
-        10:30:25.523 -> zima1952@ukr.net|  info| Протокол директор.PDF
-        10:30:25.547 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 13695.841
-        10:32:45.582 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web528f19e960f0e39647736b51cf49e2e9&documentType=qualificationDocuments&lastOpr=0| uploadtime=37966284
-        10:32:45.582 -> zima1952@ukr.net|  info| 9967_РСП_17_Гарантія_28_05_19.rar
-        10:32:45.600 -> zima1952@ukr.net|  info| Банківська ліцензія завірена копія.rar
-        10:32:45.621 -> zima1952@ukr.net|  info| Завірена копія Довіреність Денисенко А.А. від 04.04.2019.rar
-        10:32:45.640 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 1235.1183
-Опублікував       
-        10:42:49.455 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=38571368| id=cb32515463a54f29b82def15ced5f721&id_bid=web528f19e960f0e39647736b51cf49e2e9&JData={"id_tender":"cb32515463a54f29b82def15ced5f721","id_bid":"web528f19e960f0e39647736b51cf49e2e9","parameters":[],"lot":"","value":{"amount":307908.82,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
-        10:43:17.572 -> zima1952@ukr.net|   Out| CommandName: jSetBid| duration: 28116.903
-        10:43:17.652 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=4065ab0c242748369dd03fa61172b4f8&reload=Пропозицію опубліковано| IP: 178.151.169.176
-Вивантажив документи      
-        10:43:40.859 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=27deb267e1fe4cd1a6de6b79d91d8192| 
-        10:43:40.862 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\ДЦ.pdf
-        10:43:40.862 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0026
-        10:44:01.982 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=d79094462cd34180a9eedc13e2f9631d| 
-        10:44:01.985 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Довідка про санкції.pdf
-        10:44:01.985 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 5.01
-        10:44:19.237 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=2f2cb92ecfd04843b5d61a24f2f01d7b| 
-        10:44:19.240 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Щодо ліцензії.PDF
-        10:44:19.240 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 2.9979
-        10:46:23.637 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=97738e1b70434bdca485f5f816fff8cb| 
-        10:46:23.640 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Інформація про субпідрядників.PDF
-        10:46:23.640 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 6.0061
-        10:46:32.091 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=c033f2470ac947da86e3c1bbe7d566ba| 
-        10:46:32.094 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Паспорт уповноваженої особи.pdf
-        10:46:32.094 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0057
-        10:46:38.778 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=2c3e28a210264925b1b95561571dc508| 
-        10:46:38.781 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Наказ директор.PDF
-        10:46:38.781 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0063
-        10:46:59.870 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=25f79c6996574df1a60dc3f8d2a97a82| 
-        10:46:59.873 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\ДЦ.pdf
-        10:46:59.873 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0029
-        10:49:08.139 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=25f79c6996574df1a60dc3f8d2a97a82| 
-        10:49:08.142 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\ДЦ.pdf
-        10:49:08.142 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0043
-        10:49:36.450 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=fee963ea7b414436856a61ecb4095053| 
-        10:49:36.453 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Завірена копія Довіреність Денисенко А.А. від 04.04.2019.rar
-        10:49:36.453 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0038
-        10:49:45.328 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=8bf76ed6f5e346a1a8208ac47adf7cb0| 
-        10:49:45.331 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Аналог дог ДЦ.pdf
-        10:49:45.332 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0037
-        10:49:49.386 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=6048737dc5284d658fb1cf28fcc63bbf| 
-        10:49:49.394 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Технічні характеристики.PDF
-        10:49:49.394 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 8.0075
-        10:54:49.565 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=3df911e560a84bdb927500671a6d5bd4| 
-        10:54:49.568 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Довідка про обладнання та матеріально-технічну базу.pdf
-        10:54:49.568 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0033
-        10:56:09.499 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=83ef2c3e03fe48099cc1a1f64e82779d| 
-        10:56:09.502 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Лист_-_згода_Федоров.PDF
-        10:56:09.502 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0025
-        10:56:53.944 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=b2ab6919228e47b5926dc0032aa6e588| 
-        10:56:53.946 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Відомості.PDF
-        10:56:53.946 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0018
-        10:57:26.146 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=823770bc1a9c49f6a25f14261de97851| 
-        10:57:26.149 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Витяг з реєстру Єдиний податок.PDF
-        10:57:26.149 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0029
-        10:57:45.023 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=24ba4b498a9b492d890d42487933a429| 
-        10:57:45.026 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Банківська ліцензія завірена копія.rar
-        10:57:45.026 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0086
-        10:58:17.214 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=0579a4d42af74afda7b28b8cce1f666f| 
-        10:58:17.216 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Відгук.PDF
-        10:58:17.216 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0037
-        10:58:31.667 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=9903b9b87d98406385af501b75a48c65| 
-        10:58:31.670 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Код уповноваженої особи.PDF
-        10:58:31.670 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0035
-        10:58:47.182 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=e7489d6966474a21a081a4252ea6fb15| 
-        10:58:47.185 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Довідка довкілля.PDF
-        10:58:47.185 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
-        10:59:06.518 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=9268d75bc33243abbdd8710bb893301f| 
-        10:59:06.526 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Довідка про уповноважену особу.PDF
-        10:59:06.526 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 8.0069
-        10:59:26.329 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=784766d97eed41a0ad4b38c5935d2d90| 
-        10:59:26.331 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Тендерна_пропозиція.PDF
-        10:59:26.332 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 2.0018
-        11:00:06.205 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=24e2a552e22d4987bb7d08611c9aed79| 
-        11:00:06.208 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\9967_РСП_17_Гарантія_28_05_19.rar
-        11:00:06.208 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 5.006
-        11:00:49.367 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=cf047b57b3484c06831fae63b08a8fc1| 
-        11:00:49.371 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Протокол директор.PDF
-        11:00:49.371 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0036
-        11:01:22.214 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=cbd328cf6a954deaba80cb25b1604a1d| 
-        11:01:22.217 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Відомості_про_підприємство.PDF
-        11:01:22.217 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0082
-        11:01:42.919 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=9d528eaf8bdf4811a4d9ac8ab803c0d1| 
-        11:01:42.922 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Довідка працівникі.PDF
-        11:01:42.922 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0022
-        11:02:10.550 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=c34ead0932b84eddaf2e9b6e0c74f233| 
-        11:02:10.552 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web528f19e960f0e39647736b51cf49e2e9\Аналог дог Відгук.PDF
-        11:02:10.552 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
-Відкрив тендер       
-        11:03:15.094 -> zima1952@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-000559-a| IP: 178.151.169.176
-Відкрив пропозицію       
-        11:03:18.710 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=4065ab0c242748369dd03fa61172b4f8| IP: 178.151.169.176
-Видалив пропозицію      
-        11:03:52.130 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jDeleteBid| CommandName=jDeleteBid&lastOpr=0&TimeMark=39834045| id=cb32515463a54f29b82def15ced5f721&id_bid=4065ab0c242748369dd03fa61172b4f8
-        11:03:52.533 -> zima1952@ukr.net|   Out| CommandName: jDeleteBid| duration: 404.3659
-        11:04:06.453 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=4065ab0c242748369dd03fa61172b4f8| IP: 178.151.169.176
-Перезавантажив сторінку       
-        11:04:42.303 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=4065ab0c242748369dd03fa61172b4f8| IP: 178.151.169.176
-Відкрив тендер       
-        11:06:09.252 -> zima1952@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-000559-a| IP: 178.151.169.176
-Відкрив вікно подання пропозиції      
-        11:06:18.586 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&lot=| IP: 178.151.169.176
-Створив чернетку      
-        11:06:55.888 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=40017800| id=cb32515463a54f29b82def15ced5f721&id_bid=&JData={"id_tender":"cb32515463a54f29b82def15ced5f721","id_bid":"","parameters":[],"lot":"","value":{"amount":307908.82,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
-        11:06:55.899 -> zima1952@ukr.net|   Out| CommandName: jSetBid| duration: 11.0163
-        11:06:56.086 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=web36dbebb0bab6e7d0e4336e7ce3a5b200&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 178.151.169.176
-Завантажив документи      
-        11:07:19.834 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web36dbebb0bab6e7d0e4336e7ce3a5b200&documentType=qualificationDocuments&lastOpr=0| uploadtime=40041300
-        11:07:19.834 -> zima1952@ukr.net|  info| 9967_РСП_17_Гарантія_28_05_19.rar
-        11:07:19.854 -> zima1952@ukr.net|  info| Банківська ліцензія завірена копія.rar
-        11:07:19.892 -> zima1952@ukr.net|  info| Завірена копія Довіреність Денисенко А.А. від 04.04.2019.rar
-        11:07:19.952 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 552.4512
-        11:07:56.716 -> zima1952@ukr.net|    In| IP: 178.151.169.176| -
-        11:07:56.766 -> zima1952@ukr.net|   Out| CommandName: -51.0502
-        11:08:06.038 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web36dbebb0bab6e7d0e4336e7ce3a5b200&documentType=qualificationDocuments&lastOpr=0| uploadtime=40085803
-        11:08:06.038 -> zima1952@ukr.net|  info| Відгук.PDF
-        11:08:06.065 -> zima1952@ukr.net|  info| Відомості_про_підприємство.PDF
-        11:08:06.080 -> zima1952@ukr.net|  info| Гарантійний витрати.PDF
-        11:08:06.129 -> zima1952@ukr.net|  info| Гарантійний термін обслуговуванн.PDF
-        11:08:06.146 -> zima1952@ukr.net|  info| Довідка довкілля.PDF
-        11:08:06.160 -> zima1952@ukr.net|  info| Довідка працівникі.PDF
-        11:08:06.188 -> zima1952@ukr.net|  info| Довідка про досвід викон аналогі.PDF
-        11:08:06.204 -> zima1952@ukr.net|  info| Довідка про ненадання.PDF
-        11:08:06.222 -> zima1952@ukr.net|  info| Довідка про обладнання та матеріально-технічну базу.pdf
-        11:08:06.266 -> zima1952@ukr.net|  info| Довідка про печатку.PDF
-        11:08:06.283 -> zima1952@ukr.net|  info| Довідка про підстави для відхилення.PDF
-        11:08:06.301 -> zima1952@ukr.net|  info| Довідка про санкції.pdf
-        11:08:06.351 -> zima1952@ukr.net|  info| Довідка про уповноважену особу.PDF
-        11:08:06.371 -> zima1952@ukr.net|  info| Довідка_про_відсутність_підстав_для_відхилення.PDF
-        11:08:06.392 -> zima1952@ukr.net|  info| ДЦ.pdf
-        11:08:06.430 -> zima1952@ukr.net|  info| Інформація про субпідрядників.PDF
-        11:08:06.453 -> zima1952@ukr.net|  info| Лист -згода Золотухін.PDF
-        11:08:06.474 -> zima1952@ukr.net|  info| Лист_-_згода_Федоров.PDF
-        11:08:06.496 -> zima1952@ukr.net|  info| Погодження з істотними умовами.PDF
-        11:08:06.517 -> zima1952@ukr.net|  info| Проект договору.PDF
-        11:08:06.559 -> zima1952@ukr.net|  info| Тендерна_пропозиція.PDF
-        11:08:06.583 -> zima1952@ukr.net|  info| Технічні характеристики.PDF
-        11:08:06.608 -> zima1952@ukr.net|  info| Щодо ліцензії.PDF
-        11:08:06.700 -> zima1952@ukr.net|  info| Щодо якості матеріалів та виробів.PDF
-        11:08:06.724 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 2816.5555
-Вивантажив документи       
-        11:08:25.772 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=webfb66950f2d5f112799b6e1e308a46f6e| 
-        11:08:25.775 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відгук.PDF
-        11:08:25.775 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0007
-        11:08:53.731 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=web52613ffaffd27c47d4754c3f2c3cf062| 
-        11:08:53.735 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відомості_про_підприємство.PDF
-        11:08:53.735 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
-        11:09:38.189 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=web0ed624347c5d3364150824df3d19f087| 
-        11:09:38.501 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\ДЦ.pdf
-        11:09:38.501 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 312.2847
-        11:10:02.930 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=web9423bc6bc244aab98382af3a1e1acfd7| 
-        11:10:02.972 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Лист_-_згода_Федоров.PDF
-        11:10:02.972 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 44.0405
-Завантажив документи      
-        11:13:33.948 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web36dbebb0bab6e7d0e4336e7ce3a5b200&documentType=qualificationDocuments&lastOpr=0| uploadtime=40414669
-        11:13:33.948 -> zima1952@ukr.net|  info| Аналог дог ДЦ.pdf
-        11:13:33.989 -> zima1952@ukr.net|  info| Аналогічний договір.PDF
-        11:13:34.018 -> zima1952@ukr.net|  info| Витяг з реєстру Єдиний податок.PDF
-        11:13:34.053 -> zima1952@ukr.net|  info| Відомості.PDF
-        11:13:34.077 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 1295.7323
-        11:14:18.720 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: Upload| CommandName=Upload&id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=web36dbebb0bab6e7d0e4336e7ce3a5b200&documentType=qualificationDocuments&lastOpr=0| uploadtime=40457947
-        11:14:18.720 -> zima1952@ukr.net|  info| Код уповноваженої особи.PDF
-        11:14:18.746 -> zima1952@ukr.net|  info| Копія Статуту .pdf
-        11:14:18.805 -> zima1952@ukr.net|  info| Наказ директор.PDF
-        11:14:18.844 -> zima1952@ukr.net|  info| Паспорт уповноваженої особи.pdf
-        11:14:18.897 -> zima1952@ukr.net|  info| Протокол директор.PDF
-        11:14:18.932 -> zima1952@ukr.net|   Out| CommandName: Upload| duration: 2875.3506
-Опублікував      
-        11:15:50.635 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=40552549| id=cb32515463a54f29b82def15ced5f721&id_bid=web36dbebb0bab6e7d0e4336e7ce3a5b200&JData={"id_tender":"cb32515463a54f29b82def15ced5f721","id_bid":"web36dbebb0bab6e7d0e4336e7ce3a5b200","parameters":[],"lot":"","value":{"amount":307908.82,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
-        11:16:38.303 -> zima1952@ukr.net|   Out| CommandName: jSetBid| duration: 47668.0375
-        11:16:38.381 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=65ab543c85e44c509fa3a18c997759b3&reload=Пропозицію опубліковано| IP: 178.151.169.176
-Вивантажив документи       
-        11:17:03.685 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=bdf447754b244a85a4ac5f43be1f10b0| 
-        11:17:03.689 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Технічні характеристики.PDF
-        11:17:03.689 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 6.0079
-        11:17:25.170 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=e02c111e50824620ac445f432a33df33| 
-        11:17:25.174 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Паспорт уповноваженої особи.pdf
-        11:17:25.174 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0168
-        11:18:10.896 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=8daa69a560eb4c23a1cc9ddc79fcd9fe| 
-        11:18:10.899 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відомості_про_підприємство.PDF
-        11:18:10.899 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 5.0075
-        11:31:25.187 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: LocalDownload| CommandName=LocalDownload&id=931f0f6efb054c2aaa3d5f941a7e29c2| 
-        11:31:25.190 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Код уповноваженої особи.PDF
-        11:31:25.190 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0026
-Відкрив вікно накладання підпису      
-        11:37:35.222 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSignContent| CommandName=jSignContent&id=65ab543c85e44c509fa3a18c997759b3| 
-        11:37:35.227 -> zima1952@ukr.net|   Out| CommandName: jSignContent| duration: 6.0048
-        11:40:04.350 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSignContent| CommandName=jSignContent&id=65ab543c85e44c509fa3a18c997759b3| 
-        11:40:04.354 -> zima1952@ukr.net|   Out| CommandName: jSignContent| duration: 6.0055
-       
-        11:50:57.449 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=65ab543c85e44c509fa3a18c997759b3&reload=Пропозицію опубліковано| IP: 178.151.169.176
-Відкрив вікно накладання підпису             
-        11:51:07.022 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSignContent| CommandName=jSignContent&id=65ab543c85e44c509fa3a18c997759b3| 
-        11:51:07.025 -> zima1952@ukr.net|   Out| CommandName: jSignContent| duration: 5.005
-Наклав підпис       
-        11:52:22.254 -> zima1952@ukr.net|    In| IP: 178.151.169.176| CommandName: jSignUpload| CommandName=jSignUpload| id=cb32515463a54f29b82def15ced5f721&documentOf=bid&relatedItem=65ab543c85e44c509fa3a18c997759b3&id_doc=&sign=MIKugwYJKoZIhvcNAQcCoIKudDCCrnACAQExDjAMBgoqhiQCAQEBAQIBMIKh8QYJKoZIhvcNAQcBoIKh4gSCod57ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA2AC0AMAA0AFQAMQAxADoAMQA1ADoANQAwAC4ANwA2ADYANwA1ADUAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiADYANQBhAGIANQA0ADMAYwA4ADUAZQA0ADQAYwA1ADAAOQBmAGEAMwBhADEAOABjADkAOQA3ADcANQA5AGIAMwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBzAG0AZQAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADcANQAxADgAMwAxADAAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgASBDAEQQQ4BDsETAQgABIEMARBBDgEOwRMBD4EMgQ4BEcEIgAsACIAZQBtAGEAaQBsACIAOgAiAHoAaQBtAGEAMQA5ADUAMgBAAHUAawByAC4AbgB...
-        11:52:23.550 -> zima1952@ukr.net|   Out| CommandName: jSignUpload| duration: 1310.1858
-Залогінився       
-        19:15:54.614 -> 3mydqfbv4bwkl1wdd44flklk|    In| IP: 195.162.65.198| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=69261170| Name=zima1952@ukr.net&Password=41593766&register_code=undefined
-        19:15:54.766 -> zima1952@ukr.net|    OK| logged
-        19:15:54.821 -> zima1952@ukr.net|   Out| CommandName: Login| duration: 207.1872
+	15:02:59.378 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54125083
+	15:02:59.379 -> kp_hrbp@ukr.net|  info| аналог. дог. на сайт ОК.rar
+	15:02:59.607 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 48345.7895
+	15:06:42.061 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54367770
+	15:06:42.061 -> kp_hrbp@ukr.net|  info| гарантія підписана.rar
+	15:06:42.095 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 10038.0926
+	15:07:28.263 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54443085
+	15:07:28.263 -> kp_hrbp@ukr.net|  info| 
+	15:07:28.264 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1.0008
+	15:07:57.346 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=eligibilityDocuments&lastOpr=0| uploadtime=54460559
+	15:07:57.346 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч. 2 (цінова, МТБ, кал. граф. ок).pdf
+	15:08:22.409 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч. 2 (цінова, МТБ, кал. граф. ок).pdf.p7s
+	15:08:22.446 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч.1.pdf
+	15:08:22.484 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч.1.pdf.p7s
+	15:08:31.900 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 46132.6933
+	15:08:54.677 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=eligibilityDocuments&lastOpr=0| uploadtime=54529527
+	15:08:54.677 -> kp_hrbp@ukr.net|  info| 
+	15:08:54.678 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1.0008
+	15:16:04.089 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54933134
+	15:16:04.089 -> kp_hrbp@ukr.net|  info| Матер. ресурси, перелік та обсяги робіт.rar
+	15:16:04.302 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 25892.5874
+	15:16:54.324 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54979122
+	15:16:54.324 -> kp_hrbp@ukr.net|  info| Дог. ціна на сайт ч. 1.rar
+	15:16:54.535 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 30244.6835
+	15:17:18.797 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55017283
+	15:17:18.797 -> kp_hrbp@ukr.net|  info| Дог. ціна на сайт ч.2.rar
+	15:17:18.922 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 16478.3284
+	15:18:48.519 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55101245
+	15:18:48.519 -> kp_hrbp@ukr.net|  info| Реєстр ліцензії, оренда, проект договору та інші документи.rar
+	15:18:49.343 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 22938.7753
+	15:19:47.060 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55172850
+	15:19:47.060 -> kp_hrbp@ukr.net|  info| уставні, директор, висота та інше.rar
+	15:19:47.138 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 9127.1607
+Опублікував	
+	15:20:36.378 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=55231264| id=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=web955683ae8894143168b1486edd2c7918&JData={"id_tender":"9d9c40bc85584d7fa6cb70e0735b012d","id_bid":"web955683ae8894143168b1486edd2c7918","parameters":[],"lot":"","value":{"amount":31627018.8,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
+	15:21:16.654 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 40276.2617
+	15:21:16.764 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7&reload=Пропозицію опубліковано| IP: 37.57.41.108
+Відкрив вікно накладання підпису
+	15:21:29.320 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
+	15:21:29.323 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 3.0029
+Наклав підпис	
+	15:21:49.413 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=&sign=MIJFwQYJKoZIhvcNAQcCoIJFsjCCRa4CAQExDjAMBgoqhiQCAQEBAQIBMII3EQYJKoZIhvcNAQcBoII3AgSCNv57ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA2AFQAMQA1ADoAMgAwADoAMwA2AC4ANAA3ADgAOAAxADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHUAawByAC4AbgBlAHQAIgB9ACwAIgBpAGQ...
+	15:21:49.777 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 367.153
+Залогінився
+	19:59:51.625 -> 5hc3gslsxqlmd5m324dx5du2|    In| IP: 178.151.224.140| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=71990170| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
+	19:59:51.779 -> kp_hrbp@ukr.net|    OK| logged
+	19:59:51.950 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 325.2948
 Відкрив тендер
-        19:16:01.012 -> zima1952@ukr.net|  page| /PositionForm.aspxcode=UA-2019-05-20-000559-a| IP: 195.162.65.198
-Відкрив пропозицію      
-        19:16:04.633 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=65ab543c85e44c509fa3a18c997759b3| IP: 195.162.65.198
-        19:16:24.781 -> zima1952@ukr.net|  page| /BidForm.aspxid=cb32515463a54f29b82def15ced5f721&id_bid=65ab543c85e44c509fa3a18c997759b3| IP: 195.162.65.198
-Вивантажив документи      
-        19:16:48.734 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=6c9273dbbbcd40268c94537d3e951298| 
-        19:16:49.070 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\ДЦ.pdf
-        19:16:49.070 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 336.3043
-        19:18:18.668 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=bdf447754b244a85a4ac5f43be1f10b0| 
-        19:18:18.671 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Технічні характеристики.PDF
-        19:18:18.671 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0031
-        19:18:49.653 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=e02c111e50824620ac445f432a33df33| 
-        19:18:50.070 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Паспорт уповноваженої особи.pdf
-        19:18:50.071 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 418.3727
-        19:20:50.155 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=8fd67a77c79c4c22ad8c4116e0c8590f| 
-        19:20:50.209 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка_про_відсутність_підстав_для_відхилення.PDF
-        19:20:50.209 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 54.049
-        19:21:34.828 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=acbd0fb2dd374a19806b50322c3d846b| 
-        19:21:34.853 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Наказ директор.PDF
-        19:21:34.853 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 25.0188
-        19:21:44.866 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=b91354024850476e91a0a469b2b125f5| 
-        19:21:44.876 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Завірена копія Довіреність Денисенко А.А. від 04.04.2019.rar
-        19:21:44.876 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 10.0087
-        19:21:50.465 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=d6e05b48a21b4d17b49f146d28d419f2| 
-        19:21:50.468 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про ненадання.PDF
-        19:21:50.468 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
-        19:22:54.573 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=4a97557824fa4b49b3a37f77e471cc0f| 
-        19:22:54.628 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відомості.PDF
-        19:22:54.628 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 55.0497
-        19:23:22.109 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=c972e53c72bd4394b910159a64b469fe| 
-        19:23:22.134 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка довкілля.PDF
-        19:23:22.134 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 25.0237
-        19:23:56.392 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=8daa69a560eb4c23a1cc9ddc79fcd9fe| 
-        19:23:56.440 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відомості_про_підприємство.PDF
-        19:23:56.440 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 48.0435
-        19:24:23.569 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=ce2df9ac56604d919fa4a7c21e2e2293| 
-        19:24:23.598 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про досвід викон аналогі.PDF
-        19:24:23.598 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 30.0282
-        19:25:05.492 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=52feb1cbc74348da86645247423ac9fb| 
-        19:25:05.535 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про санкції.pdf
-        19:25:05.535 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 45.0372
-        19:25:35.329 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=cc28c2fc39f8487d83d3671ac8c21d97| 
-        19:25:35.358 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Лист -згода Золотухін.PDF
-        19:25:35.358 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 29.0224
-        19:25:55.798 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=10c6c9bf8aaa4aca9a2edff974e94e80| 
-        19:25:55.858 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Тендерна_пропозиція.PDF
-        19:25:55.858 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 60.0522
-        19:26:46.582 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=ac0201e5d1f0431aa0320a48e09929ee| 
-        19:26:46.616 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про підстави для відхилення.PDF
-        19:26:46.616 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 35.0322
-        19:27:21.471 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=260a484872804a0eb42c1c7a8ef7e758| 
-        19:27:21.611 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Аналогічний договір.PDF
-        19:27:21.611 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 142.1296
-        19:28:07.240 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=c5a3f061cdf14e9ea1aada5638d306e9| 
-        19:28:07.284 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Лист_-_згода_Федоров.PDF
-        19:28:07.284 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 46.3475
-        19:28:15.582 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=b494ccede74b401caec33897bc06e5f3| 
-        19:28:15.627 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про обладнання та матеріально-технічну базу.pdf
-        19:28:15.628 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 45.035
-        19:28:46.511 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=2842d0aa20e042e19a47b7b10bb10f46| 
-        19:28:46.631 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Проект договору.PDF
-        19:28:46.631 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 120.1048
-        19:29:15.626 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=d2b7498a47644e8daef6925138968441| 
-        19:29:15.652 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Щодо якості матеріалів та виробів.PDF
-        19:29:15.652 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 28.0292
-        19:29:39.947 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=ec1bfd12d51d4e65a8a7d046d2414f97| 
-        19:29:40.005 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Витяг з реєстру Єдиний податок.PDF
-        19:29:40.005 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 59.0499
-        19:30:13.253 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=e40ec89abc85477dbebff618f52cc8bb| 
-        19:30:13.278 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Гарантійний витрати.PDF
-        19:30:13.278 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 26.0236
-        19:30:31.662 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=2390295bbd3d401e829a17b29a268aa8| 
-        19:30:31.698 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка працівникі.PDF
-        19:30:31.698 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 36.0286
-        19:31:02.612 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=e79f8fc4440540b1a67c387be2b6b7cd| 
-        19:31:02.645 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Інформація про субпідрядників.PDF
-        19:31:02.645 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 35.0415
-        19:31:19.553 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=ee6a3e1ce24143e8b4dcc5aade06a3a4| 
-        19:31:19.590 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про уповноважену особу.PDF
-        19:31:19.590 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 37.0362
-        19:32:04.152 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=f84e9aaea5754bee9614a6503687aa13| 
-        19:32:04.483 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Аналог дог ДЦ.pdf
-        19:32:04.483 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 333.3017
-        19:32:05.702 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=e4f750fa06f846c7a50fe55281dc3591| 
-        19:32:05.729 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Гарантійний термін обслуговуванн.PDF
-        19:32:05.729 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 27.0153
-        19:32:29.059 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=6a95c4e356f44047a8de17208389672d| 
-        19:32:29.091 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Погодження з істотними умовами.PDF
-        19:32:29.091 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 32.029
-        19:32:49.170 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=3108f8e157d944199c57c2559be676a1| 
-        19:32:49.196 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Довідка про печатку.PDF
-        19:32:49.196 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 27.0243
-        19:33:07.580 -> zima1952@ukr.net|    In| IP: 195.162.65.198| CommandName: LocalDownload| CommandName=LocalDownload&id=aef7a7e9487044a4adb5580c8287d616| 
-        19:33:07.643 -> zima1952@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\06\04\cb32515463a54f29b82def15ced5f721\bid\web36dbebb0bab6e7d0e4336e7ce3a5b200\Відгук.PDF
-        19:33:07.643 -> zima1952@ukr.net|   Out| CommandName: LocalDownload| duration: 65.0646
-       
+	20:00:16.954 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
+Відкрив пропозицію
+	20:00:27.214 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 178.151.224.140
+Вивантажив документи
+	20:00:42.325 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=200b5575100542609bc591c458aa6409| 
+	20:00:42.329 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\гарантія підписана.rar
+	20:00:42.329 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0024
+	20:00:42.692 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=200b5575100542609bc591c458aa6409| 
+	20:00:42.695 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\гарантія підписана.rar
+	20:00:42.695 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0053
+	20:01:50.261 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=b3b4b64d117546f3a0c0de38013645cf| 
+	20:01:50.264 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\аналог. дог. на сайт ОК.rar
+	20:01:50.264 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.004
+	20:02:49.717 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=1ffed1544b4e4297b77f0a028b5ea668| 
+	20:02:49.802 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\уставні, директор, висота та інше.rar
+	20:02:49.802 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 85.0769
+	20:03:46.579 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=87b32f68ea224d588c4ad527f35b789e| 
+	20:03:46.582 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Реєстр ліцензії, оренда, проект договору та інші документи.rar
+	20:03:46.583 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0036
+	20:06:45.453 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=d78975729cb94be59ea102a7270b069c| 
+	20:06:45.457 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Матер. ресурси, перелік та обсяги робіт.rar
+	20:06:45.457 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0024
+	20:08:14.331 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=dc416f26154040378fd3834700f11b37| 
+	20:08:14.335 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Дог. ціна на сайт ч. 1.rar
+	20:08:14.335 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 6.0098
+	20:08:18.682 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=30bdacb6d42c4940a2ae2a04907790a1| 
+	20:08:18.686 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Дог. ціна на сайт ч.2.rar
+	20:08:18.686 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
+Відкрив тендер	
+	20:10:01.130 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
+	20:16:14.525 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
+Відкрив пропозицію
+	20:16:24.709 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 178.151.224.140
+	
+	
+2019-08-19
+Відкрив тендер   
+    16:53:36.195 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+Відкрив пропозицію    
+    16:54:20.511 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+Завантажив документи   
+    16:55:05.472 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=qualificationDocuments&lastOpr=0| uploadtime=60906001
+    16:55:05.472 -> kp_hrbp@ukr.net|  info| оновлена цінова.pdf
+    16:55:06.395 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1524.3748
+Перезавантажив сторінку   
+    16:55:11.770 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+
+	
+2019-08-20
+Завантажив документи
+	09:52:37.050 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=qualificationDocuments&lastOpr=0| uploadtime=35556313
+	09:52:37.050 -> kp_hrbp@ukr.net|  info| 5256_Капітальний ремонт внутрішнього опорядження будівлі за адресою вулиця Динамівська, будинок 5-А міста Харкова (Корегування).bdcu
+	09:52:37.819 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 786.7161
+Відкрив вікно накладання підпису	
+	09:52:46.017 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
+	09:52:46.019 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 2.0015
+Наклав підпис	
+	09:53:07.388 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=45081cace1b842e4b1249b1d7cd7399e&sign=MIJJ+QYJKoZIhvcNAQcCoIJJ6jCCSeYCAQExDjAMBgoqhiQCAQEBAQIBMII7SQYJKoZIhvcNAQcBoII7OgSCOzZ7ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA5AFQAMQA0ADoAMwA0ADoAMwAwAC4AMQAxADQANwAwADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHU...
+	09:53:08.016 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 630.5657
+
+2019-08-21
+Відкрив тендер
+     09:06:41.185 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+Відкрив пропозицію    
+     09:06:47.175 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+Завантажив документи    
+     09:07:12.666 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=eligibilityDocuments&lastOpr=0| uploadtime=32830616
+     09:07:12.666 -> kp_hrbp@ukr.net|  info| Сирота МВС на 08.08.2019р..zip
+     09:07:15.082 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2584.1199
+Перезавантажив сторінку 
+     09:07:44.811 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+
+
+2019-08-27
+	15:41:10.974 -> 3afj5k2zuhzz2bmzycjifhxr|    In| IP: 37.57.41.108| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=56473235| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
+	15:41:11.114 -> kp_hrbp@ukr.net|    OK| logged
+	15:41:11.239 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 265.6362
+Відкрив тендер	
+	15:41:20.755 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+Відкрив пропозицію
+	15:41:26.365 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+Завантажив документи
+	15:41:47.835 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=eligibilityDocuments&lastOpr=0| uploadtime=56509838
+	15:41:47.835 -> kp_hrbp@ukr.net|  info| public_doc.p7s
+	15:41:49.335 -> kp_hrbp@ukr.net|  info| public_doc.pdf
+	15:41:50.866 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3156.3622
+Відкрив вікно накладання підпису	
+	15:41:58.679 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
+	15:41:58.679 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис	
+	15:42:18.929 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=45081cace1b842e4b1249b1d7cd7399e&sign=MIJTmQYJKoZIhvcNAQcCoIJTijCCU4YCAQExDjAMBgoqhiQCAQEBAQIBMIJE6QYJKoZIhvcNAQcBoIJE2gSCRNZ7ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA5AFQAMQA0ADoAMwA0ADoAMwAwAC4AMQAxADQANwAwADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHUA...
+	15:42:20.414 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1484.4191
+	15:42:29.070 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+	
+	

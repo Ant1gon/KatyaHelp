@@ -180,7 +180,7 @@ namespace KatyaHelp2
 									dictForFile.Add("date", date);
 									dictForFile.Add("time", fn.Key.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
 									dictForFile.Add("ip", ip);
-									dictForFile.Add("commandName", string.Format(commandName, tender, fn));
+									dictForFile.Add("commandName", string.Format(commandName, tender, fn.Value));
 									if (!string.IsNullOrEmpty(dictForFile["commandName"]))
 									{
 										listDictForFile.Add(dictForFile);
