@@ -56,10 +56,12 @@ namespace KatyaHelp2
 						for (int i = 0; i < lineList.Count; i++)
 						{
 							string ip = "", command = "", commandName = "", proposition = "";
-							List<string> filesName = new List<string>();
+							//List<string> filesName = new List<string>();
 							Dictionary<DateTime, string> filesWithTime = new Dictionary<DateTime, string>();
 							DateTime time = DateTime.Now;
 							Dictionary<string, string> dictForFile = new Dictionary<string, string>();
+
+							bool add = false;
 
 							CommandDictionary<string, DateTime, DateTime, string> commandDictionary = new CommandDictionary<string, DateTime, DateTime, string>();
 
@@ -91,7 +93,7 @@ namespace KatyaHelp2
 										commandName = ConfigurationManager.AppSettings.Get(command).Trim(); 
 										if (command.Equals("Upload"))
 										{
-											filesName = new List<string>();
+											//filesName = new List<string>();
 											filesWithTime = new Dictionary<DateTime, string>();
 											for (int ii = 1; ii < lineList.Count; ii++)
 											{
@@ -102,20 +104,21 @@ namespace KatyaHelp2
 													{
 														ii = lineList.Count;
 													}
-													else if (temp2[1].Trim().Equals("info"))
+													else if (temp2[1].Trim().Equals("info") && temp2.Length > 2 )
 													{
-														filesName.Add(temp2[2]);
+														add = true;
+														//filesName.Add(temp2[2]);
 														filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
 													}
 												}
 												catch { };
 											}
-											string fN = string.Join(",", filesName.ToArray());
+											//string fN = string.Join(",", filesName.ToArray());
 											commandName = ConfigurationManager.AppSettings.Get("Upload").Trim();
 										}
 										else if (command.Equals("LocalDownload"))
 										{
-											filesName = new List<string>();
+											//filesName = new List<string>();
 											filesWithTime = new Dictionary<DateTime, string>();
 											for (int ii = 1; ii < lineList.Count; ii++)
 											{
@@ -128,12 +131,13 @@ namespace KatyaHelp2
 													}
 													else if (temp2[1].Trim().Equals("OK"))
 													{
-														filesName.Add(temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
+														add = true;
+														//filesName.Add(temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
 														filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
 													}
 												}
 												catch { };
-												string fN = string.Join(",", filesName.ToArray());
+												//string fN = string.Join(",", filesName.ToArray());
 												commandName = ConfigurationManager.AppSettings.Get("LocalDownload").Trim();
 											}
 										}
@@ -142,6 +146,7 @@ namespace KatyaHelp2
 									}
 									else
 									{
+										add = true;
 										commandName = ConfigurationManager.AppSettings.Get("UnknownCommand").Trim();
 									}
 								}
@@ -161,10 +166,12 @@ namespace KatyaHelp2
 										{
 											if (temp[2].Trim().Substring(temp[2].Length - 5, temp.Length).Equals("lot="))
 											{
+												add = true;
 												commandName = string.Format(ConfigurationManager.AppSettings.Get("/BidForm").Trim(), tender);
 											}
 											else if (temp[2].Trim().Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries)[2].StartsWith("web"))
 											{
+												add = true;
 												commandName = ConfigurationManager.AppSettings.Get("CreateDraft").Trim();
 											}
 										}
@@ -187,7 +194,7 @@ namespace KatyaHelp2
 									}
 								}
 							}
-							else
+							else if(add)
 							{
 								dictForFile.Add("date", date);
 								dictForFile.Add("time", time.ToString(ConfigurationManager.AppSettings.Get("timeFormat").Trim()));
