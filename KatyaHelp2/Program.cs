@@ -14,8 +14,8 @@ namespace KatyaHelp2
 		static void Main(string[] args)
 		{
 			bool.TryParse(ConfigurationManager.AppSettings.Get("debug").Trim(),out bool debug);
-			try
-			{
+			//try
+			//{
 				if (args.Any() || debug)
 				{
 					for (int a = 0; a < (args.Any() ? args.Count():1); a++)
@@ -31,16 +31,13 @@ namespace KatyaHelp2
 						List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
 						string fileName = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test.txt");
 
-						if (debug)
-						{
-							sr = new StreamReader(fileName);
+#if DEBUG
+						sr = new StreamReader(fileName);
 							fileName = fileName.Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).First();
-						}
-						else
-						{
+#else                   
 							sr = new StreamReader(args[a]);
 							fileName = args[a].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last().Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).First();
-						}
+#endif                       
 
 						List<string> lineList = new List<string>();
 						while (!sr.EndOfStream)
@@ -55,7 +52,9 @@ namespace KatyaHelp2
 
 						for (int i = 0; i < lineList.Count; i++)
 						{
-							string ip = "", command = "", commandName = "", proposition = "";
+							string ip = "", 
+							       command = "",
+								   commandName = "";
 							//List<string> filesName = new List<string>();
 							Dictionary<DateTime, string> filesWithTime = new Dictionary<DateTime, string>();
 							DateTime time = DateTime.Now;
@@ -75,7 +74,7 @@ namespace KatyaHelp2
 									date = tDate.ToLongDateString();
 								}
 							}
-							else
+							else 
 							{
 								var u = Regex.Match(temp[0], timeValidator);
 								if (u.Success)
@@ -87,67 +86,70 @@ namespace KatyaHelp2
 								{
 									//string ipValid = "([0-9]{1,3}.){3}[0-9]{1,3}";
 									ip = Regex.Match(temp[2].Trim(), ipValid).Value;
-									command = temp[3].Trim().Replace("CommandName:", "").Trim();
-									if (activeCommands.Any(y => y.Equals(command)))
+									if (temp.Count() >= 4)
 									{
-										commandName = ConfigurationManager.AppSettings.Get(command).Trim(); 
-										if (command.Equals("Upload"))
+										command = temp[3].Trim().Replace("CommandName:", "").Trim();
+										if (activeCommands.Any(y => y.Equals(command)))
 										{
-											//filesName = new List<string>();
-											filesWithTime = new Dictionary<DateTime, string>();
-											for (int ii = 1; ii < lineList.Count; ii++)
+											commandName = ConfigurationManager.AppSettings.Get(command).Trim();
+											if (command.Equals("Upload"))
 											{
-												try
+												//filesName = new List<string>();
+												filesWithTime = new Dictionary<DateTime, string>();
+												for (int ii = 1; ii < lineList.Count; ii++)
 												{
-													var temp2 = lineList[i + ii].Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
-													if (temp2[1].Trim().Equals("Out"))
+													try
 													{
-														ii = lineList.Count;
+														var temp2 = lineList[i + ii].Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
+														if (temp2[1].Trim().Equals("Out"))
+														{
+															ii = lineList.Count;
+														}
+														else if (temp2[1].Trim().Equals("info") && temp2.Length > 2)
+														{
+															add = true;
+															//filesName.Add(temp2[2]);
+															filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
+														}
 													}
-													else if (temp2[1].Trim().Equals("info") && temp2.Length > 2 )
-													{
-														add = true;
-														//filesName.Add(temp2[2]);
-														filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
-													}
+													catch { };
 												}
-												catch { };
-											}
-											//string fN = string.Join(",", filesName.ToArray());
-											commandName = ConfigurationManager.AppSettings.Get("Upload").Trim();
-										}
-										else if (command.Equals("LocalDownload"))
-										{
-											//filesName = new List<string>();
-											filesWithTime = new Dictionary<DateTime, string>();
-											for (int ii = 1; ii < lineList.Count; ii++)
-											{
-												try
-												{
-													var temp2 = lineList[i + ii].Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
-													if (temp2[1].Trim().Equals("Out"))
-													{
-														ii = lineList.Count;
-													}
-													else if (temp2[1].Trim().Equals("OK"))
-													{
-														add = true;
-														//filesName.Add(temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
-														filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
-													}
-												}
-												catch { };
 												//string fN = string.Join(",", filesName.ToArray());
-												commandName = ConfigurationManager.AppSettings.Get("LocalDownload").Trim();
+												commandName = ConfigurationManager.AppSettings.Get("Upload").Trim();
 											}
+											else if (command.Equals("LocalDownload"))
+											{
+												//filesName = new List<string>();
+												filesWithTime = new Dictionary<DateTime, string>();
+												for (int ii = 1; ii < lineList.Count; ii++)
+												{
+													try
+													{
+														var temp2 = lineList[i + ii].Split(new string[] { _SEPARATOR }, StringSplitOptions.RemoveEmptyEntries);
+														if (temp2[1].Trim().Equals("Out"))
+														{
+															ii = lineList.Count;
+														}
+														else if (temp2[1].Trim().Equals("OK"))
+														{
+															add = true;
+															//filesName.Add(temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
+															filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2].Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last());
+														}
+													}
+													catch { };
+													//string fN = string.Join(",", filesName.ToArray());
+													commandName = ConfigurationManager.AppSettings.Get("LocalDownload").Trim();
+												}
+											}
+											/*else if (command.Equals("jSetBid")){
+											}*/
 										}
-										/*else if (command.Equals("jSetBid")){
-										}*/
-									}
-									else
-									{
-										add = true;
-										commandName = ConfigurationManager.AppSettings.Get("UnknownCommand").Trim();
+										else
+										{
+											add = true;
+											commandName = ConfigurationManager.AppSettings.Get("UnknownCommand").Trim();
+										}
 									}
 								}
 								else if (temp[1].Trim().Equals("page"))
@@ -207,7 +209,7 @@ namespace KatyaHelp2
 							}					
 						}
 
-						#region xlsFileCreate
+#region xlsFileCreate
 						string outFile = string.Format("{0}\\{1}.xlsx", Environment.CurrentDirectory, fileName);// a.Next(0, 4578));
 						if (File.Exists(outFile))
 						{
@@ -263,11 +265,11 @@ namespace KatyaHelp2
 							///my
 							using (ExcelRange excelRange = worksheet.Cells[startRow, startColumn, endRow, endColumn])
 							{
-								excelRange.Sort(sortColumn, descending, null, CompareOptions.IgnoreSymbols);
+								excelRange.Sort(sortColumn, descending, new CultureInfo("uk-UA"), CompareOptions.None);
 							}
 							package.Save();
 						}
-						#endregion xlsFileCreate
+#endregion xlsFileCreate
 						Console.WriteLine(string.Format("End{0}Press any key to continue", Environment.NewLine));
 						Console.ReadKey();
 					}
@@ -277,12 +279,12 @@ namespace KatyaHelp2
 					Console.WriteLine(ConfigurationManager.AppSettings.Get("noFile").Trim());
 					Console.ReadKey();
 				}
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine(e);
-				Console.ReadKey();
-			}
+			//}
+			//catch (Exception e)
+			//{
+			//	Console.WriteLine(e);
+			//	Console.ReadKey();
+			//}
 		}
 	}
 }

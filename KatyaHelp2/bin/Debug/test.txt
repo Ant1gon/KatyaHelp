@@ -1,158 +1,455 @@
-Зареєструвався на ЕМ: 2017-01-24T16:14:15.267, IP: 178.151.169.176, kp_hrbp@ukr.net
+Зареєструвався на ЕМ: 2019-02-21T14:43:39.607, IP: 178.151.169.176, tridar.anna@gmail.com
 
-IP: 37.57.41.108
-IP: 178.151.224.140
-
-2019-08-16
+2020-02-13
 Відкрив тендер	
-	15:00:27.071 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+	09:52:45.937 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
 Відкрив вікно подання пропозиції
-	15:00:31.865 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&lot=| IP: 37.57.41.108
+	10:03:29.530 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&lot=| IP: 46.172.71.190
+	10:04:47.049 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&lot=| IP: 46.172.71.190
 Створив чернетку
-	15:01:00.176 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=54055022| id=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=&JData={"id_tender":"9d9c40bc85584d7fa6cb70e0735b012d","id_bid":"","parameters":[],"lot":"","value":{"amount":31627018.8,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"draft","selfEligible":true,"selfQualified":true}
-	15:01:00.209 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 39.0352
-	15:01:00.302 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=web955683ae8894143168b1486edd2c7918&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 37.57.41.108
+	10:05:05.503 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=36303741| id=8d582282b0174de3ac5a19add193dd83&id_bid=&JData={"id_tender":"8d582282b0174de3ac5a19add193dd83","id_bid":"","parameters":[],"lot":"","value":{"amount":2296900,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"draft","selfEligible":true,"selfQualified":true}
+	10:05:05.566 -> tridar.anna@gmail.com|   Out| CommandName: jSetBid| duration: 78.13
+	10:05:05.722 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=web677d7a8b90ded66c56a0048c0b580b34&reload=Пропозицію збережено. Для подання діючої пропозиції слід натиснути кнопку 'Опублікувати'.| IP: 46.172.71.190
 Завантажив документи
-	15:02:59.378 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54125083
-	15:02:59.379 -> kp_hrbp@ukr.net|  info| аналог. дог. на сайт ОК.rar
-	15:02:59.607 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 48345.7895
-	15:06:42.061 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54367770
-	15:06:42.061 -> kp_hrbp@ukr.net|  info| гарантія підписана.rar
-	15:06:42.095 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 10038.0926
-	15:07:28.263 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54443085
-	15:07:28.263 -> kp_hrbp@ukr.net|  info| 
-	15:07:28.264 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1.0008
-	15:07:57.346 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=eligibilityDocuments&lastOpr=0| uploadtime=54460559
-	15:07:57.346 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч. 2 (цінова, МТБ, кал. граф. ок).pdf
-	15:08:22.409 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч. 2 (цінова, МТБ, кал. граф. ок).pdf.p7s
-	15:08:22.446 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч.1.pdf
-	15:08:22.484 -> kp_hrbp@ukr.net|  info| Реєстр та довідки ч.1.pdf.p7s
-	15:08:31.900 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 46132.6933
-	15:08:54.677 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=eligibilityDocuments&lastOpr=0| uploadtime=54529527
-	15:08:54.677 -> kp_hrbp@ukr.net|  info| 
-	15:08:54.678 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1.0008
-	15:16:04.089 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54933134
-	15:16:04.089 -> kp_hrbp@ukr.net|  info| Матер. ресурси, перелік та обсяги робіт.rar
-	15:16:04.302 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 25892.5874
-	15:16:54.324 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=54979122
-	15:16:54.324 -> kp_hrbp@ukr.net|  info| Дог. ціна на сайт ч. 1.rar
-	15:16:54.535 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 30244.6835
-	15:17:18.797 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55017283
-	15:17:18.797 -> kp_hrbp@ukr.net|  info| Дог. ціна на сайт ч.2.rar
-	15:17:18.922 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 16478.3284
-	15:18:48.519 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55101245
-	15:18:48.519 -> kp_hrbp@ukr.net|  info| Реєстр ліцензії, оренда, проект договору та інші документи.rar
-	15:18:49.343 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 22938.7753
-	15:19:47.060 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=web955683ae8894143168b1486edd2c7918&documentType=qualificationDocuments&lastOpr=0| uploadtime=55172850
-	15:19:47.060 -> kp_hrbp@ukr.net|  info| уставні, директор, висота та інше.rar
-	15:19:47.138 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 9127.1607
+	10:05:44.098 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=web677d7a8b90ded66c56a0048c0b580b34&documentType=qualificationDocuments&lastOpr=0| uploadtime=36333366
+	10:05:44.098 -> tridar.anna@gmail.com|  info| Акт огляду.pdf
+	10:05:44.332 -> tridar.anna@gmail.com|  info| ВИСНОВКИ СЕС НА МИЙНІ ЗАСОБИ.pdf
+	10:05:44.364 -> tridar.anna@gmail.com|  info| Витяг з реєстру платників єдиного податку.pdf
+	10:05:44.395 -> tridar.anna@gmail.com|  info| Довідка_Статистика.pdf
+	10:05:44.411 -> tridar.anna@gmail.com|  info| Договір_90910000-9.pdf
+	10:05:44.457 -> tridar.anna@gmail.com|  info| Лист відгук.pdf
+	10:05:44.473 -> tridar.anna@gmail.com|  info| Наказ на призначення директора.pdf
+	10:05:44.489 -> tridar.anna@gmail.com|  info| Паспорт Ахтирська Г.А..pdf
+	10:05:44.520 -> tridar.anna@gmail.com|  info| Проект договору.pdf
+	10:05:44.536 -> tridar.anna@gmail.com|  info| Рішення засновника.pdf
+	10:05:44.551 -> tridar.anna@gmail.com|  info| Статут_ТОВ ТРИДАР ПЛЮС.pdf
+	10:05:44.598 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 9297.34
 Опублікував	
-	15:20:36.378 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=55231264| id=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=web955683ae8894143168b1486edd2c7918&JData={"id_tender":"9d9c40bc85584d7fa6cb70e0735b012d","id_bid":"web955683ae8894143168b1486edd2c7918","parameters":[],"lot":"","value":{"amount":31627018.8,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"не планується","status":"active","selfEligible":true,"selfQualified":true}
-	15:21:16.654 -> kp_hrbp@ukr.net|   Out| CommandName: jSetBid| duration: 40276.2617
-	15:21:16.764 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7&reload=Пропозицію опубліковано| IP: 37.57.41.108
-Відкрив вікно накладання підпису
-	15:21:29.320 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
-	15:21:29.323 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 3.0029
+	10:06:24.739 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=36370218| id=8d582282b0174de3ac5a19add193dd83&id_bid=web677d7a8b90ded66c56a0048c0b580b34&JData={"id_tender":"8d582282b0174de3ac5a19add193dd83","id_bid":"web677d7a8b90ded66c56a0048c0b580b34","parameters":[],"lot":"","value":{"amount":2296900,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+	10:07:08.055 -> tridar.anna@gmail.com|   Out| CommandName: jSetBid| duration: 43315.7401
+	10:07:08.180 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0&reload=Пропозицію опубліковано| IP: 46.172.71.190
+Відкрив вікно накладання підпису	
+	10:07:16.790 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+	10:07:16.821 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 31.2509
 Наклав підпис	
-	15:21:49.413 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=&sign=MIJFwQYJKoZIhvcNAQcCoIJFsjCCRa4CAQExDjAMBgoqhiQCAQEBAQIBMII3EQYJKoZIhvcNAQcBoII3AgSCNv57ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA2AFQAMQA1ADoAMgAwADoAMwA2AC4ANAA3ADgAOAAxADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHUAawByAC4AbgBlAHQAIgB9ACwAIgBpAGQ...
-	15:21:49.777 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 367.153
-Залогінився
-	19:59:51.625 -> 5hc3gslsxqlmd5m324dx5du2|    In| IP: 178.151.224.140| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=71990170| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
-	19:59:51.779 -> kp_hrbp@ukr.net|    OK| logged
-	19:59:51.950 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 325.2948
+	10:08:15.260 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignUpload| CommandName=jSignUpload| id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&id_doc=&sign=MIJCHQYJKoZIhvcNAQcCoIJCDjCCQgoCAQExDjAMBgoqhiQCAQEBAQIBMII1NQYJKoZIhvcNAQcBoII1JgSCNSJ7ACIAZABhAHQAZQAiADoAIgAyADAAMgAwAC0AMAAyAC0AMQAzAFQAMQAwADoAMAA2ADoAMwAxAC4ANAA1ADcAOQAzADcAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADMAZgBkADAANQA5ADkAMQA3ADEANgA1ADQANgAyADAAOABmADMAOABjADMAYQA1ADcANAA1AGUANQBhAGUAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAYwByAG8AIgAsACIAYwBvAG4AdABhAGMAdABQAG8AaQBuAHQAIgA6AHsAIgB0AGUAbABlAHAAaABvAG4AZQAiADoAIgArADMAOAAwADUAMAAzADIAMwAzADUANAA1ACIALAAiAGYAYQB4AE4AdQBtAGIAZQByACIAOgAiACIALAAiAG4AYQBtAGUAIgA6ACIAEARFBEIEOARABEEETAQ6BDAEIAATBDAEPQQ9BDAEIAAQBD0EMARCBD4EOwRWBFcEMgQ9BDAEIgAsACIAZQBtAGEAaQBsACIAOgAiAHQA...
+	10:08:15.760 -> tridar.anna@gmail.com|   Out| CommandName: jSignUpload| duration: 500.0241
+Завантажив документи	
+	10:40:37.519 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=38431883
+	10:40:37.519 -> tridar.anna@gmail.com|  info| Договір 1-21-10-19.pdf
+	10:40:40.207 -> tridar.anna@gmail.com|  info| Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:40:41.785 -> tridar.anna@gmail.com|  info| Довідка про досвід виконання аналогічного договору.pdf
+	10:40:42.457 -> tridar.anna@gmail.com|  info| Довідка про наявність обладнання.pdf
+	10:40:44.035 -> tridar.anna@gmail.com|  info| Довідка про працівників.pdf
+	10:41:14.615 -> tridar.anna@gmail.com|  info| Довідка про ненадання деяких документів.pdf
+	10:41:15.255 -> tridar.anna@gmail.com|  info| Лист згода.pdf
+	10:41:15.693 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо готовності внесення забеспечення.pdf
+	10:41:16.287 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо незатосування санкцій.pdf
+	10:41:22.716 -> tridar.anna@gmail.com|  info| Довідка про уповноважену особу.pdf
+	10:41:23.403 -> tridar.anna@gmail.com|  info| Довідка про економічне обгрунтування ціни.pdf
+	10:41:23.997 -> tridar.anna@gmail.com|  info| Довідка про відсутність підстав у відмові в торгах.pdf
+	10:41:30.817 -> tridar.anna@gmail.com|  info| Довідка про невикористання печатки.pdf
+	10:41:31.552 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:41:32.333 -> tridar.anna@gmail.com|  info| Довідка щодо відомостей про підприємство.pdf
+	10:41:32.989 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо якості надання послуг.pdf
+	10:41:33.677 -> tridar.anna@gmail.com|  info| Інформаційна довідка щодо захисту довкілля.pdf
+	10:41:34.708 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 61048.7463
+	10:42:00.225 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&lastOpr=0| uploadtime=38518274
+	10:42:00.225 -> tridar.anna@gmail.com|  info| Тендерна пропозиція.pdf
+	10:42:01.319 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1265.6925
+Вивантажив документи	
+	10:48:31.597 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	10:48:31.597 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\web677d7a8b90ded66c56a0048c0b580b34\Акт огляду.pdf
+	10:48:31.597 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+Завантажив документи	
+	10:49:15.474 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=e46c6631323b4cbf98a2c0a306116f7d&lastOpr=0| uploadtime=38953491
+	10:49:15.474 -> tridar.anna@gmail.com|  info| Акт огляду_.pdf
+	10:49:16.240 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1000.0476
+Вивантажив документи	
+	10:49:29.333 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	10:49:29.333 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Акт огляду_.pdf
+	10:49:29.333 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6208
+	10:50:58.368 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	10:50:58.384 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Тендерна пропозиція.pdf
+	10:50:58.384 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6261
+	10:51:16.807 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=5f0dbd7c62e142e7a049e4b8207db200| 
+	10:51:16.822 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформаційна довідка щодо захисту довкілля.pdf
+	10:51:16.822 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6267
+	10:51:36.869 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=48dbe474edf0437389744b6e9c0ee4c8| 
+	10:51:36.885 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо якості надання послуг.pdf
+	10:51:36.885 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6298
+	10:52:48.637 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e9d1b6b725684c1790a01a07b40c5d3f| 
+	10:52:48.668 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка щодо відомостей про підприємство.pdf
+	10:52:48.668 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 31.2515
+	10:53:26.654 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:26.669 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:26.669 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6252
+	10:53:26.747 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:26.747 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:26.747 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:26.950 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:26.982 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:26.982 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 31.2512
+	10:53:27.029 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.029 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.029 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:27.169 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.169 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.169 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:27.200 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.200 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.200 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:27.263 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.263 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.263 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:27.419 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.419 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.419 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:53:27.544 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	10:53:27.544 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	10:53:27.544 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:54:24.322 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=524999b7f31545a2a945be72f72a5a33| 
+	10:54:24.322 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:54:24.322 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:54:24.634 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=524999b7f31545a2a945be72f72a5a33| 
+	10:54:24.650 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:54:24.650 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6258
+	10:54:24.681 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=524999b7f31545a2a945be72f72a5a33| 
+	10:54:24.697 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:54:24.697 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6261
+	10:54:25.025 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=524999b7f31545a2a945be72f72a5a33| 
+	10:54:25.025 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:54:25.025 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:54:25.541 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=524999b7f31545a2a945be72f72a5a33| 
+	10:54:25.541 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо погодження з істотними умовами договору.pdf
+	10:54:25.541 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	10:55:19.538 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=625d97ba886b449eb6db8912ae150883| 
+	10:55:19.554 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка про ненадання деяких документів.pdf
+	10:55:19.554 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6257
+	10:56:37.628 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=76404c0cbf7f4e38babc0222471d72ae| 
+	10:56:37.643 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка про наявність обладнання.pdf
+	10:56:37.643 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6301
+	10:59:18.636 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	10:59:18.636 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Акт огляду_.pdf
+	10:59:18.636 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 2094.041
+	10:59:19.136 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	10:59:19.136 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Акт огляду_.pdf
+	10:59:19.136 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+Завантажив документи	
+	11:02:22.667 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=39740768
+	11:02:22.667 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо використання речовин, які непроявляють шкіроподразнюючу дію.pdf
+	11:02:55.040 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 32497.7068
+	11:42:20.011 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&id_doc=937f618d7623418abed75ce19b35d5be&lastOpr=0| uploadtime=42136814
+	11:42:20.011 -> tridar.anna@gmail.com|  info| Тендерна пропозиція.pdf
+	11:42:20.026 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1437.5793
+Вивантажив документи	
+	11:45:01.136 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	11:45:01.136 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Тендерна пропозиція.pdf
+	11:45:01.136 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6236
+	11:45:01.401 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	11:45:01.401 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Тендерна пропозиція.pdf
+	11:45:01.401 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:47:40.733 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=f1cb7a83f77f4728bfc08483192d3c5d| 
+	11:47:40.733 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\web677d7a8b90ded66c56a0048c0b580b34\Лист відгук.pdf
+	11:47:40.733 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:52:32.805 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fcd79267e7b8426281b28a7dac028af7| 
+	11:52:32.805 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка про працівників.pdf
+	11:52:32.805 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:54:25.306 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=84d9d865fa034c9a92846ba1cc5b3955| 
+	11:54:25.321 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\web677d7a8b90ded66c56a0048c0b580b34\Довідка_Статистика.pdf
+	11:54:25.321 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 3265.7887
+	11:54:56.092 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=8e9ac73ad9eb4b7ba935484232b9ada8| 
+	11:54:56.092 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\web677d7a8b90ded66c56a0048c0b580b34\Витяг з реєстру платників єдиного податку.pdf
+	11:54:56.092 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:56:12.407 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	11:56:12.423 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Тендерна пропозиція.pdf
+	11:56:12.423 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6264
+	11:56:48.548 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=5f0dbd7c62e142e7a049e4b8207db200| 
+	11:56:48.564 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформаційна довідка щодо захисту довкілля.pdf
+	11:56:48.564 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6258
+	11:57:22.828 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=4569f7bb3d0c4798a343c9f931597656| 
+	11:57:22.828 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо використання речовин, які непроявляють шкіроподразнюючу дію.pdf
+	11:57:22.828 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 3000.15
+	11:57:23.172 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=4569f7bb3d0c4798a343c9f931597656| 
+	11:57:23.188 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо використання речовин, які непроявляють шкіроподразнюючу дію.pdf
+	11:57:23.188 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6261
+	11:57:48.613 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=48dbe474edf0437389744b6e9c0ee4c8| 
+	11:57:48.613 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо якості надання послуг.pdf
+	11:57:48.613 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:58:04.098 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e9d1b6b725684c1790a01a07b40c5d3f| 
+	11:58:04.098 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка щодо відомостей про підприємство.pdf
+	11:58:04.098 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	11:58:20.795 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=fe7e4e4c2aed4470b7b20d3f43bc5ed3| 
+	11:58:20.811 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформація про технічні якісні та кількісні хар-ки предмета.pdf
+	11:58:20.811 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6273
+	11:58:49.959 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	11:58:49.959 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Акт огляду_.pdf
+	11:58:49.959 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
 Відкрив тендер
-	20:00:16.954 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
-Відкрив пропозицію
-	20:00:27.214 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 178.151.224.140
+	12:17:52.464 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
+2020-02-17
+Ще раз опублікував
+     10:48:07.251 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSetBid| CommandName=jSetBid&lastOpr=0&TimeMark=38887232| id=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0&JData={"id_tender":"8d582282b0174de3ac5a19add193dd83","id_bid":"3fd05991716546208f38c3a5745e5ae0","parameters":[],"lot":"","value":{"amount":2296900,"valueAddedTaxIncluded":true,"currency":"UAH"},"subcontractingDetails":"","status":"active","selfEligible":true,"selfQualified":true}
+     10:48:12.782 -> tridar.anna@gmail.com|   Out| CommandName: jSetBid| duration: 5531.5376
+     10:48:12.907 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0&reload=Пропозицію опубліковано| IP: 46.172.71.190
+Відкрив вікно накладання підпису    
+     10:48:34.844 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+     10:48:34.844 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис    
+     10:49:26.440 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignUpload| CommandName=jSignUpload| id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&id_doc=120cc9332450493facfd5e781d82c6cd&sign=MIKbTQYJKoZIhvcNAQcCoIKbPjCCmzoCAQExDjAMBgoqhiQCAQEBAQIBMIKOZQYJKoZIhvcNAQcBoIKOVgSCjlJ7ACIAZABhAHQAZQAiADoAIgAyADAAMgAwAC0AMAAyAC0AMQAzAFQAMQAwADoAMAA2ADoAMwAxAC4ANAA1ADcAOQAzADcAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADMAZgBkADAANQA5ADkAMQA3ADEANgA1ADQANgAyADAAOABmADMAOABjADMAYQA1ADcANAA1AGUANQBhAGUAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAYwByAG8AIgAsACIAYwBvAG4AdABhAGMAdABQAG8AaQBuAHQAIgA6AHsAIgB0AGUAbABlAHAAaABvAG4AZQAiADoAIgArADMAOAAwADUAMAAzADIAMwAzADUANAA1ACIALAAiAGYAYQB4AE4AdQBtAGIAZQByACIAOgAiACIALAAiAG4AYQBtAGUAIgA6ACIAEARFBEIEOARABEEETAQ6BDAEIAATBDAEPQQ9BDAEIAAQBD0EMARCBD4EOwRWBFcEMgQ9BDAE...
+     10:49:30.581 -> tridar.anna@gmail.com|   Out| CommandName: jSignUpload| duration: 4140.8362
+2020-02-21
 Вивантажив документи
-	20:00:42.325 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=200b5575100542609bc591c458aa6409| 
-	20:00:42.329 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\гарантія підписана.rar
-	20:00:42.329 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0024
-	20:00:42.692 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=200b5575100542609bc591c458aa6409| 
-	20:00:42.695 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\гарантія підписана.rar
-	20:00:42.695 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 3.0053
-	20:01:50.261 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=b3b4b64d117546f3a0c0de38013645cf| 
-	20:01:50.264 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\аналог. дог. на сайт ОК.rar
-	20:01:50.264 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.004
-	20:02:49.717 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=1ffed1544b4e4297b77f0a028b5ea668| 
-	20:02:49.802 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\уставні, директор, висота та інше.rar
-	20:02:49.802 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 85.0769
-	20:03:46.579 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=87b32f68ea224d588c4ad527f35b789e| 
-	20:03:46.582 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Реєстр ліцензії, оренда, проект договору та інші документи.rar
-	20:03:46.583 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0036
-	20:06:45.453 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=d78975729cb94be59ea102a7270b069c| 
-	20:06:45.457 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Матер. ресурси, перелік та обсяги робіт.rar
-	20:06:45.457 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0024
-	20:08:14.331 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=dc416f26154040378fd3834700f11b37| 
-	20:08:14.335 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Дог. ціна на сайт ч. 1.rar
-	20:08:14.335 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 6.0098
-	20:08:18.682 -> kp_hrbp@ukr.net|    In| IP: 178.151.224.140| CommandName: LocalDownload| CommandName=LocalDownload&id=30bdacb6d42c4940a2ae2a04907790a1| 
-	20:08:18.686 -> kp_hrbp@ukr.net|   OK | LocalDownload e:\doclan\tender\documents\2019\08\16\9d9c40bc85584d7fa6cb70e0735b012d\bid\web955683ae8894143168b1486edd2c7918\Дог. ціна на сайт ч.2.rar
-	20:08:18.686 -> kp_hrbp@ukr.net|   Out| CommandName: LocalDownload| duration: 4.0039
-Відкрив тендер	
-	20:10:01.130 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
-	20:16:14.525 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 178.151.224.140
-Відкрив пропозицію
-	20:16:24.709 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 178.151.224.140
-	
-	
-2019-08-19
-Відкрив тендер   
-    16:53:36.195 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+	 09:43:44.083 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 09:43:44.129 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\13\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Акт огляду_.pdf
+	 09:43:44.129 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 46.8785
+Завантажив документи	 
+	 10:26:55.818 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=f1cb7a83f77f4728bfc08483192d3c5d&lastOpr=0| uploadtime=37613091
+	 10:26:55.818 -> tridar.anna@gmail.com|  info| Лист відгук.pdf
+	 10:26:57.459 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2109.4823
+	 11:02:20.364 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=4569f7bb3d0c4798a343c9f931597656&lastOpr=0| uploadtime=39736712
+	 11:02:20.364 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо використання речовин при наданні послуг.pdf
+	 11:02:22.301 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2906.3941
+	 11:03:30.529 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&id_doc=937f618d7623418abed75ce19b35d5be&lastOpr=0| uploadtime=39807386
+	 11:03:30.529 -> tridar.anna@gmail.com|  info| Тендерна пропозиція.pdf
+	 11:03:32.607 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 3047.0272
+	 11:04:21.102 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=5f0dbd7c62e142e7a049e4b8207db200&lastOpr=0| uploadtime=39858034
+	 11:04:21.102 -> tridar.anna@gmail.com|  info| Інформаційна довідка щодо захисту довкілля.pdf
+	 11:04:22.740 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2512.289
+	 11:04:51.710 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=48dbe474edf0437389744b6e9c0ee4c8&lastOpr=0| uploadtime=39889000
+	 11:04:51.710 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо якості надання послуг.pdf
+	 11:04:53.116 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2046.9765
+	 11:05:11.565 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=e9d1b6b725684c1790a01a07b40c5d3f&lastOpr=0| uploadtime=39908571
+	 11:05:11.565 -> tridar.anna@gmail.com|  info| Довідка щодо відомостей про підприємство.pdf
+	 11:05:13.143 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2484.501
+	 11:05:56.030 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=524999b7f31545a2a945be72f72a5a33&lastOpr=0| uploadtime=39953315
+	 11:05:56.030 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо погодження з умовами.pdf
+	 11:05:57.468 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2078.227
+	 11:06:23.708 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=cdf6ed0a7b8d446ebecee65bc6c7b459&lastOpr=0| uploadtime=39981005
+	 11:06:23.708 -> tridar.anna@gmail.com|  info| Довідка про невикористання печатки.pdf
+	 11:06:25.802 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2718.8849
+	 11:07:08.492 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=5b8e01a6160a440494d069da966592de&lastOpr=0| uploadtime=40025336
+	 11:07:08.492 -> tridar.anna@gmail.com|  info| Довідка про відсутність підстав у відмові.pdf
+	 11:07:10.320 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2672.0088
+	 11:07:32.045 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=2e73b358904e44259e7ffe9421553328&lastOpr=0| uploadtime=40049107
+	 11:07:32.045 -> tridar.anna@gmail.com|  info| Довідка про економічне обгрунтування ціни.pdf
+	 11:07:33.482 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2093.8544
+	 11:07:56.812 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=78e5f8b4a2bc43748a6da785c9c7f9c7&lastOpr=0| uploadtime=40073941
+	 11:07:56.812 -> tridar.anna@gmail.com|  info| Довідка про уповноважену особу.pdf
+	 11:07:58.390 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2250.1157
+	 11:08:22.601 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=481b55c35d3448738683df3600e10209&lastOpr=0| uploadtime=40099837
+	 11:08:22.601 -> tridar.anna@gmail.com|  info| Гарантійний лист незастосування санкцій.pdf
+	 11:08:30.976 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 8959.7712
+	 11:08:59.462 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=ffc2fbf7774744e8bd72bce62255d400&lastOpr=0| uploadtime=40136150
+	 11:08:59.462 -> tridar.anna@gmail.com|  info| Гарантійний лист щодо готовності внесення забеспечення.pdf
+	 11:09:07.947 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 9672.364
+	 11:09:30.983 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=4da0c61db1b845e8aff1bd89e638211e&lastOpr=0| uploadtime=40168322
+	 11:09:30.983 -> tridar.anna@gmail.com|  info| Лист Згода.pdf
+	 11:09:32.514 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2078.2348
+	 11:09:49.484 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=625d97ba886b449eb6db8912ae150883&lastOpr=0| uploadtime=40186888
+	 11:09:49.484 -> tridar.anna@gmail.com|  info| Довідка про ненадання деяких документів.pdf
+	 11:09:50.922 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1968.8487
+	 11:10:06.684 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=fcd79267e7b8426281b28a7dac028af7&lastOpr=0| uploadtime=40204289
+	 11:10:06.684 -> tridar.anna@gmail.com|  info| Довідка про працівників відповідної кваліфікаціі.pdf
+	 11:10:08.277 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1843.8408
+	 11:10:29.538 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=76404c0cbf7f4e38babc0222471d72ae&lastOpr=0| uploadtime=40226969
+	 11:10:29.538 -> tridar.anna@gmail.com|  info| Довідка про наяявність обладнання та МТБ.pdf
+	 11:10:34.132 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 5094.0059
+	 11:10:51.586 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=294a3330ed53415a88d380471acf08c8&lastOpr=0| uploadtime=40248439
+	 11:10:51.586 -> tridar.anna@gmail.com|  info| Довідка про досвід виконання аналогічного договру.pdf
+	 11:10:53.414 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2843.8915
+	 11:11:20.226 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=fe7e4e4c2aed4470b7b20d3f43bc5ed3&lastOpr=0| uploadtime=40271770
+	 11:11:20.226 -> tridar.anna@gmail.com|  info| Інформація про технічні характеристики.pdf
+	 11:11:25.529 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 11505.1732
+	 11:13:33.281 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=d3888783b836436ba721f8124d2d7824&lastOpr=0| uploadtime=40409708
+	 11:13:33.281 -> tridar.anna@gmail.com|  info| Паспорт Ахтирська Г.А..pdf
+	 11:13:34.953 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 3031.4018
+	 11:14:10.376 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=15b5c2caa2b242aca981b370a8e8bcf4&lastOpr=0| uploadtime=40443588
+	 11:14:10.376 -> tridar.anna@gmail.com|  info| Проект договору.pdf
+	 11:14:12.673 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 4937.7536
+	 11:15:04.133 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=84d9d865fa034c9a92846ba1cc5b3955&lastOpr=0| uploadtime=40502083
+	 11:15:04.133 -> tridar.anna@gmail.com|  info| 
+	 11:15:04.133 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 0
+	 11:15:27.671 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=4194cb09be08429ea8b0a32b6acb244b&lastOpr=0| uploadtime=40522157
+	 11:15:27.671 -> tridar.anna@gmail.com|  info| ВИСНОВКИ СЕС НА МИЙНІ ЗАСОБИ.pdf
+	 11:15:30.640 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 6390.9503
+	 11:15:49.251 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=def8345da4b64d1eb9230690fb6ec2b3&lastOpr=0| uploadtime=40546550
+	 11:15:49.251 -> tridar.anna@gmail.com|  info| Рішення засновника.pdf
+	 11:15:50.672 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2062.5947
+	 11:16:35.555 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=d962bd527add495fb2d1b1e219b9d8d3&lastOpr=0| uploadtime=40592280
+	 11:16:35.555 -> tridar.anna@gmail.com|  info| Договір 1-21-10-19.pdf
+	 11:16:37.195 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2797.0133
+	 11:17:08.619 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=3361d1f98168450894b2dcb78c7bfd3d&lastOpr=0| uploadtime=40626369
+	 11:17:08.619 -> tridar.anna@gmail.com|  info| Наказ на призначення директора.pdf
+	 11:17:20.035 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 11587.8546
+	 11:17:40.578 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=55a5c9ae84f449f090eccf6392b0aee2&lastOpr=0| uploadtime=40656402
+	 11:17:40.578 -> tridar.anna@gmail.com|  info| Статут_ТОВ ТРИДАР ПЛЮС.pdf
+	 11:17:43.422 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 4937.7474
+	 11:18:13.627 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=3bde00ece2f241d686ef0228808c9379&lastOpr=0| uploadtime=40689967
+	 11:18:13.627 -> tridar.anna@gmail.com|  info| Договір_90910000-9.pdf
+	 11:18:15.518 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 3453.3003
+	 11:18:34.148 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=8e9ac73ad9eb4b7ba935484232b9ada8&lastOpr=0| uploadtime=40711639
+	 11:18:34.148 -> tridar.anna@gmail.com|  info| Витяг з реєстру платників єдиного податку.pdf
+	 11:18:35.508 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1750.0903
+	 11:19:11.603 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=84d9d865fa034c9a92846ba1cc5b3955&lastOpr=0| uploadtime=40749353
+	 11:19:11.603 -> tridar.anna@gmail.com|  info| Довідка_Статистика.pdf
+	 11:19:13.041 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1625.0864
+	 11:26:54.494 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&id_doc=e46c6631323b4cbf98a2c0a306116f7d&lastOpr=0| uploadtime=41212109
+	 11:26:54.494 -> tridar.anna@gmail.com|  info| АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:26:55.682 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 1375.0673
+Вивантажив документи	 
+	 11:32:07.629 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 11:32:07.629 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:32:07.629 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 62.5021
+	 11:32:17.596 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 11:32:17.612 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:32:17.612 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6199
+Завантажив документи	 
+	 11:38:27.745 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=41904764
+	 11:38:27.745 -> tridar.anna@gmail.com|  info| Гарантнійній лист про отримання дозволів.pdf
+	 11:38:29.355 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2390.7464
+Вивантажив документи	 
+	 11:39:25.722 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 11:39:25.737 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:39:25.737 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6223
+	 11:39:30.175 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 11:39:30.175 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:39:30.175 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 11:42:14.366 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=4569f7bb3d0c4798a343c9f931597656| 
+	 11:42:14.381 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантійний лист щодо використання речовин при наданні послуг.pdf
+	 11:42:14.381 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 1031.3012
+	 11:42:44.717 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	 11:42:44.717 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Тендерна пропозиція.pdf
+	 11:42:44.717 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+Завантажив документи	 
+	 11:46:59.170 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&id_doc=937f618d7623418abed75ce19b35d5be&lastOpr=0| uploadtime=42416270
+	 11:46:59.170 -> tridar.anna@gmail.com|  info| ТЕНДЕРНА ПРОПОЗИЦІЯ_.pdf
+	 11:47:00.764 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2421.9964
+Вивантажив документи	 
+	 11:47:12.577 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	 11:47:12.593 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\ТЕНДЕРНА ПРОПОЗИЦІЯ_.pdf
+	 11:47:12.593 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 1640.7112
+	 11:49:17.989 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 11:49:18.005 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 11:49:18.005 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 31.2552
+	 11:49:44.099 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=f1cb7a83f77f4728bfc08483192d3c5d| 
+	 11:49:44.099 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Лист відгук.pdf
+	 11:49:44.099 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 11:50:30.763 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=5f0dbd7c62e142e7a049e4b8207db200| 
+	 11:50:30.763 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Інформаційна довідка щодо захисту довкілля.pdf
+	 11:50:30.763 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 11:52:05.319 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=15b5c2caa2b242aca981b370a8e8bcf4| 
+	 11:52:05.319 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Проект договору.pdf
+	 11:52:05.319 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 93.7529
+	 11:52:29.747 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=84d9d865fa034c9a92846ba1cc5b3955| 
+	 11:52:29.763 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Довідка_Статистика.pdf
+	 11:52:29.763 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 15.6261
+	 11:52:57.155 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=8e9ac73ad9eb4b7ba935484232b9ada8| 
+	 11:52:57.155 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Витяг з реєстру платників єдиного податку.pdf
+	 11:52:57.155 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 11:53:18.763 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=bc1eb2bf8eba48918391689748ee8f43| 
+	 11:53:18.763 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\Гарантнійній лист про отримання дозволів.pdf
+	 11:53:18.763 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 11:54:21.796 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+	 11:54:21.796 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\ТЕНДЕРНА ПРОПОЗИЦІЯ_.pdf
+	 11:54:21.796 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 0
+	 15:30:22.715 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=e46c6631323b4cbf98a2c0a306116f7d| 
+	 15:30:22.731 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\АКТ ОГЛЯДУ  ТРИДАР ПЛЮС.pdf
+	 15:30:22.731 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 93.7536
+2020-02-24
+Залогінився
+    14:18:44.742 -> tp0sreqlpuasivr5nd3awdmi|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=51524781| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+    14:18:45.023 -> tridar.anna@gmail.com|    OK| logged
+    14:18:45.070 -> tridar.anna@gmail.com|   Out| CommandName: Login| duration: 328.1482
+Відкрив тендер    
+    14:19:06.367 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
 Відкрив пропозицію    
-    16:54:20.511 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
-Завантажив документи   
-    16:55:05.472 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=qualificationDocuments&lastOpr=0| uploadtime=60906001
-    16:55:05.472 -> kp_hrbp@ukr.net|  info| оновлена цінова.pdf
-    16:55:06.395 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 1524.3748
-Перезавантажив сторінку   
-    16:55:11.770 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
-
-	
-2019-08-20
-Завантажив документи
-	09:52:37.050 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=qualificationDocuments&lastOpr=0| uploadtime=35556313
-	09:52:37.050 -> kp_hrbp@ukr.net|  info| 5256_Капітальний ремонт внутрішнього опорядження будівлі за адресою вулиця Динамівська, будинок 5-А міста Харкова (Корегування).bdcu
-	09:52:37.819 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 786.7161
-Відкрив вікно накладання підпису	
-	09:52:46.017 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
-	09:52:46.019 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 2.0015
-Наклав підпис	
-	09:53:07.388 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=45081cace1b842e4b1249b1d7cd7399e&sign=MIJJ+QYJKoZIhvcNAQcCoIJJ6jCCSeYCAQExDjAMBgoqhiQCAQEBAQIBMII7SQYJKoZIhvcNAQcBoII7OgSCOzZ7ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA5AFQAMQA0ADoAMwA0ADoAMwAwAC4AMQAxADQANwAwADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHU...
-	09:53:08.016 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 630.5657
-
-2019-08-21
+    14:27:38.980 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0| IP: 46.172.71.190
+Вивантажив документи    
+    14:30:56.652 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=937f618d7623418abed75ce19b35d5be| 
+    14:30:56.777 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\21\8d582282b0174de3ac5a19add193dd83\bid\3fd05991716546208f38c3a5745e5ae0\ТЕНДЕРНА ПРОПОЗИЦІЯ_.pdf
+    14:30:56.777 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 125.0031
+    14:33:27.106 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: LocalDownload| CommandName=LocalDownload&id=120cc9332450493facfd5e781d82c6cd| 
+    14:33:27.184 -> tridar.anna@gmail.com|   OK | LocalDownload e:\doclan\tender\documents\2020\02\17\8d582282b0174de3ac5a19add193dd83\bid\sign.p7s
+    14:33:27.184 -> tridar.anna@gmail.com|   Out| CommandName: LocalDownload| duration: 78.1255	
+2020-02-28
+Залогінився	
+	 12:50:43.697 -> mdqidgfv5ydswbmbal0mpkop|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=46249362| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+	 12:50:43.915 -> tridar.anna@gmail.com|    OK| logged
+	 12:50:43.962 -> tridar.anna@gmail.com|   Out| CommandName: Login| duration: 265.6317	
+	 12:54:50.502 -> p23twwbff4dmmb4lde3455mu|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=46496178| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+	 12:54:50.643 -> tridar.anna@gmail.com|    OK| logged
+	 12:54:50.690 -> tridar.anna@gmail.com|   Out| CommandName: Login| duration: 187.5046
 Відкрив тендер
-     09:06:41.185 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
-Відкрив пропозицію    
-     09:06:47.175 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
-Завантажив документи    
-     09:07:12.666 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=eligibilityDocuments&lastOpr=0| uploadtime=32830616
-     09:07:12.666 -> kp_hrbp@ukr.net|  info| Сирота МВС на 08.08.2019р..zip
-     09:07:15.082 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 2584.1199
-Перезавантажив сторінку 
-     09:07:44.811 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
-
-
-2019-08-27
-	15:41:10.974 -> 3afj5k2zuhzz2bmzycjifhxr|    In| IP: 37.57.41.108| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=56473235| Name=kp_hrbp@ukr.net&Password=37763844wei&register_code=undefined
-	15:41:11.114 -> kp_hrbp@ukr.net|    OK| logged
-	15:41:11.239 -> kp_hrbp@ukr.net|   Out| CommandName: Login| duration: 265.6362
-Відкрив тендер	
-	15:41:20.755 -> kp_hrbp@ukr.net|  page| /PositionForm.aspxcode=UA-2019-08-02-003033-b| IP: 37.57.41.108
+	 15:31:34.337 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
 Відкрив пропозицію
-	15:41:26.365 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+	 15:31:51.400 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0| IP: 46.172.71.190
 Завантажив документи
-	15:41:47.835 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: Upload| CommandName=Upload&id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&documentType=eligibilityDocuments&lastOpr=0| uploadtime=56509838
-	15:41:47.835 -> kp_hrbp@ukr.net|  info| public_doc.p7s
-	15:41:49.335 -> kp_hrbp@ukr.net|  info| public_doc.pdf
-	15:41:50.866 -> kp_hrbp@ukr.net|   Out| CommandName: Upload| duration: 3156.3622
+	 15:32:41.988 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&lastOpr=0| uploadtime=55959807
+	 15:32:41.988 -> tridar.anna@gmail.com|  info| Тендерна пропозиція,приведена у відповідність до показників за результатами проведеного аукціону.pdf
+	 15:32:43.972 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 2859.4404
+	 15:32:52.191 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190-
+	 15:33:30.463 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=56008470
+	 15:33:30.463 -> tridar.anna@gmail.com|  info| Довідка про економічне обгрунтування ціни.pdf
+	 15:34:00.929 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 31138.1786
 Відкрив вікно накладання підпису	
-	15:41:58.679 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignContent| CommandName=jSignContent&id=c618cfa5603d42168b9bbb0b59dcaac7| 
-	15:41:58.679 -> kp_hrbp@ukr.net|   Out| CommandName: jSignContent| duration: 0
+	 15:34:22.391 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+	 15:34:22.406 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 15.6122
+	 15:34:30.391 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+	 15:34:30.407 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 15.6253
 Наклав підпис	
-	15:42:18.929 -> kp_hrbp@ukr.net|    In| IP: 37.57.41.108| CommandName: jSignUpload| CommandName=jSignUpload| id=9d9c40bc85584d7fa6cb70e0735b012d&documentOf=bid&relatedItem=c618cfa5603d42168b9bbb0b59dcaac7&id_doc=45081cace1b842e4b1249b1d7cd7399e&sign=MIJTmQYJKoZIhvcNAQcCoIJTijCCU4YCAQExDjAMBgoqhiQCAQEBAQIBMIJE6QYJKoZIhvcNAQcBoIJE2gSCRNZ7ACIAZABhAHQAZQAiADoAIgAyADAAMQA5AC0AMAA4AC0AMQA5AFQAMQA0ADoAMwA0ADoAMwAwAC4AMQAxADQANwAwADQAKwAwADMAOgAwADAAIgAsACIAaQBkACIAOgAiAGMANgAxADgAYwBmAGEANQA2ADAAMwBkADQAMgAxADYAOABiADkAYgBiAGIAMABiADUAOQBkAGMAYQBhAGMANwAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAZAAiACwAIgBjAG8AbgB0AGEAYwB0AFAAbwBpAG4AdAAiADoAewAiAHQAZQBsAGUAcABoAG8AbgBlACIAOgAiACsAMwA4ADAANQA3ADMAOQAzADEANgA1ADQAIgAsACIAZgBhAHgATgB1AG0AYgBlAHIAIgA6ACIAIgAsACIAbgBhAG0AZQAiADoAIgAhBDgEQAQ+BEIEMAQgACEELgAgABEELgAiACwAIgBlAG0AYQBpAGwAIgA6ACIAawBwAF8AaAByAGIAcABAAHUA...
-	15:42:20.414 -> kp_hrbp@ukr.net|   Out| CommandName: jSignUpload| duration: 1484.4191
-	15:42:29.070 -> kp_hrbp@ukr.net|  page| /BidForm.aspxid=9d9c40bc85584d7fa6cb70e0735b012d&id_bid=c618cfa5603d42168b9bbb0b59dcaac7| IP: 37.57.41.108
+	 15:34:58.595 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignUpload| CommandName=jSignUpload| id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&id_doc=120cc9332450493facfd5e781d82c6cd&sign=MIMBKFUGCSqGSIb3DQEHAqCDAShFMIMBKEACAQExDjAMBgoqhiQCAQEBAQIBMIMBG2sGCSqGSIb3DQEHAaCDARtbBIMBG1Z7ACIAZABhAHQAZQAiADoAIgAyADAAMgAwAC0AMAAyAC0AMQAzAFQAMQAwADoAMAA2ADoAMwAxAC4ANAA1ADcAOQAzADcAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADMAZgBkADAANQA5ADkAMQA3ADEANgA1ADQANgAyADAAOABmADMAOABjADMAYQA1ADcANAA1AGUANQBhAGUAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAYwByAG8AIgAsACIAYwBvAG4AdABhAGMAdABQAG8AaQBuAHQAIgA6AHsAIgB0AGUAbABlAHAAaABvAG4AZQAiADoAIgArADMAOAAwADUAMAAzADIAMwAzADUANAA1ACIALAAiAGYAYQB4AE4AdQBtAGIAZQByACIAOgAiACIALAAiAG4AYQBtAGUAIgA6ACIAEARFBEIEOARABEEETAQ6BDAEIAATBDAEPQQ9BDAEIAAQBD0EMARCBD4EOwRWBFcE...
+	 15:35:04.806 -> tridar.anna@gmail.com|   Out| CommandName: jSignUpload| duration: 6257.7791
+Відкрив тендер
+     16:16:07.990 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
+Відкрив пропозицію
+	 16:16:19.865 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0| IP: 46.172.71.190
+Завантажив документи
+	 16:17:37.534 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=commercialProposal&id_doc=a3885300b9f54feeb657dabded4df4c2&lastOpr=0| uploadtime=58655258
+	 16:17:37.534 -> tridar.anna@gmail.com|  info| Тендерна пропозиція,приведена у відповідність до показників за результатами проведеного аукціону.pdf
+	 16:17:39.800 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 3171.9545	
+2020-03-05
+Залогінився
+	 13:51:39.455 -> n0atccxnvajxqaissd1fzc11|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=49903929| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+	 13:51:39.674 -> tridar.anna@gmail.com|    OK| logged
+	 13:51:39.720 -> tridar.anna@gmail.com|   Out| CommandName: Login| duration: 265.6381
+Відкрив тендер
+	 18:03:50.206 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
+Завантажив документи
+	 18:04:59.550 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=65096739
+	 18:04:59.550 -> tridar.anna@gmail.com|  info| Довідка про відсутність судимості.pdf
+	 18:05:02.144 -> tridar.anna@gmail.com|  info| Довідка ст.17.pdf
+	 18:05:04.205 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 6045.7517
+Відкрив вікно накладання підпису
+	 18:05:29.284 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+	 18:05:29.300 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 15.6259
+Наклав підпис	
+	 18:06:30.864 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignUpload| CommandName=jSignUpload| id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&id_doc=120cc9332450493facfd5e781d82c6cd&sign=MIMBS44GCSqGSIb3DQEHAqCDAUt+MIMBS3kCAQExDjAMBgoqhiQCAQEBAQIBMIMBKe0GCSqGSIb3DQEHAaCDASndBIMBKdh7ACIAZABhAHQAZQAiADoAIgAyADAAMgAwAC0AMAAyAC0AMgA0AFQAMQA1ADoAMQA5ADoAMgA0AC4ANwA5ADcAOAA0ADUAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADMAZgBkADAANQA5ADkAMQA3ADEANgA1ADQANgAyADAAOABmADMAOABjADMAYQA1ADcANAA1AGUANQBhAGUAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAYwByAG8AIgAsACIAYwBvAG4AdABhAGMAdABQAG8AaQBuAHQAIgA6AHsAIgB0AGUAbABlAHAAaABvAG4AZQAiADoAIgArADMAOAAwADUAMAAzADIAMwAzADUANAA1ACIALAAiAGYAYQB4AE4AdQBtAGIAZQByACIAOgAiACIALAAiAG4AYQBtAGUAIgA6ACIAEARFBEIEOARABEEETAQ6BDAEIAATBDAEPQQ9BDAEIAAQBD0EMARCBD4EOwRWBFcE...
+	 18:06:32.396 -> tridar.anna@gmail.com|   Out| CommandName: jSignUpload| duration: 1546.9253
+Відкрив тендер
+	 18:09:22.896 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
+2020-03-06
+Залогінився
+     14:42:44.274 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=52955869| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+     14:42:44.274 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Login| CommandName=Login&lastOpr=0&TimeMark=52955869| Name=tridar.anna@gmail.com&Password=tridar.anna&register_code=undefined
+     14:42:44.446 -> tridar.anna@gmail.com|    OK| logged
+     14:42:44.493 -> tridar.anna@gmail.com|   Out| CommandName: Login| duration: 218.7598
+Відкрив тендер    
+     14:43:16.088 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190    
+     14:43:39.636 -> tridar.anna@gmail.com|  page| /PositionForm.aspxcode=UA-2020-01-27-003156-a| IP: 46.172.71.190
+Відкрив пропозицію    
+     14:44:20.544 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0| IP: 46.172.71.190
+Завантажив документи    
+     14:45:23.015 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: Upload| CommandName=Upload&id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&documentType=qualificationDocuments&lastOpr=0| uploadtime=53120734
+     14:45:23.015 -> tridar.anna@gmail.com|  info| Довідка про відсутність заборгованості з платежів.pdf
+     14:45:34.422 -> tridar.anna@gmail.com|   Out| CommandName: Upload| duration: 11781.6218
+Перезавантажив сторінку    
+     14:46:08.954 -> tridar.anna@gmail.com|  page| /BidForm.aspxid=8d582282b0174de3ac5a19add193dd83&id_bid=3fd05991716546208f38c3a5745e5ae0| IP: 46.172.71.190
+Відкрив вікно накладання підпису    
+     14:46:23.221 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignContent| CommandName=jSignContent&id=3fd05991716546208f38c3a5745e5ae0| 
+     14:46:23.221 -> tridar.anna@gmail.com|   Out| CommandName: jSignContent| duration: 0
+Наклав підпис    
+     14:46:58.863 -> tridar.anna@gmail.com|    In| IP: 46.172.71.190| CommandName: jSignUpload| CommandName=jSignUpload| id=8d582282b0174de3ac5a19add193dd83&documentOf=bid&relatedItem=3fd05991716546208f38c3a5745e5ae0&id_doc=120cc9332450493facfd5e781d82c6cd&sign=MIMBWLgGCSqGSIb3DQEHAqCDAVioMIMBWKMCAQExDjAMBgoqhiQCAQEBAQIBMIMBNxcGCSqGSIb3DQEHAaCDATcHBIMBNwJ7ACIAZABhAHQAZQAiADoAIgAyADAAMgAwAC0AMAAyAC0AMgA0AFQAMQA1ADoAMQA5ADoAMgA0AC4ANwA5ADcAOAA0ADUAKwAwADIAOgAwADAAIgAsACIAaQBkACIAOgAiADMAZgBkADAANQA5ADkAMQA3ADEANgA1ADQANgAyADAAOABmADMAOABjADMAYQA1ADcANAA1AGUANQBhAGUAMAAiACwAIgBzAGUAbABmAEUAbABpAGcAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAcwBlAGwAZgBRAHUAYQBsAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAdABlAG4AZABlAHIAZQByAHMAIgA6AFsAewAiAHMAYwBhAGwAZQAiADoAIgBtAGkAYwByAG8AIgAsACIAYwBvAG4AdABhAGMAdABQAG8AaQBuAHQAIgA6AHsAIgB0AGUAbABlAHAAaABvAG4AZQAiADoAIgArADMAOAAwADUAMAAzADIAMwAzADUANAA1ACIALAAiAGYAYQB4AE4AdQBtAGIAZQByACIAOgAiACIALAAiAG4AYQBtAGUAIgA6ACIAEARFBEIEOARABEEETAQ6BDAEIAATBDAEPQQ9BDAEIAAQBD0EMARCBD4EOwRWBFcE...
+     14:47:03.582 -> tridar.anna@gmail.com|   Out| CommandName: jSignUpload| duration: 4765.7665
 	
-	
+    

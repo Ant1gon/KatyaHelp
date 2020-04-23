@@ -35,3 +35,4 @@ E:\Rozrob\git\KatyaHelp\KatyaHelp2\bin\Debug\EPPlus.xml
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csproj.CopyComplete
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.exe
 E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.pdb
+E:\Rozrob\git\KatyaHelp\KatyaHelp2\obj\Debug\KatyaHelp2.csprojAssemblyReference.cache
