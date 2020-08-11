@@ -29,7 +29,7 @@ namespace KatyaHelp2
 
 						StreamReader sr;
 						List<Dictionary<string, string>> listDictForFile = new List<Dictionary<string, string>>();
-						string fileName = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test.txt");
+						string fileName = string.Format("{0}\\{1}", Environment.CurrentDirectory, "test2.txt");
 
 #if DEBUG
 						sr = new StreamReader(fileName);
@@ -108,11 +108,12 @@ namespace KatyaHelp2
 														else if (temp2[1].Trim().Equals("info") && temp2.Length > 2)
 														{
 															add = true;
-															//filesName.Add(temp2[2]);
-															filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
+															//filesWithTime.Add(DateTime.Parse(temp2[0].Remove(temp2[0].IndexOf("->")).Trim()), temp2[2]);
+															filesWithTime.Add(DateTime.Parse(Regex.Match(temp2[0], timeValidator).Value), temp2[2]);
 														}
 													}
-													catch { };
+													catch (Exception ex)
+													{ };
 												}
 												//string fN = string.Join(",", filesName.ToArray());
 												commandName = ConfigurationManager.AppSettings.Get("Upload").Trim();
